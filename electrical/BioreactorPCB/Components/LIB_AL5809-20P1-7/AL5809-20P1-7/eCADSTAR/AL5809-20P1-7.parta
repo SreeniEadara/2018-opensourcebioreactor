@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_1106824"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-12-08-15:49:10)
+    (utime 2020-09-27-12:39:14)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "AL5809-20P1-7")
+)
+
+
+(pinAssign "ECS_1106824"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-12-08-15:49:10)
+    (utime 2020-09-27-12:39:14)
+    (interface
+        (port "1" (symbPinId 1) (portName "IN") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "OUT") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_1106824")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "AL5809-20P1-7")
+)
+
+
+(part "AL5809-20P1-7"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-12-08-15:49:10)
+    (utime 2020-09-27-12:39:14)
+    (packageRef "AL5809-20P1-7")
+    (pinAssignRef "ECS_1106824")
+    (interface
+        (port "1" (symbPinId 1) (portName "IN") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "OUT") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "IC")
+    (property "description" "LED Lighting Drivers LED HV Int Switch")
+    (property "Manufacturer_Name" "Diodes Inc.")
+    (property "Manufacturer_Part_Number" "AL5809-20P1-7")
+    (property "Mouser_Part_Number" "621-AL5809-20P1-7")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AL5809-20P1-7?qs=9BjnSzo86S%252BJEo7jKmhSEQ%3D%3D")
+    (property "Arrow_Part_Number" "AL5809-20P1-7")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/al5809-20p1-7/diodes-incorporated")
+    (property "Datasheet_Link" "https://www.diodes.com/assets/Datasheets/AL5809.pdf")
+    (property "compAreaTopHeight" 1)
+)
+
+

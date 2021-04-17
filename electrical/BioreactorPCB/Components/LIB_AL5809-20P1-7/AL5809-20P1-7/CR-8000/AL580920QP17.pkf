@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "AL580920QP17"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "AL580920QP17")
+        (spec "default")
+    )
+)

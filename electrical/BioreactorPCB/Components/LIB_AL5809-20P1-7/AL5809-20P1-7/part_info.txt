@@ -1,0 +1,9 @@
+Manufacturer=Diodes Inc.
+PartNumber=AL5809-20P1-7
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=2
+Version=3.1
+Released=2018-12-08 15:49:10
+Downloaded=2021-04-04 07:25:16
+3D=Y

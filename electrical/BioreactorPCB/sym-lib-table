@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name FQP47P06)(type Legacy)(uri ${KIPRJMOD}/Components/FQP47P06/FQP47P06.lib)(options "")(descr ""))
+  (lib (name AL5809-20P1-7)(type Legacy)(uri ${KIPRJMOD}/Components/LIB_AL5809-20P1-7/AL5809-20P1-7/KiCad/AL5809-20P1-7.lib)(options "")(descr ""))
+)

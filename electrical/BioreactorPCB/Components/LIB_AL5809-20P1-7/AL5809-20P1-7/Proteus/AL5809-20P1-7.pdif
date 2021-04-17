@@ -1,0 +1,100 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "AL5809-20P1-7"
+   (description "LED Lighting Drivers LED HV Int Switch")
+   (family "ANA")
+   (package "AL580920QP17")
+   (attribute "Datasheet Link" "https://www.diodes.com/assets/Datasheets/AL5809.pdf")
+   (attribute "Geometry.Height" "1mm")
+   (attribute "Manufacturer_Name" "Diodes Inc.")
+   (attribute "Manufacturer_Part_Number" "AL5809-20P1-7")
+   (attribute "Mouser Part Number" "621-AL5809-20P1-7")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AL5809-20P1-7?qs=9BjnSzo86S%252BJEo7jKmhSEQ%3D%3D")
+   (attribute "Arrow Part Number" "AL5809-20P1-7")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/al5809-20p1-7/diodes-incorporated")
+   (gate
+    (symbol "AL5809-20P1-7")
+    (pin "IN" 1 PS)
+    (pin "OUT" 2 PS)
+   )
+  )
+  (symbol "AL5809-20P1-7"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 700 100) (pt 700 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "AL580920QP17"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -2.31 1.115)
+      (pt 2.31 1.115)
+      (pt 2.31 -1.115)
+      (pt -2.31 -1.115)
+      (pt -2.31 1.115))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.4 0.89)
+      (pt 1.4 0.89)
+      (pt 1.4 -0.89)
+      (pt -1.4 -0.89)
+      (pt -1.4 0.89))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 2.16 0.89)
+      (pt -1.4 0.89))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.4 -0.89)
+      (pt 1.4 -0.89))))
+   (leg 1 (pt 1.600 0.000) (padstack 0))
+   (leg 2 (pt -1.600 0.000) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.120 1.270 0 0 90.000))
+   )
+   (model "AL5809-20P1-7.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

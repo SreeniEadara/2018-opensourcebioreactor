@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AL5809-20P1-7
+D LED Lighting Drivers LED HV Int Switch
+K
+F https://www.diodes.com/assets/Datasheets/AL5809.pdf
+$ENDCMP
+#
+#End Doc Library
