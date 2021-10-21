@@ -1,0 +1,1060 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/sreenivaseadara/Documents/2018-opensourcebioreactor/electrical/BioreactorPCB/BioreactorPCB.sch</source>
+    <date>Saturday, April 17, 2021 at 10:01:40 PM</date>
+    <tool>Eeschema (5.1.9-0-10_14)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>BioreactorPCB.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>OPT101P</value>
+      <footprint>digikey-footprints:DIP-8_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fopt101</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fopt101</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/OPT101P/296-23090-5-ND/251177</field>
+        <field name="Description">SENSOR OPT 650NM AMBIENT 8DIP</field>
+        <field name="Digi-Key_PN">296-23090-5-ND</field>
+        <field name="Family">Optical Sensors - Ambient Light, IR, UV Sensors</field>
+        <field name="MPN">OPT101P</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Optical-Sensors-Ambient-Light-IR-UV-Sensors" part="OPT101P" description="SENSOR OPT 650NM AMBIENT 8DIP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60694764</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606970D3</tstamp>
+    </comp>
+    <comp ref="A2">
+      <value>Arduino_Nano_v3.x</value>
+      <footprint>Module:Arduino_Nano</footprint>
+      <datasheet>http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf</datasheet>
+      <libsource lib="MCU_Module" part="Arduino_Nano_v3.x" description="Arduino Nano v3.x"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6069C1A4</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>LM329xZ</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/129329fd.pdf</datasheet>
+      <libsource lib="Reference_Voltage" part="LM329xZ" description="6.9V Precision Voltage Reference, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606A0748</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>2.2K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606A21D0</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606A2C24</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>PJ-202A</value>
+      <footprint>digikey-footprints:Barrel_Jack_5.5mmODx2.1mmID_PJ-202A</footprint>
+      <datasheet>https://www.cui.com/product/resource/digikeypdf/pj-202a.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">https://www.cui.com/product/resource/digikeypdf/pj-202a.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/cui-inc/PJ-202A/CP-202A-ND/252007</field>
+        <field name="Description">CONN PWR JACK 2X5.5MM KINKED PIN</field>
+        <field name="Digi-Key_PN">CP-202A-ND</field>
+        <field name="Family">Barrel - Power Connectors</field>
+        <field name="MPN">PJ-202A</field>
+        <field name="Manufacturer">CUI Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Barrel-Power-Connectors" part="PJ-202A" description="CONN PWR JACK 2X5.5MM KINKED PIN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606A6E67</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>22K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606AD846</tstamp>
+    </comp>
+    <comp ref="A1">
+      <value>Pololu_Breakout_A4988</value>
+      <footprint>Module:Pololu_Breakout-16_15.2x20.3mm</footprint>
+      <datasheet>https://www.pololu.com/product/2980/pictures</datasheet>
+      <libsource lib="Driver_Motor" part="Pololu_Breakout_A4988" description="Pololu Breakout Board, Stepper Driver A4988"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606AFA45</tstamp>
+    </comp>
+    <comp ref="A3">
+      <value>Pololu_Breakout_A4988</value>
+      <footprint>Module:Pololu_Breakout-16_15.2x20.3mm</footprint>
+      <datasheet>https://www.pololu.com/product/2980/pictures</datasheet>
+      <libsource lib="Driver_Motor" part="Pololu_Breakout_A4988" description="Pololu Breakout Board, Stepper Driver A4988"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606B1A7D</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>OSTTC042162</value>
+      <footprint>digikey-footprints:Term_Block_1x4_P5.08mm</footprint>
+      <datasheet>http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/on-shore-technology-inc/OSTTC042162/ED2611-ND/614560</field>
+        <field name="Description">TERM BLK 4P SIDE ENT 5.08MM PCB</field>
+        <field name="Digi-Key_PN">ED2611-ND</field>
+        <field name="Family">Terminal Blocks - Wire to Board</field>
+        <field name="MPN">OSTTC042162</field>
+        <field name="Manufacturer">On Shore Technology Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Terminal-Blocks-Wire-to-Board" part="OSTTC042162" description="TERM BLK 4P SIDE ENT 5.08MM PCB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606CDCDF</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>OSTTC042162</value>
+      <footprint>digikey-footprints:Term_Block_1x4_P5.08mm</footprint>
+      <datasheet>http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/on-shore-technology-inc/OSTTC042162/ED2611-ND/614560</field>
+        <field name="Description">TERM BLK 4P SIDE ENT 5.08MM PCB</field>
+        <field name="Digi-Key_PN">ED2611-ND</field>
+        <field name="Family">Terminal Blocks - Wire to Board</field>
+        <field name="MPN">OSTTC042162</field>
+        <field name="Manufacturer">On Shore Technology Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Terminal-Blocks-Wire-to-Board" part="OSTTC042162" description="TERM BLK 4P SIDE ENT 5.08MM PCB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606D0DBC</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>OSTTC042162</value>
+      <footprint>digikey-footprints:Term_Block_1x4_P5.08mm</footprint>
+      <datasheet>http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/on-shore-technology-inc/OSTTC042162/ED2611-ND/614560</field>
+        <field name="Description">TERM BLK 4P SIDE ENT 5.08MM PCB</field>
+        <field name="Digi-Key_PN">ED2611-ND</field>
+        <field name="Family">Terminal Blocks - Wire to Board</field>
+        <field name="MPN">OSTTC042162</field>
+        <field name="Manufacturer">On Shore Technology Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Terminal-Blocks-Wire-to-Board" part="OSTTC042162" description="TERM BLK 4P SIDE ENT 5.08MM PCB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606E0461</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>AL5809-20P1-7</value>
+      <footprint>AL5809-20P1-7:AL580920QP17</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AL5809.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">AL5809-20P1-7</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/al5809-20p1-7/diodes-incorporated</field>
+        <field name="Description">LED Lighting Drivers LED HV Int Switch</field>
+        <field name="Height">1</field>
+        <field name="Manufacturer_Name">Diodes Inc.</field>
+        <field name="Manufacturer_Part_Number">AL5809-20P1-7</field>
+        <field name="Mouser Part Number">621-AL5809-20P1-7</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AL5809-20P1-7?qs=9BjnSzo86S%252BJEo7jKmhSEQ%3D%3D</field>
+      </fields>
+      <libsource lib="AL5809-20P1-7" part="AL5809-20P1-7" description="LED Lighting Drivers LED HV Int Switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606FC35A</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>OSTTC022162</value>
+      <footprint>digikey-footprints:Term_Block_1x2_P5.08MM</footprint>
+      <datasheet>http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/on-shore-technology-inc/OSTTC022162/ED2609-ND/614558</field>
+        <field name="Description">TERM BLK 2P SIDE ENT 5.08MM PCB</field>
+        <field name="Digi-Key_PN">ED2609-ND</field>
+        <field name="Family">Terminal Blocks - Wire to Board</field>
+        <field name="MPN">OSTTC022162</field>
+        <field name="Manufacturer">On Shore Technology Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Terminal-Blocks-Wire-to-Board" part="OSTTC022162" description="TERM BLK 2P SIDE ENT 5.08MM PCB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607157C9</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1 uF</value>
+      <footprint>Capacitor_THT:.1in_pitch</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60735B28</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>.1 uF</value>
+      <footprint>Capacitor_THT:.1in_pitch</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60732674</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>L293D</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/l293.pdf</datasheet>
+      <libsource lib="Driver_Motor" part="L293D" description="Quadruple Half-H Drivers"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6071B4CF</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>OSTTC022162</value>
+      <footprint>digikey-footprints:Term_Block_1x2_P5.08MM</footprint>
+      <datasheet>http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/on-shore-technology-inc/OSTTC022162/ED2609-ND/614558</field>
+        <field name="Description">TERM BLK 2P SIDE ENT 5.08MM PCB</field>
+        <field name="Digi-Key_PN">ED2609-ND</field>
+        <field name="Family">Terminal Blocks - Wire to Board</field>
+        <field name="MPN">OSTTC022162</field>
+        <field name="Manufacturer">On Shore Technology Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Terminal-Blocks-Wire-to-Board" part="OSTTC022162" description="TERM BLK 2P SIDE ENT 5.08MM PCB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6078DF91</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>61300311121</value>
+      <footprint>digikey-footprints:PinHeader_1x3_P2.54_Drill1.1mm</footprint>
+      <datasheet>https://katalog.we-online.de/em/datasheet/6130xx11121.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">https://katalog.we-online.de/em/datasheet/6130xx11121.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/wurth-electronics-inc/61300311121/732-5316-ND/4846825</field>
+        <field name="Description">CONN HEADER VERT 3POS 2.54MM</field>
+        <field name="Digi-Key_PN">732-5316-ND</field>
+        <field name="Family">Rectangular Connectors - Headers, Male Pins</field>
+        <field name="MPN">61300311121</field>
+        <field name="Manufacturer">Wurth Electronics Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="61300311121" description="CONN HEADER VERT 3POS 2.54MM"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607A8EC8</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>61300311121</value>
+      <footprint>digikey-footprints:PinHeader_1x3_P2.54_Drill1.1mm</footprint>
+      <datasheet>https://katalog.we-online.de/em/datasheet/6130xx11121.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">https://katalog.we-online.de/em/datasheet/6130xx11121.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/wurth-electronics-inc/61300311121/732-5316-ND/4846825</field>
+        <field name="Description">CONN HEADER VERT 3POS 2.54MM</field>
+        <field name="Digi-Key_PN">732-5316-ND</field>
+        <field name="Family">Rectangular Connectors - Headers, Male Pins</field>
+        <field name="MPN">61300311121</field>
+        <field name="Manufacturer">Wurth Electronics Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="61300311121" description="CONN HEADER VERT 3POS 2.54MM"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607AF2E5</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2N3905</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3905.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3905" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6081F250</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6082BA32</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6084D74C</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>OSTTC022162</value>
+      <footprint>digikey-footprints:Term_Block_1x2_P5.08MM</footprint>
+      <datasheet>http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/on-shore-technology-inc/OSTTC022162/ED2609-ND/614558</field>
+        <field name="Description">TERM BLK 2P SIDE ENT 5.08MM PCB</field>
+        <field name="Digi-Key_PN">ED2609-ND</field>
+        <field name="Family">Terminal Blocks - Wire to Board</field>
+        <field name="MPN">OSTTC022162</field>
+        <field name="Manufacturer">On Shore Technology Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Terminal-Blocks-Wire-to-Board" part="OSTTC022162" description="TERM BLK 2P SIDE ENT 5.08MM PCB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60852EC2</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>IRF540N</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irf540n.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="IRF540N" description="33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6084772A</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>FQP47P06</value>
+      <footprint>FQP47P06:TO254P1067X483X2286-3</footprint>
+      <datasheet>FQP47P06</datasheet>
+      <fields>
+        <field name="Field4">None</field>
+        <field name="Field5">ON Semiconductor</field>
+        <field name="Field6">TO-220 ON Semiconductor</field>
+        <field name="Field7">P-Channel 60V 47A _Tc_ 160W _Tc_ Through Hole TO-220-3</field>
+        <field name="Field8">Unavailable</field>
+      </fields>
+      <libsource lib="FQP47P06" part="FQP47P06" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606BD53B</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="AL5809-20P1-7" part="AL5809-20P1-7">
+      <description>LED Lighting Drivers LED HV Int Switch</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AL5809.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">AL5809-20P1-7</field>
+        <field name="Footprint">AL580920QP17</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/AL5809.pdf</field>
+        <field name="Description">LED Lighting Drivers LED HV Int Switch</field>
+        <field name="Height">1</field>
+        <field name="Manufacturer_Name">Diodes Inc.</field>
+        <field name="Manufacturer_Part_Number">AL5809-20P1-7</field>
+        <field name="Mouser Part Number">621-AL5809-20P1-7</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AL5809-20P1-7?qs=9BjnSzo86S%252BJEo7jKmhSEQ%3D%3D</field>
+        <field name="Arrow Part Number">AL5809-20P1-7</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/al5809-20p1-7/diodes-incorporated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="passive"/>
+        <pin num="2" name="OUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Driver_Motor" part="L293">
+      <aliases>
+        <alias>L293D</alias>
+      </aliases>
+      <description>Quadruple Half-H Drivers</description>
+      <docs>http://www.ti.com/lit/ds/symlink/l293.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L293</field>
+        <field name="Footprint">Package_DIP:DIP-16_W7.62mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN1,2" type="input"/>
+        <pin num="2" name="1A" type="input"/>
+        <pin num="3" name="1Y" type="output"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="2Y" type="output"/>
+        <pin num="7" name="2A" type="input"/>
+        <pin num="8" name="VCC2" type="power_in"/>
+        <pin num="9" name="EN3,4" type="input"/>
+        <pin num="10" name="3A" type="input"/>
+        <pin num="11" name="3Y" type="output"/>
+        <pin num="12" name="GND" type="power_in"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="4Y" type="output"/>
+        <pin num="15" name="4A" type="input"/>
+        <pin num="16" name="VCC1" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Driver_Motor" part="Pololu_Breakout_A4988">
+      <description>Pololu Breakout Board, Stepper Driver A4988</description>
+      <docs>https://www.pololu.com/product/2980/pictures</docs>
+      <footprints>
+        <fp>Pololu*Breakout*15.2x20.3mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Pololu_Breakout_A4988</field>
+        <field name="Footprint">Module:Pololu_Breakout-16_15.2x20.3mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="1B" type="output"/>
+        <pin num="4" name="1A" type="output"/>
+        <pin num="5" name="2A" type="output"/>
+        <pin num="6" name="2B" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VMOT" type="power_in"/>
+        <pin num="9" name="~ENABLE" type="input"/>
+        <pin num="10" name="MS1" type="input"/>
+        <pin num="11" name="MS2" type="input"/>
+        <pin num="12" name="MS3" type="input"/>
+        <pin num="13" name="~RESET" type="input"/>
+        <pin num="14" name="~SLEEP" type="input"/>
+        <pin num="15" name="STEP" type="input"/>
+        <pin num="16" name="DIR" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="FQP47P06" part="FQP47P06">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">FQP47P06</field>
+        <field name="Footprint">TO254P1067X483X2286-3</field>
+        <field name="Datasheet">FQP47P06</field>
+        <field name="Field4">None</field>
+        <field name="Field5">ON Semiconductor</field>
+        <field name="Field6">TO-220 ON Semiconductor</field>
+        <field name="Field7">P-Channel 60V 47A _Tc_ 160W _Tc_ Through Hole TO-220-3</field>
+        <field name="Field8">Unavailable</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Module" part="Arduino_Nano_v2.x">
+      <aliases>
+        <alias>Arduino_Nano_v3.x</alias>
+      </aliases>
+      <description>Arduino Nano v2.x</description>
+      <docs>https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf</docs>
+      <footprints>
+        <fp>Arduino*Nano*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Arduino_Nano_v2.x</field>
+        <field name="Footprint">Module:Arduino_Nano</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D1/TX" type="BiDi"/>
+        <pin num="2" name="D0/RX" type="BiDi"/>
+        <pin num="3" name="~RESET" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="D2" type="BiDi"/>
+        <pin num="6" name="D3" type="BiDi"/>
+        <pin num="7" name="D4" type="BiDi"/>
+        <pin num="8" name="D5" type="BiDi"/>
+        <pin num="9" name="D6" type="BiDi"/>
+        <pin num="10" name="D7" type="BiDi"/>
+        <pin num="11" name="D8" type="BiDi"/>
+        <pin num="12" name="D9" type="BiDi"/>
+        <pin num="13" name="D10" type="BiDi"/>
+        <pin num="14" name="D11" type="BiDi"/>
+        <pin num="15" name="D12" type="BiDi"/>
+        <pin num="16" name="D13" type="BiDi"/>
+        <pin num="17" name="3V3" type="power_out"/>
+        <pin num="18" name="AREF" type="input"/>
+        <pin num="19" name="A0" type="BiDi"/>
+        <pin num="20" name="A1" type="BiDi"/>
+        <pin num="21" name="A2" type="BiDi"/>
+        <pin num="22" name="A3" type="BiDi"/>
+        <pin num="23" name="A4" type="BiDi"/>
+        <pin num="24" name="A5" type="BiDi"/>
+        <pin num="25" name="A6" type="BiDi"/>
+        <pin num="26" name="A7" type="BiDi"/>
+        <pin num="27" name="+5V" type="power_out"/>
+        <pin num="28" name="~RESET" type="input"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reference_Voltage" part="LM329xZ">
+      <description>6.9V Precision Voltage Reference, TO-92</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/129329fd.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM329xZ</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="NotConnected"/>
+        <pin num="2" name="K" type="passive"/>
+        <pin num="3" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="2N3906">
+      <aliases>
+        <alias>2N3905</alias>
+      </aliases>
+      <description>-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92</description>
+      <docs>https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N3906</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BUZ11">
+      <aliases>
+        <alias>IRF3205</alias>
+        <alias>IRF540N</alias>
+        <alias>IRF740</alias>
+        <alias>IRLB8721PBF</alias>
+        <alias>IRLZ34N</alias>
+        <alias>IRLZ44N</alias>
+        <alias>VNP10N07</alias>
+        <alias>IPP060N06N</alias>
+      </aliases>
+      <description>30A Id, 50V Vds, N-Channel Power MOSFET, TO-220</description>
+      <docs>http://www.fairchildsemi.com/ds/BU/BUZ11.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BUZ11</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Barrel-Power-Connectors" part="PJ-202A">
+      <description>CONN PWR JACK 2X5.5MM KINKED PIN</description>
+      <docs>https://www.cui.com/product/resource/digikeypdf/pj-202a.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">PJ-202A</field>
+        <field name="Footprint">digikey-footprints:Barrel_Jack_5.5mmODx2.1mmID_PJ-202A</field>
+        <field name="Datasheet">https://www.cui.com/product/resource/digikeypdf/pj-202a.pdf</field>
+        <field name="Digi-Key_PN">CP-202A-ND</field>
+        <field name="MPN">PJ-202A</field>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="Family">Barrel - Power Connectors</field>
+        <field name="DK_Datasheet_Link">https://www.cui.com/product/resource/digikeypdf/pj-202a.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/cui-inc/PJ-202A/CP-202A-ND/252007</field>
+        <field name="Description">CONN PWR JACK 2X5.5MM KINKED PIN</field>
+        <field name="Manufacturer">CUI Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Optical-Sensors-Ambient-Light-IR-UV-Sensors" part="OPT101P">
+      <description>SENSOR OPT 650NM AMBIENT 8DIP</description>
+      <docs>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fopt101</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">OPT101P</field>
+        <field name="Footprint">digikey-footprints:DIP-8_W7.62mm</field>
+        <field name="Datasheet">http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fopt101</field>
+        <field name="Digi-Key_PN">296-23090-5-ND</field>
+        <field name="MPN">OPT101P</field>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="Family">Optical Sensors - Ambient Light, IR, UV Sensors</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fopt101</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/OPT101P/296-23090-5-ND/251177</field>
+        <field name="Description">SENSOR OPT 650NM AMBIENT 8DIP</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VS" type="power_in"/>
+        <pin num="2" name="-IN" type="input"/>
+        <pin num="3" name="V-" type="power_in"/>
+        <pin num="4" name="FB" type="input"/>
+        <pin num="5" name="OUT" type="output"/>
+        <pin num="6" name="NC" type="NotConnected"/>
+        <pin num="7" name="NC" type="NotConnected"/>
+        <pin num="8" name="COM" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="61300311121">
+      <description>CONN HEADER VERT 3POS 2.54MM</description>
+      <docs>https://katalog.we-online.de/em/datasheet/6130xx11121.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">61300311121</field>
+        <field name="Footprint">digikey-footprints:PinHeader_1x3_P2.54_Drill1.1mm</field>
+        <field name="Datasheet">https://katalog.we-online.de/em/datasheet/6130xx11121.pdf</field>
+        <field name="Digi-Key_PN">732-5316-ND</field>
+        <field name="MPN">61300311121</field>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="Family">Rectangular Connectors - Headers, Male Pins</field>
+        <field name="DK_Datasheet_Link">https://katalog.we-online.de/em/datasheet/6130xx11121.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/wurth-electronics-inc/61300311121/732-5316-ND/4846825</field>
+        <field name="Description">CONN HEADER VERT 3POS 2.54MM</field>
+        <field name="Manufacturer">Wurth Electronics Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Terminal-Blocks-Wire-to-Board" part="OSTTC022162">
+      <description>TERM BLK 2P SIDE ENT 5.08MM PCB</description>
+      <docs>http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">OSTTC022162</field>
+        <field name="Footprint">digikey-footprints:Term_Block_1x2_P5.08MM</field>
+        <field name="Datasheet">http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf</field>
+        <field name="Digi-Key_PN">ED2609-ND</field>
+        <field name="MPN">OSTTC022162</field>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="Family">Terminal Blocks - Wire to Board</field>
+        <field name="DK_Datasheet_Link">http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/on-shore-technology-inc/OSTTC022162/ED2609-ND/614558</field>
+        <field name="Description">TERM BLK 2P SIDE ENT 5.08MM PCB</field>
+        <field name="Manufacturer">On Shore Technology Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Terminal-Blocks-Wire-to-Board" part="OSTTC042162">
+      <description>TERM BLK 4P SIDE ENT 5.08MM PCB</description>
+      <docs>http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">OSTTC042162</field>
+        <field name="Footprint">digikey-footprints:Term_Block_1x4_P5.08mm</field>
+        <field name="Datasheet">http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf</field>
+        <field name="Digi-Key_PN">ED2611-ND</field>
+        <field name="MPN">OSTTC042162</field>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="Family">Terminal Blocks - Wire to Board</field>
+        <field name="DK_Datasheet_Link">http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/on-shore-technology-inc/OSTTC042162/ED2611-ND/614560</field>
+        <field name="Description">TERM BLK 4P SIDE ENT 5.08MM PCB</field>
+        <field name="Manufacturer">On Shore Technology Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="AL5809-20P1-7">
+      <uri>/Users/sreenivaseadara/Documents/2018-opensourcebioreactor/electrical/BioreactorPCB/Components/LIB_AL5809-20P1-7/AL5809-20P1-7/KiCad/AL5809-20P1-7.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Library/Application Support/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Driver_Motor">
+      <uri>/Library/Application Support/kicad/library/Driver_Motor.lib</uri>
+    </library>
+    <library logical="FQP47P06">
+      <uri>/Users/sreenivaseadara/Documents/2018-opensourcebioreactor/electrical/BioreactorPCB/Components/FQP47P06/FQP47P06.lib</uri>
+    </library>
+    <library logical="MCU_Module">
+      <uri>/Library/Application Support/kicad/library/MCU_Module.lib</uri>
+    </library>
+    <library logical="Reference_Voltage">
+      <uri>/Library/Application Support/kicad/library/Reference_Voltage.lib</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/Library/Application Support/kicad/library/Transistor_BJT.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/Library/Application Support/kicad/library/Transistor_FET.lib</uri>
+    </library>
+    <library logical="dk_Barrel-Power-Connectors">
+      <uri>/Users/sreenivaseadara/digikey-kicad-library-master/digikey-symbols/dk_Barrel-Power-Connectors.lib</uri>
+    </library>
+    <library logical="dk_Optical-Sensors-Ambient-Light-IR-UV-Sensors">
+      <uri>/Users/sreenivaseadara/digikey-kicad-library-master/digikey-symbols/dk_Optical-Sensors-Ambient-Light-IR-UV-Sensors.lib</uri>
+    </library>
+    <library logical="dk_Rectangular-Connectors-Headers-Male-Pins">
+      <uri>/Users/sreenivaseadara/digikey-kicad-library-master/digikey-symbols/dk_Rectangular-Connectors-Headers-Male-Pins.lib</uri>
+    </library>
+    <library logical="dk_Terminal-Blocks-Wire-to-Board">
+      <uri>/Users/sreenivaseadara/digikey-kicad-library-master/digikey-symbols/dk_Terminal-Blocks-Wire-to-Board.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="2" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="3" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="4" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="5" name="PHOTO_OUT">
+      <node ref="U1" pin="5"/>
+      <node ref="R1" pin="1"/>
+      <node ref="A2" pin="19"/>
+    </net>
+    <net code="6" name="Net-(R1-Pad2)">
+      <node ref="U1" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="7" name="+5V">
+      <node ref="J2" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="A2" pin="27"/>
+      <node ref="J8" pin="2"/>
+      <node ref="A3" pin="2"/>
+      <node ref="A1" pin="2"/>
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="C2" pin="1"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="J4" pin="2"/>
+      <node ref="J4" pin="3"/>
+      <node ref="U2" pin="12"/>
+      <node ref="A2" pin="29"/>
+      <node ref="J8" pin="1"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="U2" pin="13"/>
+      <node ref="A1" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U1" pin="3"/>
+      <node ref="A1" pin="7"/>
+      <node ref="A3" pin="1"/>
+      <node ref="J2" pin="3"/>
+      <node ref="J1" pin="3"/>
+      <node ref="A3" pin="7"/>
+      <node ref="A2" pin="4"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="9" name="Net-(A2-Pad1)">
+      <node ref="A2" pin="1"/>
+    </net>
+    <net code="10" name="Net-(A2-Pad10)">
+      <node ref="A2" pin="10"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="11" name="Net-(A2-Pad13)">
+      <node ref="A2" pin="13"/>
+    </net>
+    <net code="12" name="Net-(A2-Pad14)">
+      <node ref="A2" pin="14"/>
+    </net>
+    <net code="13" name="Net-(A2-Pad15)">
+      <node ref="A2" pin="15"/>
+    </net>
+    <net code="14" name="Net-(A2-Pad17)">
+      <node ref="A2" pin="17"/>
+    </net>
+    <net code="15" name="Net-(A2-Pad18)">
+      <node ref="R4" pin="2"/>
+      <node ref="A2" pin="18"/>
+    </net>
+    <net code="16" name="Net-(A2-Pad2)">
+      <node ref="A2" pin="2"/>
+    </net>
+    <net code="17" name="Net-(A2-Pad21)">
+      <node ref="A2" pin="21"/>
+    </net>
+    <net code="18" name="Net-(A2-Pad22)">
+      <node ref="A2" pin="22"/>
+    </net>
+    <net code="19" name="Net-(A2-Pad25)">
+      <node ref="A2" pin="25"/>
+    </net>
+    <net code="20" name="Net-(A2-Pad26)">
+      <node ref="A2" pin="26"/>
+    </net>
+    <net code="21" name="Net-(A2-Pad28)">
+      <node ref="A2" pin="28"/>
+    </net>
+    <net code="22" name="Net-(A2-Pad3)">
+      <node ref="A2" pin="3"/>
+    </net>
+    <net code="23" name="Net-(A1-Pad16)">
+      <node ref="A1" pin="16"/>
+      <node ref="A2" pin="7"/>
+    </net>
+    <net code="24" name="Net-(A1-Pad15)">
+      <node ref="A1" pin="15"/>
+      <node ref="A2" pin="8"/>
+    </net>
+    <net code="25" name="Net-(U3-Pad1)">
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="26" name="Net-(R4-Pad1)">
+      <node ref="R5" pin="2"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="27" name="Net-(R5-Pad1)">
+      <node ref="R6" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="28" name="Net-(A1-Pad10)">
+      <node ref="A1" pin="10"/>
+    </net>
+    <net code="29" name="Net-(A1-Pad11)">
+      <node ref="A1" pin="11"/>
+    </net>
+    <net code="30" name="Net-(A1-Pad12)">
+      <node ref="A1" pin="12"/>
+    </net>
+    <net code="31" name="Net-(A1-Pad13)">
+      <node ref="A1" pin="13"/>
+    </net>
+    <net code="32" name="Net-(A1-Pad14)">
+      <node ref="A1" pin="14"/>
+    </net>
+    <net code="33" name="Net-(A1-Pad9)">
+      <node ref="A1" pin="9"/>
+    </net>
+    <net code="34" name="Net-(A3-Pad10)">
+      <node ref="A3" pin="10"/>
+    </net>
+    <net code="35" name="Net-(A3-Pad11)">
+      <node ref="A3" pin="11"/>
+    </net>
+    <net code="36" name="Net-(A3-Pad12)">
+      <node ref="A3" pin="12"/>
+    </net>
+    <net code="37" name="Net-(A3-Pad13)">
+      <node ref="A3" pin="13"/>
+    </net>
+    <net code="38" name="Net-(A3-Pad14)">
+      <node ref="A3" pin="14"/>
+    </net>
+    <net code="39" name="Net-(A3-Pad9)">
+      <node ref="A3" pin="9"/>
+    </net>
+    <net code="40" name="Net-(A1-Pad6)">
+      <node ref="A1" pin="6"/>
+      <node ref="J7" pin="1"/>
+    </net>
+    <net code="41" name="Net-(A1-Pad5)">
+      <node ref="J7" pin="2"/>
+      <node ref="A1" pin="5"/>
+    </net>
+    <net code="42" name="Net-(A1-Pad4)">
+      <node ref="A1" pin="4"/>
+      <node ref="J7" pin="3"/>
+    </net>
+    <net code="43" name="Net-(A1-Pad3)">
+      <node ref="A1" pin="3"/>
+      <node ref="J7" pin="4"/>
+    </net>
+    <net code="44" name="Net-(A3-Pad6)">
+      <node ref="J9" pin="1"/>
+      <node ref="A3" pin="6"/>
+    </net>
+    <net code="45" name="Net-(A3-Pad5)">
+      <node ref="J9" pin="2"/>
+      <node ref="A3" pin="5"/>
+    </net>
+    <net code="46" name="Net-(A3-Pad4)">
+      <node ref="J9" pin="3"/>
+      <node ref="A3" pin="4"/>
+    </net>
+    <net code="47" name="Net-(A3-Pad3)">
+      <node ref="J9" pin="4"/>
+      <node ref="A3" pin="3"/>
+    </net>
+    <net code="48" name="Net-(A2-Pad24)">
+      <node ref="A2" pin="24"/>
+      <node ref="J8" pin="3"/>
+    </net>
+    <net code="49" name="Net-(A2-Pad23)">
+      <node ref="J8" pin="4"/>
+      <node ref="A2" pin="23"/>
+    </net>
+    <net code="50" name="Net-(A2-Pad5)">
+      <node ref="A2" pin="5"/>
+      <node ref="A3" pin="16"/>
+    </net>
+    <net code="51" name="Net-(A2-Pad6)">
+      <node ref="A2" pin="6"/>
+      <node ref="A3" pin="15"/>
+    </net>
+    <net code="52" name="Net-(IC1-Pad1)">
+      <node ref="Q1" pin="3"/>
+      <node ref="IC1" pin="1"/>
+    </net>
+    <net code="53" name="Net-(IC1-Pad2)">
+      <node ref="IC1" pin="2"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="54" name="Net-(U2-Pad10)">
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="55" name="Net-(U2-Pad11)">
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="56" name="Net-(U2-Pad14)">
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="57" name="Net-(U2-Pad15)">
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="58" name="Net-(J5-Pad2)">
+      <node ref="U2" pin="3"/>
+      <node ref="J5" pin="2"/>
+    </net>
+    <net code="59" name="Net-(U2-Pad9)">
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="60" name="Net-(J5-Pad1)">
+      <node ref="J5" pin="1"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="61" name="TEMP_OUT">
+      <node ref="A2" pin="16"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="62" name="PH_OUT">
+      <node ref="J2" pin="1"/>
+      <node ref="A2" pin="20"/>
+    </net>
+    <net code="63" name="Net-(Q1-Pad2)">
+      <node ref="R2" pin="1"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="64" name="Net-(A2-Pad9)">
+      <node ref="R2" pin="2"/>
+      <node ref="A2" pin="9"/>
+    </net>
+    <net code="65" name="Net-(A2-Pad12)">
+      <node ref="A2" pin="12"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="66" name="Net-(Q2-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="67" name="Net-(J6-Pad1)">
+      <node ref="J6" pin="1"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="68" name="Net-(A2-Pad11)">
+      <node ref="A2" pin="11"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="69" name="+12V">
+      <node ref="C2" pin="2"/>
+      <node ref="J6" pin="2"/>
+      <node ref="A3" pin="8"/>
+      <node ref="A1" pin="8"/>
+      <node ref="R6" pin="1"/>
+      <node ref="U2" pin="8"/>
+      <node ref="A2" pin="30"/>
+      <node ref="Q3" pin="3"/>
+    </net>
+    <net code="70" name="Net-(J4-Pad1)">
+      <node ref="Q3" pin="2"/>
+      <node ref="J4" pin="1"/>
+    </net>
+  </nets>
+</export>

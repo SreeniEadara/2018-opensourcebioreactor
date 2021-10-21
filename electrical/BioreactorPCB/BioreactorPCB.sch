@@ -850,10 +850,8 @@ Text GLabel 2275 2025 2    50   Input ~ 0
 TEMP_OUT
 Wire Wire Line
 	2175 2025 2275 2025
-Text GLabel 7550 5500 0    50   Input ~ 0
+Text GLabel 7650 4050 1    50   Input ~ 0
 TEMP_OUT
-Wire Wire Line
-	7550 5500 7650 5500
 Text GLabel 2275 2650 2    50   Input ~ 0
 PH_OUT
 $Comp
@@ -1049,14 +1047,10 @@ F 3 "~" H 6350 7300 50  0001 C CNN
 	1    6350 7300
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6550 2000
-NoConn ~ 6550 2100
 NoConn ~ 6550 2300
 NoConn ~ 6550 2700
 NoConn ~ 6550 2800
 NoConn ~ 6550 2900
-NoConn ~ 8675 1975
-NoConn ~ 8675 2075
 NoConn ~ 8675 2275
 NoConn ~ 8675 2675
 NoConn ~ 8675 2775
@@ -1064,7 +1058,6 @@ NoConn ~ 8675 2875
 NoConn ~ 8650 4200
 NoConn ~ 8650 4300
 NoConn ~ 8250 3800
-NoConn ~ 7650 4200
 NoConn ~ 7650 4300
 NoConn ~ 8650 5000
 NoConn ~ 8650 5100
@@ -1151,4 +1144,21 @@ Wire Wire Line
 Connection ~ 5225 1550
 Wire Wire Line
 	5225 1550 5350 1550
+Wire Wire Line
+	7650 4200 7650 4050
+NoConn ~ 7650 5500
+Text Notes 6825 5625 0    50   ~ 0
+D13 is connected\nto an internal LED.\nAvoid using this pin.
+Wire Wire Line
+	8675 1975 8575 1975
+Wire Wire Line
+	8575 1975 8575 2075
+Wire Wire Line
+	8575 2075 8675 2075
+Wire Wire Line
+	6550 2000 6450 2000
+Wire Wire Line
+	6450 2000 6450 2100
+Wire Wire Line
+	6450 2100 6550 2100
 $EndSCHEMATC
