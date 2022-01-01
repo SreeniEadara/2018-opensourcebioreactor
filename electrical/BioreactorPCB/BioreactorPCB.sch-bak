@@ -14,78 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L dk_Optical-Sensors-Ambient-Light-IR-UV-Sensors:OPT101P U1
-U 1 1 60694764
-P 1975 3825
-F 0 "U1" H 2319 3878 60  0000 L CNN
-F 1 "OPT101P" H 2319 3772 60  0000 L CNN
-F 2 "digikey-footprints:DIP-8_W7.62mm" H 2175 4025 60  0001 L CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fopt101" H 2175 4125 60  0001 L CNN
-F 4 "296-23090-5-ND" H 2175 4225 60  0001 L CNN "Digi-Key_PN"
-F 5 "OPT101P" H 2175 4325 60  0001 L CNN "MPN"
-F 6 "Sensors, Transducers" H 2175 4425 60  0001 L CNN "Category"
-F 7 "Optical Sensors - Ambient Light, IR, UV Sensors" H 2175 4525 60  0001 L CNN "Family"
-F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fopt101" H 2175 4625 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/texas-instruments/OPT101P/296-23090-5-ND/251177" H 2175 4725 60  0001 L CNN "DK_Detail_Page"
-F 10 "SENSOR OPT 650NM AMBIENT 8DIP" H 2175 4825 60  0001 L CNN "Description"
-F 11 "Texas Instruments" H 2175 4925 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 2175 5025 60  0001 L CNN "Status"
-	1    1975 3825
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R1
-U 1 1 606970D3
-P 1400 3875
-F 0 "R1" H 1330 3829 50  0000 R CNN
-F 1 "1M" H 1330 3920 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 1330 3875 50  0001 C CNN
-F 3 "~" H 1400 3875 50  0001 C CNN
-	1    1400 3875
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+5V #PWR0101
-U 1 1 60697D04
-P 1975 3425
-F 0 "#PWR0101" H 1975 3275 50  0001 C CNN
-F 1 "+5V" H 1990 3598 50  0000 C CNN
-F 2 "" H 1975 3425 50  0001 C CNN
-F 3 "" H 1975 3425 50  0001 C CNN
-	1    1975 3425
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0102
-U 1 1 60698A43
-P 1975 4250
-F 0 "#PWR0102" H 1975 4000 50  0001 C CNN
-F 1 "GND" V 1980 4122 50  0000 R CNN
-F 2 "" H 1975 4250 50  0001 C CNN
-F 3 "" H 1975 4250 50  0001 C CNN
-	1    1975 4250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1975 3425 1975 3525
-Wire Wire Line
-	1400 3725 1675 3725
-Wire Wire Line
-	1975 4125 1975 4250
-Text GLabel 2350 4575 2    50   Input ~ 0
-PHOTO_OUT
-Wire Wire Line
-	2275 3825 2275 4575
-Wire Wire Line
-	2275 4575 2350 4575
-Wire Wire Line
-	1400 4025 1400 4575
-Wire Wire Line
-	1400 4575 2275 4575
-Connection ~ 2275 4575
-NoConn ~ 1675 3825
-NoConn ~ 1675 3925
-$Comp
 L MCU_Module:Arduino_Nano_v3.x A2
 U 1 1 6069C1A4
 P 8150 4800
@@ -97,109 +25,55 @@ F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 8150 4800 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L Reference_Voltage:LM329xZ U3
-U 1 1 606A0748
-P 9650 4850
-F 0 "U3" V 9696 4762 50  0000 R CNN
-F 1 "LM329xZ" V 9605 4762 50  0000 R CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9650 4650 50  0001 C CIN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/129329fd.pdf" H 9650 4850 50  0001 C CIN
-	1    9650 4850
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8650 4600 8850 4600
-$Comp
-L Device:R R4
-U 1 1 606A21D0
-P 9000 4600
-F 0 "R4" V 8793 4600 50  0000 C CNN
-F 1 "2.2K" V 8884 4600 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 8930 4600 50  0001 C CNN
-F 3 "~" H 9000 4600 50  0001 C CNN
-	1    9000 4600
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R5
-U 1 1 606A2C24
-P 9400 4600
-F 0 "R5" V 9193 4600 50  0000 C CNN
-F 1 "10K" V 9284 4600 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 9330 4600 50  0001 C CNN
-F 3 "~" H 9400 4600 50  0001 C CNN
-	1    9400 4600
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9150 4600 9250 4600
-Wire Wire Line
-	9550 4600 9650 4600
-Wire Wire Line
-	9650 4700 9650 4600
-$Comp
-L power:GND #PWR0103
-U 1 1 606A53BE
-P 9650 5100
-F 0 "#PWR0103" H 9650 4850 50  0001 C CNN
-F 1 "GND" H 9655 4927 50  0000 C CNN
-F 2 "" H 9650 5100 50  0001 C CNN
-F 3 "" H 9650 5100 50  0001 C CNN
-	1    9650 5100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9650 5100 9650 5000
-$Comp
 L dk_Barrel-Power-Connectors:PJ-202A J4
 U 1 1 606A6E67
-P 5075 1200
-F 0 "J4" V 4962 1288 50  0000 L CNN
-F 1 "PJ-202A" V 5053 1288 50  0000 L CNN
-F 2 "digikey-footprints:Barrel_Jack_5.5mmODx2.1mmID_PJ-202A" H 5275 1400 60  0001 L CNN
-F 3 "https://www.cui.com/product/resource/digikeypdf/pj-202a.pdf" H 5275 1500 60  0001 L CNN
-F 4 "CP-202A-ND" H 5275 1600 60  0001 L CNN "Digi-Key_PN"
-F 5 "PJ-202A" H 5275 1700 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 5275 1800 60  0001 L CNN "Category"
-F 7 "Barrel - Power Connectors" H 5275 1900 60  0001 L CNN "Family"
-F 8 "https://www.cui.com/product/resource/digikeypdf/pj-202a.pdf" H 5275 2000 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/cui-inc/PJ-202A/CP-202A-ND/252007" H 5275 2100 60  0001 L CNN "DK_Detail_Page"
-F 10 "CONN PWR JACK 2X5.5MM KINKED PIN" H 5275 2200 60  0001 L CNN "Description"
-F 11 "CUI Inc." H 5275 2300 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 5275 2400 60  0001 L CNN "Status"
-	1    5075 1200
+P 2025 6125
+F 0 "J4" V 1912 6213 50  0000 L CNN
+F 1 "PJ-202A" V 2003 6213 50  0000 L CNN
+F 2 "digikey-footprints:Barrel_Jack_5.5mmODx2.1mmID_PJ-202A" H 2225 6325 60  0001 L CNN
+F 3 "https://www.cui.com/product/resource/digikeypdf/pj-202a.pdf" H 2225 6425 60  0001 L CNN
+F 4 "CP-202A-ND" H 2225 6525 60  0001 L CNN "Digi-Key_PN"
+F 5 "PJ-202A" H 2225 6625 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 2225 6725 60  0001 L CNN "Category"
+F 7 "Barrel - Power Connectors" H 2225 6825 60  0001 L CNN "Family"
+F 8 "https://www.cui.com/product/resource/digikeypdf/pj-202a.pdf" H 2225 6925 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/cui-inc/PJ-202A/CP-202A-ND/252007" H 2225 7025 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN PWR JACK 2X5.5MM KINKED PIN" H 2225 7125 60  0001 L CNN "Description"
+F 11 "CUI Inc." H 2225 7225 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2225 7325 60  0001 L CNN "Status"
+	1    2025 6125
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0104
 U 1 1 606A9F5C
-P 4875 1525
-F 0 "#PWR0104" H 4875 1275 50  0001 C CNN
-F 1 "GND" H 4880 1352 50  0000 C CNN
-F 2 "" H 4875 1525 50  0001 C CNN
-F 3 "" H 4875 1525 50  0001 C CNN
-	1    4875 1525
+P 1825 6450
+F 0 "#PWR0104" H 1825 6200 50  0001 C CNN
+F 1 "GND" H 1830 6277 50  0000 C CNN
+F 2 "" H 1825 6450 50  0001 C CNN
+F 3 "" H 1825 6450 50  0001 C CNN
+	1    1825 6450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4975 1300 4975 1425
+	1925 6225 1925 6350
 Wire Wire Line
-	4975 1425 4875 1425
+	1925 6350 1825 6350
 Wire Wire Line
-	4875 1425 4875 1525
+	1825 6350 1825 6450
 Wire Wire Line
-	4875 1300 4875 1425
-Connection ~ 4875 1425
+	1825 6225 1825 6350
+Connection ~ 1825 6350
 $Comp
 L power:+12V #PWR0105
 U 1 1 606AAC0E
-P 5875 1550
-F 0 "#PWR0105" H 5875 1400 50  0001 C CNN
-F 1 "+12V" H 5890 1723 50  0000 C CNN
-F 2 "" H 5875 1550 50  0001 C CNN
-F 3 "" H 5875 1550 50  0001 C CNN
-	1    5875 1550
-	0    1    1    0   
+P 925 6750
+F 0 "#PWR0105" H 925 6600 50  0001 C CNN
+F 1 "+12V" H 940 6923 50  0000 C CNN
+F 2 "" H 925 6750 50  0001 C CNN
+F 3 "" H 925 6750 50  0001 C CNN
+	1    925  6750
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+12V #PWR0106
@@ -214,37 +88,6 @@ F 3 "" H 8050 3700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8050 3800 8050 3700
-$Comp
-L Device:R R6
-U 1 1 606AD846
-P 9650 4350
-F 0 "R6" H 9720 4396 50  0000 L CNN
-F 1 "22K" H 9720 4305 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 9580 4350 50  0001 C CNN
-F 3 "~" H 9650 4350 50  0001 C CNN
-	1    9650 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR0107
-U 1 1 606AE081
-P 9650 4100
-F 0 "#PWR0107" H 9650 3950 50  0001 C CNN
-F 1 "+12V" H 9665 4273 50  0000 C CNN
-F 2 "" H 9650 4100 50  0001 C CNN
-F 3 "" H 9650 4100 50  0001 C CNN
-	1    9650 4100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9650 4500 9650 4600
-Connection ~ 9650 4600
-Wire Wire Line
-	9650 4100 9650 4200
-Text GLabel 8800 4800 2    50   Input ~ 0
-PHOTO_OUT
-Wire Wire Line
-	8650 4800 8800 4800
 $Comp
 L Driver_Motor:Pololu_Breakout_A4988 A1
 U 1 1 606AFA45
@@ -296,16 +139,16 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR0110
 U 1 1 606C94B9
-P 8350 3700
-F 0 "#PWR0110" H 8350 3550 50  0001 C CNN
-F 1 "+5V" H 8365 3873 50  0000 C CNN
-F 2 "" H 8350 3700 50  0001 C CNN
-F 3 "" H 8350 3700 50  0001 C CNN
-	1    8350 3700
+P 8450 3800
+F 0 "#PWR0110" H 8450 3650 50  0001 C CNN
+F 1 "+5V" H 8465 3973 50  0000 C CNN
+F 2 "" H 8450 3800 50  0001 C CNN
+F 3 "" H 8450 3800 50  0001 C CNN
+	1    8450 3800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8350 3800 8350 3700
+	8350 3800 8450 3800
 $Comp
 L power:+5V #PWR0111
 U 1 1 606C9C6F
@@ -443,54 +286,52 @@ Wire Wire Line
 $Comp
 L dk_Terminal-Blocks-Wire-to-Board:OSTTC042162 J8
 U 1 1 606E0461
-P 9175 5500
-F 0 "J8" V 9365 5322 60  0000 R CNN
-F 1 "OSTTC042162" V 9267 5322 50  0000 R CNN
-F 2 "digikey-footprints:Term_Block_1x4_P5.08mm" H 9375 5700 60  0001 L CNN
-F 3 "http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf" H 9375 5800 60  0001 L CNN
-F 4 "ED2611-ND" H 9375 5900 60  0001 L CNN "Digi-Key_PN"
-F 5 "OSTTC042162" H 9375 6000 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 9375 6100 60  0001 L CNN "Category"
-F 7 "Terminal Blocks - Wire to Board" H 9375 6200 60  0001 L CNN "Family"
-F 8 "http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf" H 9375 6300 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-shore-technology-inc/OSTTC042162/ED2611-ND/614560" H 9375 6400 60  0001 L CNN "DK_Detail_Page"
-F 10 "TERM BLK 4P SIDE ENT 5.08MM PCB" H 9375 6500 60  0001 L CNN "Description"
-F 11 "On Shore Technology Inc." H 9375 6600 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 9375 6700 60  0001 L CNN "Status"
-	1    9175 5500
+P 9650 4025
+F 0 "J8" V 9840 3847 60  0000 R CNN
+F 1 "OSTTC042162" V 9742 3847 50  0000 R CNN
+F 2 "digikey-footprints:Term_Block_1x4_P5.08mm" H 9850 4225 60  0001 L CNN
+F 3 "http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf" H 9850 4325 60  0001 L CNN
+F 4 "ED2611-ND" H 9850 4425 60  0001 L CNN "Digi-Key_PN"
+F 5 "OSTTC042162" H 9850 4525 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 9850 4625 60  0001 L CNN "Category"
+F 7 "Terminal Blocks - Wire to Board" H 9850 4725 60  0001 L CNN "Family"
+F 8 "http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf" H 9850 4825 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-shore-technology-inc/OSTTC042162/ED2611-ND/614560" H 9850 4925 60  0001 L CNN "DK_Detail_Page"
+F 10 "TERM BLK 4P SIDE ENT 5.08MM PCB" H 9850 5025 60  0001 L CNN "Description"
+F 11 "On Shore Technology Inc." H 9850 5125 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 9850 5225 60  0001 L CNN "Status"
+	1    9650 4025
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+5V #PWR0117
 U 1 1 606E565A
-P 9000 5400
-F 0 "#PWR0117" H 9000 5250 50  0001 C CNN
-F 1 "+5V" V 9015 5528 50  0000 L CNN
-F 2 "" H 9000 5400 50  0001 C CNN
-F 3 "" H 9000 5400 50  0001 C CNN
-	1    9000 5400
+P 9475 3925
+F 0 "#PWR0117" H 9475 3775 50  0001 C CNN
+F 1 "+5V" V 9490 4053 50  0000 L CNN
+F 2 "" H 9475 3925 50  0001 C CNN
+F 3 "" H 9475 3925 50  0001 C CNN
+	1    9475 3925
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8650 5200 9075 5200
-Wire Wire Line
-	8650 5300 9075 5300
+	8650 5300 8800 5300
 $Comp
 L power:GND #PWR0118
 U 1 1 606E910A
-P 9000 5500
-F 0 "#PWR0118" H 9000 5250 50  0001 C CNN
-F 1 "GND" V 9005 5372 50  0000 R CNN
-F 2 "" H 9000 5500 50  0001 C CNN
-F 3 "" H 9000 5500 50  0001 C CNN
-	1    9000 5500
+P 9475 4025
+F 0 "#PWR0118" H 9475 3775 50  0001 C CNN
+F 1 "GND" V 9480 3897 50  0000 R CNN
+F 2 "" H 9475 4025 50  0001 C CNN
+F 3 "" H 9475 4025 50  0001 C CNN
+	1    9475 4025
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9000 5400 9075 5400
+	9475 3925 9550 3925
 Wire Wire Line
-	9000 5500 9075 5500
-Text Notes 10150 5725 2    50   ~ 0
+	9475 4025 9550 4025
+Text Notes 10625 4250 2    50   ~ 0
 screw-in terminals\nconnect to LCD I2C\nbackpack
 Wire Wire Line
 	7650 4400 7475 4400
@@ -559,28 +400,6 @@ $EndComp
 Wire Wire Line
 	3925 2950 4150 2950
 $Comp
-L dk_Terminal-Blocks-Wire-to-Board:OSTTC022162 J3
-U 1 1 607157C9
-P 4875 2325
-F 0 "J3" H 4787 2262 50  0000 R CNN
-F 1 "OSTTC022162" H 4787 2353 50  0000 R CNN
-F 2 "digikey-footprints:Term_Block_1x2_P5.08MM" H 5075 2525 60  0001 L CNN
-F 3 "http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf" H 5075 2625 60  0001 L CNN
-F 4 "ED2609-ND" H 5075 2725 60  0001 L CNN "Digi-Key_PN"
-F 5 "OSTTC022162" H 5075 2825 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 5075 2925 60  0001 L CNN "Category"
-F 7 "Terminal Blocks - Wire to Board" H 5075 3025 60  0001 L CNN "Family"
-F 8 "http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf" H 5075 3125 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-shore-technology-inc/OSTTC022162/ED2609-ND/614558" H 5075 3225 60  0001 L CNN "DK_Detail_Page"
-F 10 "TERM BLK 2P SIDE ENT 5.08MM PCB" H 5075 3325 60  0001 L CNN "Description"
-F 11 "On Shore Technology Inc." H 5075 3425 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 5075 3525 60  0001 L CNN "Status"
-	1    4875 2325
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4775 2425 4775 2850
-$Comp
 L power:GND #PWR0120
 U 1 1 607187F8
 P 4875 2500
@@ -591,10 +410,6 @@ F 3 "" H 4875 2500 50  0001 C CNN
 	1    4875 2500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4875 2500 4875 2425
-Text Notes 5600 2650 2    50   ~ 0
-LED connected\nto this terminal\nblock
 Wire Wire Line
 	3625 4200 3725 4200
 Wire Wire Line
@@ -1047,21 +862,16 @@ F 3 "~" H 6350 7300 50  0001 C CNN
 	1    6350 7300
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6550 2000
-NoConn ~ 6550 2100
 NoConn ~ 6550 2300
 NoConn ~ 6550 2700
 NoConn ~ 6550 2800
 NoConn ~ 6550 2900
-NoConn ~ 8675 1975
-NoConn ~ 8675 2075
 NoConn ~ 8675 2275
 NoConn ~ 8675 2675
 NoConn ~ 8675 2775
 NoConn ~ 8675 2875
 NoConn ~ 8650 4200
 NoConn ~ 8650 4300
-NoConn ~ 8250 3800
 NoConn ~ 7650 4300
 NoConn ~ 8650 5000
 NoConn ~ 8650 5100
@@ -1078,12 +888,12 @@ NoConn ~ 4825 5375
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 6098CA51
-P 5225 1550
-F 0 "#FLG0101" H 5225 1625 50  0001 C CNN
-F 1 "PWR_FLAG" H 5225 1723 50  0000 C CNN
-F 2 "" H 5225 1550 50  0001 C CNN
-F 3 "~" H 5225 1550 50  0001 C CNN
-	1    5225 1550
+P 2175 6475
+F 0 "#FLG0101" H 2175 6550 50  0001 C CNN
+F 1 "PWR_FLAG" H 2175 6648 50  0000 C CNN
+F 2 "" H 2175 6475 50  0001 C CNN
+F 3 "~" H 2175 6475 50  0001 C CNN
+	1    2175 6475
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1113,44 +923,414 @@ Wire Wire Line
 $Comp
 L FQP47P06:FQP47P06 Q3
 U 1 1 606BD53B
-P 5550 1450
-F 0 "Q3" V 5793 1450 50  0000 C CNN
-F 1 "FQP47P06" V 5884 1450 50  0000 C CNN
-F 2 "FQP47P06:TO254P1067X483X2286-3" H 5550 1450 50  0001 L BNN
-F 3 "FQP47P06" H 5550 1450 50  0001 L BNN
-F 4 "None" H 5550 1450 50  0001 L BNN "Field4"
-F 5 "ON Semiconductor" H 5550 1450 50  0001 L BNN "Field5"
-F 6 "TO-220 ON Semiconductor" H 5550 1450 50  0001 L BNN "Field6"
-F 7 "P-Channel 60V 47A _Tc_ 160W _Tc_ Through Hole TO-220-3" H 5550 1450 50  0001 L BNN "Field7"
-F 8 "Unavailable" H 5550 1450 50  0001 L BNN "Field8"
-	1    5550 1450
-	0    1    1    0   
+P 1250 6850
+F 0 "Q3" V 1493 6850 50  0000 C CNN
+F 1 "FQP47P06" V 1584 6850 50  0000 C CNN
+F 2 "FQP47P06:TO254P1067X483X2286-3" H 1250 6850 50  0001 L BNN
+F 3 "FQP47P06" H 1250 6850 50  0001 L BNN
+F 4 "None" H 1250 6850 50  0001 L BNN "Field4"
+F 5 "ON Semiconductor" H 1250 6850 50  0001 L BNN "Field5"
+F 6 "TO-220 ON Semiconductor" H 1250 6850 50  0001 L BNN "Field6"
+F 7 "P-Channel 60V 47A _Tc_ 160W _Tc_ Through Hole TO-220-3" H 1250 6850 50  0001 L BNN "Field7"
+F 8 "Unavailable" H 1250 6850 50  0001 L BNN "Field8"
+	1    1250 6850
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5075 1550 5225 1550
+	2025 6475 2175 6475
 Wire Wire Line
-	5075 1300 5075 1550
+	2025 6225 2025 6475
 Wire Wire Line
-	5750 1550 5875 1550
+	1050 6750 925  6750
 $Comp
 L power:GND #PWR0136
 U 1 1 606CF363
-P 5650 1300
-F 0 "#PWR0136" H 5650 1050 50  0001 C CNN
-F 1 "GND" H 5655 1127 50  0000 C CNN
-F 2 "" H 5650 1300 50  0001 C CNN
-F 3 "" H 5650 1300 50  0001 C CNN
-	1    5650 1300
-	-1   0    0    1   
+P 1150 7000
+F 0 "#PWR0136" H 1150 6750 50  0001 C CNN
+F 1 "GND" H 1155 6827 50  0000 C CNN
+F 2 "" H 1150 7000 50  0001 C CNN
+F 3 "" H 1150 7000 50  0001 C CNN
+	1    1150 7000
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5650 1350 5650 1300
-Connection ~ 5225 1550
-Wire Wire Line
-	5225 1550 5350 1550
+	1150 6950 1150 7000
+Connection ~ 2175 6475
 Wire Wire Line
 	7650 4200 7650 4050
 NoConn ~ 7650 5500
 Text Notes 6825 5625 0    50   ~ 0
 D13 is connected\nto an internal LED.\nAvoid using this pin.
+Wire Wire Line
+	8675 1975 8575 1975
+Wire Wire Line
+	8575 1975 8575 2075
+Wire Wire Line
+	8575 2075 8675 2075
+Wire Wire Line
+	6550 2000 6450 2000
+Wire Wire Line
+	6450 2000 6450 2100
+Wire Wire Line
+	6450 2100 6550 2100
+$Comp
+L VEML7700-TR:VEML7700-TR IC2
+U 1 1 61CD4F67
+P 11075 5725
+F 0 "IC2" H 11417 5160 50  0000 C CNN
+F 1 "VEML7700-TR" H 11417 5251 50  0000 C CNN
+F 2 "VEML7700-TR:VEML7700" H 11825 5825 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/84286/veml7700.pdf" H 11825 5725 50  0001 L CNN
+F 4 "High Accuracy Ambient Light Sensor with I2C Interface" H 11825 5625 50  0001 L CNN "Description"
+F 5 "" H 11825 5525 50  0001 L CNN "Height"
+F 6 "Vishay" H 11825 5425 50  0001 L CNN "Manufacturer_Name"
+F 7 "VEML7700-TR" H 11825 5325 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "78-VEML7700-TR" H 11825 5225 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VEML7700-TR?qs=BcfjnG7NVaWcZHs8m27pyQ%3D%3D" H 11825 5125 50  0001 L CNN "Mouser Price/Stock"
+F 10 "VEML7700-TR" H 11825 5025 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/veml7700-tr/vishay" H 11825 4925 50  0001 L CNN "Arrow Price/Stock"
+	1    11075 5725
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8650 5200 8800 5200
+Text GLabel 8800 5200 2    50   Input ~ 0
+SDA
+Text GLabel 8800 5300 2    50   Input ~ 0
+SCL
+Text GLabel 9425 3725 0    50   Input ~ 0
+SDA
+Wire Wire Line
+	9425 3725 9550 3725
+Text GLabel 9425 3825 0    50   Input ~ 0
+SCL
+Wire Wire Line
+	9425 3825 9550 3825
+$Comp
+L power:+3V3 #PWR0101
+U 1 1 61D4BBF2
+P 8250 3700
+F 0 "#PWR0101" H 8250 3550 50  0001 C CNN
+F 1 "+3V3" H 8265 3873 50  0000 C CNN
+F 2 "" H 8250 3700 50  0001 C CNN
+F 3 "" H 8250 3700 50  0001 C CNN
+	1    8250 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 3700 8250 3800
+NoConn ~ 8650 4600
+NoConn ~ -1375 5575
+NoConn ~ -775 3575
+NoConn ~ 8650 4800
+$Comp
+L GW12RCH:GW12RCH S1
+U 1 1 61CED7E5
+P 1700 7075
+F 0 "S1" H 2200 7340 50  0000 C CNN
+F 1 "GW12RCH" H 2200 7249 50  0000 C CNN
+F 2 "GW12RCH:GW12RCH" H 2550 7175 50  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/295/GW-1663576.pdf" H 2550 7075 50  0001 L CNN
+F 4 "Switch Rocker ON None ON SPDT PC Pins Curved Rocker 0.1A 28VAC 28VDC 0.4VA 50000Cycles" H 2550 6975 50  0001 L CNN "Description"
+F 5 "5.4" H 2550 6875 50  0001 L CNN "Height"
+F 6 "NKK Switches" H 2550 6775 50  0001 L CNN "Manufacturer_Name"
+F 7 "GW12RCH" H 2550 6675 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "633-GW12RCH" H 2550 6575 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/NKK-Switches/GW12RCH?qs=4EnmSMTL3HMGaO7owX5AXQ%3D%3D" H 2550 6475 50  0001 L CNN "Mouser Price/Stock"
+F 10 "GW12RCH" H 2550 6375 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/gw12rch/nkk-switches" H 2550 6275 50  0001 L CNN "Arrow Price/Stock"
+	1    1700 7075
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 61D165F0
+P 1600 7075
+F 0 "#PWR0107" H 1600 6825 50  0001 C CNN
+F 1 "GND" V 1605 6947 50  0000 R CNN
+F 2 "" H 1600 7075 50  0001 C CNN
+F 3 "" H 1600 7075 50  0001 C CNN
+	1    1600 7075
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0134
+U 1 1 61D17365
+P 1600 7175
+F 0 "#PWR0134" H 1600 6925 50  0001 C CNN
+F 1 "GND" V 1605 7047 50  0000 R CNN
+F 2 "" H 1600 7175 50  0001 C CNN
+F 3 "" H 1600 7175 50  0001 C CNN
+	1    1600 7175
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1600 7075 1700 7075
+Wire Wire Line
+	1600 7175 1700 7175
+$Comp
+L 171856-0006:171856-0006 J3
+U 1 1 61D8B32E
+P 4775 1950
+F 0 "J3" H 5403 1746 50  0000 L CNN
+F 1 "171856-0006" H 5403 1655 50  0000 L CNN
+F 2 "171856-0006:HDRV6W99P0X254_1X6_1509X635X1100P" H 5425 2050 50  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/1718560006_sd.pdf" H 5425 1950 50  0001 L CNN
+F 4 "Molex KK 254 171856, 2.54mm Pitch, 6 Way, 1 Row, Straight PCB Header, Through Hole" H 5425 1850 50  0001 L CNN "Description"
+F 5 "11" H 5425 1750 50  0001 L CNN "Height"
+F 6 "Molex" H 5425 1650 50  0001 L CNN "Manufacturer_Name"
+F 7 "171856-0006" H 5425 1550 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "538-171856-0006" H 5425 1450 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Molex/171856-0006?qs=s7UCm7gO1bZ%2FF4kPA9T7bA%3D%3D" H 5425 1350 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 5425 1250 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 5425 1150 50  0001 L CNN "Arrow Price/Stock"
+	1    4775 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 171856-0006:171856-0006 J10
+U 1 1 61D8D674
+P 10000 5725
+F 0 "J10" H 10628 5521 50  0000 L CNN
+F 1 "171856-0006" H 10628 5430 50  0000 L CNN
+F 2 "171856-0006:HDRV6W99P0X254_1X6_1509X635X1100P" H 10650 5825 50  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/1718560006_sd.pdf" H 10650 5725 50  0001 L CNN
+F 4 "Molex KK 254 171856, 2.54mm Pitch, 6 Way, 1 Row, Straight PCB Header, Through Hole" H 10650 5625 50  0001 L CNN "Description"
+F 5 "11" H 10650 5525 50  0001 L CNN "Height"
+F 6 "Molex" H 10650 5425 50  0001 L CNN "Manufacturer_Name"
+F 7 "171856-0006" H 10650 5325 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "538-171856-0006" H 10650 5225 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Molex/171856-0006?qs=s7UCm7gO1bZ%2FF4kPA9T7bA%3D%3D" H 10650 5125 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 10650 5025 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 10650 4925 50  0001 L CNN "Arrow Price/Stock"
+	1    10000 5725
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5175 2050 5175 1950
+$Comp
+L power:+3V3 #PWR0102
+U 1 1 61D568D8
+P 5175 2050
+F 0 "#PWR0102" H 5175 1900 50  0001 C CNN
+F 1 "+3V3" V 5190 2178 50  0000 L CNN
+F 2 "" H 5175 2050 50  0001 C CNN
+F 3 "" H 5175 2050 50  0001 C CNN
+	1    5175 2050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5075 2075 5075 1950
+Text GLabel 5075 2075 3    50   Input ~ 0
+SCL
+Wire Wire Line
+	5275 2075 5275 1950
+Text GLabel 5275 2075 3    50   Input ~ 0
+SDA
+Wire Wire Line
+	4775 1950 4775 2850
+Wire Wire Line
+	4875 1950 4875 2200
+Wire Wire Line
+	4975 1950 4975 2200
+Wire Wire Line
+	4975 2200 4875 2200
+Connection ~ 4875 2200
+Wire Wire Line
+	4875 2200 4875 2500
+Wire Wire Line
+	10000 5225 10775 5225
+Wire Wire Line
+	10775 5225 10775 5725
+Wire Wire Line
+	10000 5325 10975 5325
+Wire Wire Line
+	10975 5325 10975 5725
+Wire Wire Line
+	10000 5525 10400 5525
+Wire Wire Line
+	10875 5525 10875 5725
+Wire Wire Line
+	10000 5625 10400 5625
+Wire Wire Line
+	10400 5625 10400 5525
+Connection ~ 10400 5525
+Wire Wire Line
+	10400 5525 10875 5525
+$Comp
+L Device:LED D1
+U 1 1 61E7E426
+P 10150 5950
+F 0 "D1" H 10143 5695 50  0000 C CNN
+F 1 "LED" H 10143 5786 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z9.0mm" H 10150 5950 50  0001 C CNN
+F 3 "~" H 10150 5950 50  0001 C CNN
+	1    10150 5950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10000 5950 10000 5725
+Wire Wire Line
+	10300 5950 10400 5950
+Wire Wire Line
+	10400 5950 10400 5625
+Connection ~ 10400 5625
+Wire Wire Line
+	2700 7175 2800 7175
+Wire Wire Line
+	2800 7175 2800 6475
+Wire Wire Line
+	2175 6475 2800 6475
+Wire Wire Line
+	2700 7075 2750 7075
+Wire Wire Line
+	2750 7075 2750 6750
+Wire Wire Line
+	1450 6750 2750 6750
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 61F9BE7C
+P 1500 3625
+F 0 "H1" H 1600 3674 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1600 3583 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 1500 3625 50  0001 C CNN
+F 3 "~" H 1500 3625 50  0001 C CNN
+	1    1500 3625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 61F9C7AC
+P 1675 4000
+F 0 "H2" H 1775 4049 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1775 3958 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 1675 4000 50  0001 C CNN
+F 3 "~" H 1675 4000 50  0001 C CNN
+	1    1675 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 61F9CED0
+P 1900 4350
+F 0 "H3" H 2000 4399 50  0000 L CNN
+F 1 "MountingHole_Pad" H 2000 4308 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 1900 4350 50  0001 C CNN
+F 3 "~" H 1900 4350 50  0001 C CNN
+	1    1900 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 61F9D7FF
+P 2125 4675
+F 0 "H4" H 2225 4724 50  0000 L CNN
+F 1 "MountingHole_Pad" H 2225 4633 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 2125 4675 50  0001 C CNN
+F 3 "~" H 2125 4675 50  0001 C CNN
+	1    2125 4675
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 61F9FD04
+P 1500 3725
+F 0 "#PWR0103" H 1500 3475 50  0001 C CNN
+F 1 "GND" H 1505 3552 50  0000 C CNN
+F 2 "" H 1500 3725 50  0001 C CNN
+F 3 "" H 1500 3725 50  0001 C CNN
+	1    1500 3725
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0137
+U 1 1 61FA09CC
+P 1675 4100
+F 0 "#PWR0137" H 1675 3850 50  0001 C CNN
+F 1 "GND" H 1680 3927 50  0000 C CNN
+F 2 "" H 1675 4100 50  0001 C CNN
+F 3 "" H 1675 4100 50  0001 C CNN
+	1    1675 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0138
+U 1 1 61FA10E1
+P 1900 4450
+F 0 "#PWR0138" H 1900 4200 50  0001 C CNN
+F 1 "GND" H 1905 4277 50  0000 C CNN
+F 2 "" H 1900 4450 50  0001 C CNN
+F 3 "" H 1900 4450 50  0001 C CNN
+	1    1900 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0139
+U 1 1 61FA1EBE
+P 2125 4775
+F 0 "#PWR0139" H 2125 4525 50  0001 C CNN
+F 1 "GND" H 2130 4602 50  0000 C CNN
+F 2 "" H 2125 4775 50  0001 C CNN
+F 3 "" H 2125 4775 50  0001 C CNN
+	1    2125 4775
+	1    0    0    -1  
+$EndComp
+Text GLabel 10400 5950 3    50   Input ~ 0
+GND2
+Wire Wire Line
+	11075 5425 10000 5425
+Wire Wire Line
+	11075 5725 11075 5425
+$Comp
+L Mechanical:MountingHole_Pad H5
+U 1 1 61FC9232
+P 9550 4450
+F 0 "H5" H 9650 4499 50  0000 L CNN
+F 1 "MountingHole_Pad" H 9650 4408 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 9550 4450 50  0001 C CNN
+F 3 "~" H 9550 4450 50  0001 C CNN
+	1    9550 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H6
+U 1 1 61FC9972
+P 9550 4825
+F 0 "H6" H 9650 4874 50  0000 L CNN
+F 1 "MountingHole_Pad" H 9650 4783 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 9550 4825 50  0001 C CNN
+F 3 "~" H 9550 4825 50  0001 C CNN
+	1    9550 4825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H8
+U 1 1 61FCACD1
+P 10425 4875
+F 0 "H8" H 10525 4924 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10525 4833 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 10425 4875 50  0001 C CNN
+F 3 "~" H 10425 4875 50  0001 C CNN
+	1    10425 4875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H7
+U 1 1 61FCB6DE
+P 10425 4500
+F 0 "H7" H 10525 4549 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10525 4458 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 10425 4500 50  0001 C CNN
+F 3 "~" H 10425 4500 50  0001 C CNN
+	1    10425 4500
+	1    0    0    -1  
+$EndComp
+Text GLabel 9550 4550 0    50   Input ~ 0
+GND2
+Text GLabel 9550 4925 0    50   Input ~ 0
+GND2
+Text GLabel 10425 4600 0    50   Input ~ 0
+GND2
+Text GLabel 10425 4975 0    50   Input ~ 0
+GND2
 $EndSCHEMATC

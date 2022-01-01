@@ -1,0 +1,126 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "VEML7700-TR"
+   (description "High Accuracy Ambient Light Sensor with I2C Interface")
+   (family "ANA")
+   (package "VEML7700")
+   (attribute "Datasheet Link" "http://www.vishay.com/docs/84286/veml7700.pdf")
+   (attribute "Manufacturer_Name" "Vishay")
+   (attribute "Manufacturer_Part_Number" "VEML7700-TR")
+   (attribute "Mouser Part Number" "78-VEML7700-TR")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VEML7700-TR?qs=BcfjnG7NVaWcZHs8m27pyQ%3D%3D")
+   (attribute "Arrow Part Number" "VEML7700-TR")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/veml7700-tr/vishay")
+   (gate
+    (symbol "VEML7700-TR")
+    (pin "SCL" 1 PS)
+    (pin "VDD" 2 PP)
+    (pin "GND" 3 PP)
+    (pin "SDA" 4 PS)
+   )
+  )
+  (symbol "VEML7700-TR"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 700 100) (pt 700 -400) (pt 200 -400) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "VEML7700"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 0 3.2)
+      (pt 6.8 3.2)
+      (pt 6.8 0)
+      (pt 0 0)
+      (pt 0 3.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0 3.2)
+      (pt 6.8 3.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 6.8 3.2)
+      (pt 6.8 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0 3.2)
+      (pt 0 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0 0)
+      (pt 0.944 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 6.8 0)
+      (pt 5.92 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (circle
+      (pt 0.49032 -0.942) (pt 0.72968 -0.942)
+     )
+    )
+   )
+   (leg 1 (pt 1.495 -0.4) (padstack 0))
+   (leg 2 (pt 2.765 -0.4) (padstack 0))
+   (leg 3 (pt 4.035 -0.4) (padstack 0))
+   (leg 4 (pt 5.305 -0.4) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.7 1.6 0 0 90))
+   )
+  )
+ )
+)

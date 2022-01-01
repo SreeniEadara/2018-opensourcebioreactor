@@ -1,0 +1,9 @@
+Manufacturer=NKK Switches
+PartNumber=GW12RCH
+PartCategory=Switch
+PackageCategory=Other
+PinCount=5
+Version=1.1
+Released=2019-11-09 15:44:34
+Downloaded=2021-12-29 22:31:39
+3D=Y

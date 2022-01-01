@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "GW12RCH"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-11-09-15:44:34)
+    (mountForm default
+        (footprintRef "GW12RCH")
+        (spec "System")
+    )
+)

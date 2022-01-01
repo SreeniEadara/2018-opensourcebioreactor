@@ -1,0 +1,18 @@
+.171856-0006 :1 ;Molex KK 254 171856, 2.54mm Pitch, 6 Way, 1 Row, Straight PCB Header, Through Hole
+HDRV6W99P0X254_1X6_1509X635X1100P
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="6"
+*MXP 6
+*DFN 171856-0006
+~!Manufacturer_Name (Molex)
+~!Manufacturer_Part_Number (171856-0006)
+~!Mouser Part Number (538-171856-0006)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Molex/171856-0006?qs=s7UCm7gO1bZ%2FF4kPA9T7bA%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.molex.com/pdm_docs/sd/1718560006_sd.pdf)
+~!Height (11mm)
+~!3D_Model (171856-0006)
+"171856-0006"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

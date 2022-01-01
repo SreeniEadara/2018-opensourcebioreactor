@@ -1,0 +1,9 @@
+Manufacturer=Vishay
+PartNumber=VEML7700-TR
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=4
+Version=1.1
+Released=2016-06-17 09:27:14
+Downloaded=2021-12-28 18:50:05
+3D=N

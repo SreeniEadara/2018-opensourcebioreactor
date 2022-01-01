@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP VEML7700-TR
+D High Accuracy Ambient Light Sensor with I2C Interface
+K
+F http://www.vishay.com/docs/84286/veml7700.pdf
+$ENDCMP
+#
+#End Doc Library

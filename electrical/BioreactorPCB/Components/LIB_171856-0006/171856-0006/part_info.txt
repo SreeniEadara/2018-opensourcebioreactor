@@ -1,0 +1,9 @@
+Manufacturer=Molex
+PartNumber=171856-0006
+PartCategory=Connector
+PackageCategory=Header, Vertical
+PinCount=6
+Version=1.1
+Released=2019-09-05 03:40:30
+Downloaded=2021-12-30 02:14:20
+3D=Y

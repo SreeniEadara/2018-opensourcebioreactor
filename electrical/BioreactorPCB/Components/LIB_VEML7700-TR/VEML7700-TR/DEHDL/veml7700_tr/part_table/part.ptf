@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'VEML7700_TR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Vishay", "VEML7700-TR" (!) = "", "VEML7700", "Other", "78-VEML7700-TR", "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VEML7700-TR?qs=BcfjnG7NVaWcZHs8m27pyQ%3D%3D", "VEML7700-TR", "https://www.arrow.com/en/products/veml7700-tr/vishay", "High Accuracy Ambient Light Sensor with I2C Interface", "http://www.vishay.com/docs/84286/veml7700.pdf"
+END_PART
+
+END.

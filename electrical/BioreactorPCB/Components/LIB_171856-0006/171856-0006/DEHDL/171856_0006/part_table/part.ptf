@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '171856_0006'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Molex", "171856-0006" (!) = "", "HDRV6W99P0X254_1X6_1509X635X1100P", "Header, Vertical", "538-171856-0006", "https://www.mouser.co.uk/ProductDetail/Molex/171856-0006?qs=s7UCm7gO1bZ%2FF4kPA9T7bA%3D%3D", "", "", "Molex KK 254 171856, 2.54mm Pitch, 6 Way, 1 Row, Straight PCB Header, Through Hole", "https://www.molex.com/pdm_docs/sd/1718560006_sd.pdf", "11 mm"
+END_PART
+
+END.

@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 171856-0006
+#/245002/255746/2.49/6/3/Connector
+DEF 171856-0006 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "171856-0006" 650 200 50 H V L CNN
+F2 "HDRV6W99P0X254_1X6_1509X635X1100P" 650 100 50 H I L CNN
+F3 "https://www.molex.com/pdm_docs/sd/1718560006_sd.pdf" 650 0 50 H I L CNN
+F4 "Molex KK 254 171856, 2.54mm Pitch, 6 Way, 1 Row, Straight PCB Header, Through Hole" 650 -100 50 H I L CNN "Description"
+F5 "11" 650 -200 50 H I L CNN "Height"
+F6 "Molex" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "171856-0006" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "538-171856-0006" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Molex/171856-0006?qs=s7UCm7gO1bZ%2FF4kPA9T7bA%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 0 -500 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

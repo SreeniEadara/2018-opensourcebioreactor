@@ -1,0 +1,140 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "GW12RCH"
+   (description "Switch Rocker ON None ON SPDT PC Pins Curved Rocker 0.1A 28VAC 28VDC 0.4VA 50000Cycles")
+   (family "SWI")
+   (package "GW12RCH")
+   (attribute "Datasheet Link" "https://www.mouser.com/datasheet/2/295/GW-1663576.pdf")
+   (attribute "Geometry.Height" "5.4mm")
+   (attribute "Manufacturer_Name" "NKK Switches")
+   (attribute "Manufacturer_Part_Number" "GW12RCH")
+   (attribute "Mouser Part Number" "633-GW12RCH")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/NKK-Switches/GW12RCH?qs=4EnmSMTL3HMGaO7owX5AXQ%3D%3D")
+   (attribute "Arrow Part Number" "GW12RCH")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/gw12rch/nkk-switches")
+   (gate
+    (symbol "GW12RCH")
+    (pin "NO" 4 PS)
+    (pin "COM" 5 PS)
+    (pin "NC" 6 NC)
+    (pin "MH1" MH1 PS)
+    (pin "MH2" MH2 PS)
+   )
+  )
+  (symbol "GW12RCH"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 800 100) (pt 800 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 1000 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "GW12RCH"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.21 -0.68)
+      (pt 6.29 -0.68)
+      (pt 6.29 -7.68)
+      (pt -1.21 -7.68)
+      (pt -1.21 -0.68))))
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -0.96 -7.68)
+      (pt 6.04 -7.68)
+      (pt 6.04 -9.98)
+      (pt -0.96 -9.98)
+      (pt -0.96 -7.68))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.71 1.05)
+      (pt 6.79 1.05)
+      (pt 6.79 -10.48)
+      (pt -1.71 -10.48)
+      (pt -1.71 1.05))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 6.29 -0.68)
+      (pt 6.29 -7.68)
+      (pt -1.21 -7.68)
+      (pt -1.21 -0.68))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 0.74 -0.68)
+      (pt 1.74 -0.68))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 3.34 -0.68)
+      (pt 4.34 -0.68))))
+   (leg 4 (pt 0.000 0.000) (padstack 0))
+   (leg 5 (pt 2.540 0.000) (padstack 0))
+   (leg 6 (pt 5.080 0.000) (padstack 0))
+   (leg MH1 (pt 0.000 -5.080) (padstack 0))
+   (leg MH2 (pt 5.080 -5.080) (padstack 0))
+   (padstack 0
+    (hole 0.6)
+    (plated true)
+    (pad (layer TCOP) (round 1.100))
+    (pad (layer INNER) (round 1.100))
+    (pad (layer BCOP) (round 1.100))
+   )
+   (model "GW12RCH.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

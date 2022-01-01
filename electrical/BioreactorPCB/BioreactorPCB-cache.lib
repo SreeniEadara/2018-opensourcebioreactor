@@ -1,6 +1,30 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# 171856-0006_171856-0006
+#
+DEF 171856-0006_171856-0006 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "171856-0006_171856-0006" 650 200 50 H V L CNN
+F2 "HDRV6W99P0X254_1X6_1509X635X1100P" 650 100 50 H I L CNN
+F3 "https://www.molex.com/pdm_docs/sd/1718560006_sd.pdf" 650 0 50 H I L CNN
+F4 "Molex KK 254 171856, 2.54mm Pitch, 6 Way, 1 Row, Straight PCB Header, Through Hole" 650 -100 50 H I L CNN "Description"
+F5 "11" 650 -200 50 H I L CNN "Height"
+F6 "Molex" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "171856-0006" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "538-171856-0006" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Molex/171856-0006?qs=s7UCm7gO1bZ%2FF4kPA9T7bA%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -600 200 -600 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 0 -500 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
 # AL5809-20P1-7_AL5809-20P1-7
 #
 DEF AL5809-20P1-7_AL5809-20P1-7 IC 0 30 Y Y 1 F N
@@ -38,6 +62,29 @@ P 2 0 1 20 -80 -30 80 -30 N
 P 2 0 1 20 -80 30 80 30 N
 X ~ 1 0 150 110 D 50 50 1 1 P
 X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_LED
+#
+DEF Device_LED D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Device_LED" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ LED*
+ LED_SMD:*
+ LED_THT:*
+$ENDFPLIST
+DRAW
+P 2 0 1 10 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 10 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -178,6 +225,31 @@ X ~ 3 100 200 100 D 40 40 0 0 P
 ENDDRAW
 ENDDEF
 #
+# GW12RCH_GW12RCH
+#
+DEF GW12RCH_GW12RCH S 0 30 Y Y 1 F N
+F0 "S" 850 300 50 H V L CNN
+F1 "GW12RCH_GW12RCH" 850 200 50 H V L CNN
+F2 "GW12RCH" 850 100 50 H I L CNN
+F3 "https://www.mouser.com/datasheet/2/295/GW-1663576.pdf" 850 0 50 H I L CNN
+F4 "Switch Rocker ON None ON SPDT PC Pins Curved Rocker 0.1A 28VAC 28VDC 0.4VA 50000Cycles" 850 -100 50 H I L CNN "Description"
+F5 "5.4" 850 -200 50 H I L CNN "Height"
+F6 "NKK Switches" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "GW12RCH" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "633-GW12RCH" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/NKK-Switches/GW12RCH?qs=4EnmSMTL3HMGaO7owX5AXQ%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "GW12RCH" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/gw12rch/nkk-switches" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+X NO 4 1000 0 200 L 50 50 0 0 P
+X COM 5 1000 -100 200 L 50 50 0 0 P
+X NC 6 1000 -200 200 L 50 50 0 0 N
+X MH1 MH1 0 0 200 R 50 50 0 0 P
+X MH2 MH2 0 -100 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
 # Graphic_Logo_Open_Hardware_Large
 #
 DEF Graphic_Logo_Open_Hardware_Large #LOGO 0 40 Y Y 1 F N
@@ -236,23 +308,19 @@ X D6 9 -500 0 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# Reference_Voltage_LM329xZ
+# Mechanical_MountingHole_Pad
 #
-DEF Reference_Voltage_LM329xZ U 0 1 Y N 1 F N
-F0 "U" 0 100 50 H V C CNN
-F1 "Reference_Voltage_LM329xZ" 0 -125 50 H V C CNN
-F2 "Package_TO_SOT_THT:TO-92_Inline" 0 -200 50 H I C CIN
-F3 "" 0 0 50 H I C CIN
+DEF Mechanical_MountingHole_Pad H 0 40 N N 1 F N
+F0 "H" 0 250 50 H V C CNN
+F1 "Mechanical_MountingHole_Pad" 0 175 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- TO?92*
+ MountingHole*Pad*
 $ENDFPLIST
 DRAW
-P 3 0 1 0 -50 0 0 0 50 0 N
-P 4 0 1 8 -50 -50 25 0 -50 50 -50 -50 N
-P 4 0 1 8 0 -50 25 -50 25 50 50 50 N
-X NC 1 0 0 100 R 50 50 1 1 N N
-X K 2 150 0 100 L 50 50 1 1 P
-X A 3 -150 0 100 R 50 50 1 1 P
+C 0 50 50 0 1 50 N
+X 1 1 0 -100 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -311,6 +379,29 @@ X S 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# VEML7700-TR_VEML7700-TR
+#
+DEF VEML7700-TR_VEML7700-TR IC 0 30 Y Y 1 F N
+F0 "IC" 750 300 50 H V L CNN
+F1 "VEML7700-TR_VEML7700-TR" 750 200 50 H V L CNN
+F2 "VEML7700" 750 100 50 H I L CNN
+F3 "http://www.vishay.com/docs/84286/veml7700.pdf" 750 0 50 H I L CNN
+F4 "High Accuracy Ambient Light Sensor with I2C Interface" 750 -100 50 H I L CNN "Description"
+F5 "Vishay" 750 -300 50 H I L CNN "Manufacturer_Name"
+F6 "VEML7700-TR" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F7 "78-VEML7700-TR" 750 -500 50 H I L CNN "Mouser Part Number"
+F8 "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VEML7700-TR?qs=BcfjnG7NVaWcZHs8m27pyQ%3D%3D" 750 -600 50 H I L CNN "Mouser Price/Stock"
+F9 "VEML7700-TR" 750 -700 50 H I L CNN "Arrow Part Number"
+F10 "https://www.arrow.com/en/products/veml7700-tr/vishay" 750 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 5 0 1 6 200 100 700 100 700 -400 200 -400 200 100 N
+X SCL 1 0 0 200 R 50 50 0 0 P
+X VDD 2 0 -100 200 R 50 50 0 0 W
+X GND 3 0 -200 200 R 50 50 0 0 W
+X SDA 4 0 -300 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
 # dk_Barrel-Power-Connectors_PJ-202A
 #
 DEF dk_Barrel-Power-Connectors_PJ-202A J 0 40 Y Y 1 F N
@@ -338,35 +429,6 @@ P 5 1 1 0 -100 -100 -125 -100 -100 -150 -75 -100 -100 -100 N
 X ~ 1 100 0 100 L 50 50 1 1 P
 X ~ 2 100 -200 100 L 50 50 1 1 P
 X ~ 3 100 -100 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# dk_Optical-Sensors-Ambient-Light-IR-UV-Sensors_OPT101P
-#
-DEF dk_Optical-Sensors-Ambient-Light-IR-UV-Sensors_OPT101P U 0 20 Y Y 1 F N
-F0 "U" -150 250 60 H V C CNN
-F1 "dk_Optical-Sensors-Ambient-Light-IR-UV-Sensors_OPT101P" 100 -300 60 H V L CNN
-F2 "digikey-footprints:DIP-8_W7.62mm" 200 200 60 H I L CNN
-F3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fopt101" 200 300 60 H I L CNN
-F4 "296-23090-5-ND" 200 400 60 H I L CNN "Digi-Key_PN"
-F5 "OPT101P" 200 500 60 H I L CNN "MPN"
-F6 "Sensors, Transducers" 200 600 60 H I L CNN "Category"
-F7 "Optical Sensors - Ambient Light, IR, UV Sensors" 200 700 60 H I L CNN "Family"
-F8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fopt101" 200 800 60 H I L CNN "DK_Datasheet_Link"
-F9 "/product-detail/en/texas-instruments/OPT101P/296-23090-5-ND/251177" 200 900 60 H I L CNN "DK_Detail_Page"
-F10 "SENSOR OPT 650NM AMBIENT 8DIP" 200 1000 60 H I L CNN "Description"
-F11 "Texas Instruments" 200 1100 60 H I L CNN "Manufacturer"
-F12 "Active" 200 1200 60 H I L CNN "Status"
-DRAW
-S -200 200 200 -200 0 1 0 f
-X VS 1 0 300 100 D 50 50 1 1 W
-X -IN 2 -300 100 100 R 50 50 1 1 I
-X V- 3 0 -300 100 U 50 50 1 1 W
-X FB 4 -300 0 100 R 50 50 1 1 I
-X OUT 5 300 0 100 L 50 50 1 1 O
-X NC 6 200 -100 100 L 50 50 1 1 N N
-X NC 7 200 -200 100 L 50 50 1 1 N N
-X COM 8 -300 -100 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -475,6 +537,22 @@ P 2 0 1 0 -30 50 0 100 N
 P 2 0 1 0 0 0 0 100 N
 P 2 0 1 0 0 100 30 50 N
 X +12V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+3V3
+#
+DEF power_+3V3 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+3V3" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
