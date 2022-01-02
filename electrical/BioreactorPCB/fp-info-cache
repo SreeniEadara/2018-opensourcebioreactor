@@ -1,4 +1,4 @@
-20214299497464729
+20215945228986729
 171856-0006
 HDRV6W99P0X254_1X6_1509X635X1100P
 171856-0006
@@ -72038,6 +72038,13 @@ TO-220-5 Vertical RM 1.7mm Pentawatt Multiwatt-5 staggered type-1
 5
 Package_TO_SOT_THT
 TO-220-5_P3.4x3.8mm_StaggerEven_Lead7.13mm_TabDown
+TO-220-5, Horizontal, RM 1.7mm, Pentawatt, Multiwatt-5, staggered type-2, see http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-to-220/to-220_5_05-08-1421.pdf?domain=www.linear.com, https://www.diodes.com/assets/Package-Files/TO220-5.pdf
+TO-220-5 Horizontal RM 1.7mm Pentawatt Multiwatt-5 staggered type-2
+0
+5
+5
+Package_TO_SOT_THT
+TO-220-5_P3.4x3.8mm_StaggerEven_Lead7.13mm_TabDown_Heatsink
 TO-220-5, Horizontal, RM 1.7mm, Pentawatt, Multiwatt-5, staggered type-2, see http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-to-220/to-220_5_05-08-1421.pdf?domain=www.linear.com, https://www.diodes.com/assets/Package-Files/TO220-5.pdf
 TO-220-5 Horizontal RM 1.7mm Pentawatt Multiwatt-5 staggered type-2
 0

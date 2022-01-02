@@ -1,0 +1,18 @@
+.TL2575HV-05IKV :1 ;1-A Simple Step-Down Switching Voltage Regulators
+TO170P470X1016X2338-5P
+*STM Q
+*NGS
+*PLB 1="VIN" 2="OUTPUT" 3="GND" 4="FEEDBACK" 5="'ON'/OFF"
+*MXP 5
+*DFN TL2575HV-05IKV
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TL2575HV-05IKV)
+~!Mouser Part Number (595-TL2575HV-05IKV)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=595-TL2575HV-05IKV)
+~!Arrow Part Number (TL2575HV-05IKV)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/tl2575hv-05ikv/texas-instruments?region=nac)
+~!Link Datasheet (http://www.ti.com/lit/gpn/tl2575hv-05)
+~!Height (4.7mm)
+~!3D_Model (TL2575HV-05IKV)
+TL2575HV-05IKV
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

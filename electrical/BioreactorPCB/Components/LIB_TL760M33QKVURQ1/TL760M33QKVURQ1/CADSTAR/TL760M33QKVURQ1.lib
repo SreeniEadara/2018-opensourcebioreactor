@@ -1,0 +1,18 @@
+.TL760M33QKVURQ1 :1 ;Automotive Catalog Single Output LDO, 500mA, Fixed(3.3V), Load Dump Protection
+KVU-_R-PSFM-G3_
+*STM IC
+*NGS
+*PLB 1="INPUT" 2="OUTPUT" 3="GND (TAB)"
+*MXP 3
+*DFN TL760M33QKVURQ1
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TL760M33QKVURQ1)
+~!Mouser Part Number (595-TL760M33QKVURQ1)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL760M33QKVURQ1?qs=i6VRxKQL%2FYy73wExkuT1dg%3D%3D)
+~!Arrow Part Number (TL760M33QKVURQ1)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/tl760m33qkvurq1/texas-instruments)
+~!Link Datasheet (http://www.ti.com/lit/ds/symlink/tl760m33-q1.pdf)
+~!Height (-)
+~!3D_Model (TL760M33QKVURQ1)
+TL760M33QKVURQ1
+1.1!U 2.1!U 3.1!U 

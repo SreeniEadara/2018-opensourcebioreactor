@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TL760M33QKVURQ1
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=3
+Version=1.1
+Released=2017-03-09 10:57:05
+Downloaded=2022-01-01 22:41:12
+3D=Y

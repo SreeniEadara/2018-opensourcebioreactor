@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TL760M33QKVURQ1'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Texas Instruments", "TL760M33QKVURQ1" (!) = "", "KVU-(R-PSFM-G3)", "Other", "595-TL760M33QKVURQ1", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL760M33QKVURQ1?qs=i6VRxKQL%2FYy73wExkuT1dg%3D%3D", "TL760M33QKVURQ1", "https://www.arrow.com/en/products/tl760m33qkvurq1/texas-instruments", "Automotive Catalog Single Output LDO, 500mA, Fixed(3.3V), Load Dump Protection", "http://www.ti.com/lit/ds/symlink/tl760m33-q1.pdf"
+END_PART
+
+END.

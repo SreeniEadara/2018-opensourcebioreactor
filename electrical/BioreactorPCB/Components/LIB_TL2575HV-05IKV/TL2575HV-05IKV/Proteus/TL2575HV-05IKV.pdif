@@ -1,0 +1,130 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "TL2575HV-05IKV"
+   (description "1-A Simple Step-Down Switching Voltage Regulators")
+   (family "TRX")
+   (package "TO170P470X1016X2338-5P")
+   (attribute "Datasheet Link" "http://www.ti.com/lit/gpn/tl2575hv-05")
+   (attribute "Geometry.Height" "4.7mm")
+   (attribute "Manufacturer_Name" "Texas Instruments")
+   (attribute "Manufacturer_Part_Number" "TL2575HV-05IKV")
+   (attribute "Mouser Part Number" "595-TL2575HV-05IKV")
+   (attribute "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=595-TL2575HV-05IKV")
+   (attribute "Arrow Part Number" "TL2575HV-05IKV")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/tl2575hv-05ikv/texas-instruments?region=nac")
+   (gate
+    (symbol "TL2575HV-05IKV")
+    (pin "VIN" 1 PS)
+    (pin "OUTPUT" 2 PS)
+    (pin "GND" 3 PS)
+    (pin "FEEDBACK" 4 PS)
+    (pin "$ON$/OFF" 5 PS)
+   )
+  )
+  (symbol "TL2575HV-05IKV"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1300 100) (pt 1300 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "TO170P470X1016X2338-5P"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -2.185 8.9)
+      (pt 8.985 8.9)
+      (pt 8.985 -1.292)
+      (pt -2.185 -1.292)
+      (pt -2.185 8.9))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.935 8.65)
+      (pt 8.735 8.65)
+      (pt 8.735 3.95)
+      (pt -1.935 3.95)
+      (pt -1.935 8.65))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.935 7.8)
+      (pt -1.085 8.65))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 8.735 3.95)
+      (pt 8.735 8.65)
+      (pt -1.935 8.65)
+      (pt -1.935 0))))
+   (leg 1 (pt 0 0) (padstack 1))
+   (leg 3 (pt 3.4 0) (padstack 0))
+   (leg 5 (pt 6.8 0) (padstack 0))
+   (leg 2 (pt 1.7 4.59) (padstack 0))
+   (leg 4 (pt 5.1 4.59) (padstack 0))
+   (padstack 0
+    (hole 1.39)
+    (plated true)
+    (pad (layer TCOP) (round 2.085))
+    (pad (layer INNER) (round 2.085))
+    (pad (layer BCOP) (round 2.085))
+   )
+   (padstack 1
+    (hole 1.39)
+    (plated true)
+    (pad (layer TCOP) (square 2.085))
+    (pad (layer INNER) (round 2.085))
+    (pad (layer BCOP) (square 2.085))
+   )
+   (model "TL2575HV-05IKV.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

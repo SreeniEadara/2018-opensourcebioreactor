@@ -1,0 +1,102 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "TL760M33QKVURQ1"
+   (description "Automotive Catalog Single Output LDO, 500mA, Fixed(3.3V), Load Dump Protection")
+   (family "ANA")
+   (package "KVU-(R-PSFM-G3)")
+   (attribute "Datasheet Link" "http://www.ti.com/lit/ds/symlink/tl760m33-q1.pdf")
+   (attribute "Manufacturer_Name" "Texas Instruments")
+   (attribute "Manufacturer_Part_Number" "TL760M33QKVURQ1")
+   (attribute "Mouser Part Number" "595-TL760M33QKVURQ1")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL760M33QKVURQ1?qs=i6VRxKQL%2FYy73wExkuT1dg%3D%3D")
+   (attribute "Arrow Part Number" "TL760M33QKVURQ1")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/tl760m33qkvurq1/texas-instruments")
+   (gate
+    (symbol "TL760M33QKVURQ1")
+    (pin "INPUT" 1 PS)
+    (pin "OUTPUT" 2 PS)
+    (pin "GND_(TAB)" 3 PS)
+   )
+  )
+  (symbol "TL760M33QKVURQ1"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1300 100) (pt 1300 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "KVU-(R-PSFM-G3)"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -3.3 6.22)
+      (pt 3.3 6.22)
+      (pt 3.3 0)
+      (pt -3.3 0)
+      (pt -3.3 6.22))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3.3 6.22)
+      (pt -3.3 0)
+      (pt 3.3 0)
+      (pt 3.3 6.22))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (circle
+      (pt -3.719 -4.457) (pt -3.575 -4.457)
+     )
+    )
+   )
+   (leg 1 (pt -2.29 -2.947) (padstack 0))
+   (leg 2 (pt 2.29 -2.947) (padstack 0))
+   (leg 3 (pt 0 4.453) (padstack 3))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.07 3.34 0 0 90))
+   )
+   (padstack 3
+    (plated false)
+    (pad (layer TCOP) (rectf 5.4 6.2 0 0 90))
+   )
+   (model "TL760M33QKVURQ1.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

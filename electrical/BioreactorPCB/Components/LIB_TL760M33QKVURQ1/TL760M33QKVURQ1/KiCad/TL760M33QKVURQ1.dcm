@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TL760M33QKVURQ1
+D Automotive Catalog Single Output LDO, 500mA, Fixed(3.3V), Load Dump Protection
+K
+F http://www.ti.com/lit/ds/symlink/tl760m33-q1.pdf
+$ENDCMP
+#
+#End Doc Library

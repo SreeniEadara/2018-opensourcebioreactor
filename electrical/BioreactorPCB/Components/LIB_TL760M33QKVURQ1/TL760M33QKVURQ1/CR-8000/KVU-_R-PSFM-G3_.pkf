@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "KVU-_R-PSFM-G3_"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "KVU-_R-PSFM-G3_")
+        (spec "default")
+    )
+)

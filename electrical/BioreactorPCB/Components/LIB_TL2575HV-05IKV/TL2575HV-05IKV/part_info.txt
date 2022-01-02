@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TL2575HV-05IKV
+PartCategory=Transistor
+PackageCategory=Transistor Outline, Vertical
+PinCount=5
+Version=1.1
+Released=2021-12-02 11:37:11
+Downloaded=2022-01-01 22:02:57
+3D=Y

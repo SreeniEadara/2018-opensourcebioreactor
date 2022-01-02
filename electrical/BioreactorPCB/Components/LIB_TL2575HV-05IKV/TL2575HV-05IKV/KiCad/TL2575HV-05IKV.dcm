@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TL2575HV-05IKV
+D 1-A Simple Step-Down Switching Voltage Regulators
+K
+F http://www.ti.com/lit/gpn/tl2575hv-05
+$ENDCMP
+#
+#End Doc Library

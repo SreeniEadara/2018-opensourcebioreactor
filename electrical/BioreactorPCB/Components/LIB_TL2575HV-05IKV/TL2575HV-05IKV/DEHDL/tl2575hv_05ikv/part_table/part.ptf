@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TL2575HV_05IKV'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "TL2575HV-05IKV" (!) = "", "TO170P470X1016X2338-5P", "Transistor Outline, Vertical", "595-TL2575HV-05IKV", "https://www.mouser.com/Search/Refine.aspx?Keyword=595-TL2575HV-05IKV", "TL2575HV-05IKV", "https://www.arrow.com/en/products/tl2575hv-05ikv/texas-instruments?region=nac", "1-A Simple Step-Down Switching Voltage Regulators", "http://www.ti.com/lit/gpn/tl2575hv-05", "4.7 mm"
+END_PART
+
+END.
