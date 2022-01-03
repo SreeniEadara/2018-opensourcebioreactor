@@ -6,4 +6,5 @@
   (lib (name 171856-0006)(type Legacy)(uri ${KIPRJMOD}/Components/LIB_171856-0006/171856-0006/KiCad/171856-0006.lib)(options "")(descr ""))
   (lib (name TL2575HV-05IKV)(type Legacy)(uri ${KIPRJMOD}/Components/LIB_TL2575HV-05IKV/TL2575HV-05IKV/KiCad/TL2575HV-05IKV.lib)(options "")(descr ""))
   (lib (name TL760M33QKVURQ1)(type Legacy)(uri ${KIPRJMOD}/Components/LIB_TL760M33QKVURQ1/TL760M33QKVURQ1/KiCad/TL760M33QKVURQ1.lib)(options "")(descr ""))
+  (lib (name 2022-01-02_10-46-29)(type Legacy)(uri ${KIPRJMOD}/Components/ul_TCA39306DCUR/KiCAD/2022-01-02_10-46-21/2022-01-02_10-46-29.lib)(options "")(descr ""))
 )

@@ -1,0 +1,256 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	3625 3050 3625 3125
+Wire Wire Line
+	3625 3125 3675 3125
+Connection ~ 5175 1775
+Wire Wire Line
+	5275 1775 5175 1775
+Wire Wire Line
+	5075 1775 5175 1775
+$Comp
+L power:+5V #PWR?
+U 1 1 6206E6A4
+P 5175 1775
+AR Path="/6206E6A4" Ref="#PWR?"  Part="1" 
+AR Path="/62062FBD/6206E6A4" Ref="#PWR0124"  Part="1" 
+F 0 "#PWR0124" H 5175 1625 50  0001 C CNN
+F 1 "+5V" H 5190 1948 50  0000 C CNN
+F 2 "" H 5175 1775 50  0001 C CNN
+F 3 "" H 5175 1775 50  0001 C CNN
+	1    5175 1775
+	1    0    0    -1  
+$EndComp
+Connection ~ 3675 3125
+Wire Wire Line
+	5275 2050 5275 1775
+$Comp
+L Interface_USB:FT232RL U?
+U 1 1 6206E6AC
+P 5175 3050
+AR Path="/6206E6AC" Ref="U?"  Part="1" 
+AR Path="/62062FBD/6206E6AC" Ref="U2"  Part="1" 
+F 0 "U2" H 5175 4231 50  0000 C CNN
+F 1 "FT232RL" H 5175 4140 50  0000 C CNN
+F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 6275 2150 50  0001 C CNN
+F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf" H 5175 3050 50  0001 C CNN
+	1    5175 3050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5975 2950
+NoConn ~ 5975 2650
+NoConn ~ 5975 3750
+NoConn ~ 5975 3550
+NoConn ~ 5975 3650
+Wire Wire Line
+	4025 2650 4375 2650
+Wire Wire Line
+	4025 2750 4375 2750
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6206E6B9
+P 4375 2350
+AR Path="/6206E6B9" Ref="#PWR?"  Part="1" 
+AR Path="/62062FBD/6206E6B9" Ref="#PWR0125"  Part="1" 
+F 0 "#PWR0125" H 4375 2200 50  0001 C CNN
+F 1 "+3V3" V 4390 2478 50  0000 L CNN
+F 2 "" H 4375 2350 50  0001 C CNN
+F 3 "" H 4375 2350 50  0001 C CNN
+	1    4375 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5275 4050 5275 4125
+NoConn ~ 4375 3050
+$Comp
+L Device:C C?
+U 1 1 6206E6C1
+P 6125 2750
+AR Path="/6206E6C1" Ref="C?"  Part="1" 
+AR Path="/62062FBD/6206E6C1" Ref="C3"  Part="1" 
+F 0 "C3" V 5873 2750 50  0000 C CNN
+F 1 ".1 uF" V 5964 2750 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P2.50mm" H 6163 2600 50  0001 C CNN
+F 3 "~" H 6125 2750 50  0001 C CNN
+	1    6125 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5375 4050 5375 4125
+Wire Wire Line
+	5975 3450 6375 3450
+Wire Wire Line
+	5975 3350 6375 3350
+Wire Wire Line
+	4975 4050 4975 4125
+NoConn ~ 4375 3750
+NoConn ~ 4375 3250
+NoConn ~ 4375 3450
+NoConn ~ 5975 2550
+Wire Wire Line
+	5075 2050 5075 1775
+NoConn ~ 5975 3050
+Wire Wire Line
+	5175 4050 5175 4125
+NoConn ~ 5975 2850
+Wire Wire Line
+	5175 4125 5175 4200
+Text GLabel 6275 2750 2    50   Input ~ 0
+RESET
+Text GLabel 5975 2350 2    50   Input ~ 0
+RX
+Text GLabel 5975 2450 2    50   Input ~ 0
+TX
+$Comp
+L power:+5V #PWR?
+U 1 1 6206E6D7
+P 6875 3875
+AR Path="/6206E6D7" Ref="#PWR?"  Part="1" 
+AR Path="/62062FBD/6206E6D7" Ref="#PWR0126"  Part="1" 
+F 0 "#PWR0126" H 6875 3725 50  0001 C CNN
+F 1 "+5V" H 6890 4048 50  0000 C CNN
+F 2 "" H 6875 3875 50  0001 C CNN
+F 3 "" H 6875 3875 50  0001 C CNN
+	1    6875 3875
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6206E6DD
+P 6875 2875
+AR Path="/6206E6DD" Ref="#PWR?"  Part="1" 
+AR Path="/62062FBD/6206E6DD" Ref="#PWR0131"  Part="1" 
+F 0 "#PWR0131" H 6875 2725 50  0001 C CNN
+F 1 "+5V" H 6890 3048 50  0000 C CNN
+F 2 "" H 6875 2875 50  0001 C CNN
+F 3 "" H 6875 2875 50  0001 C CNN
+	1    6875 2875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6875 3350 6875 3175
+Wire Wire Line
+	6675 3350 6875 3350
+Wire Wire Line
+	6875 3450 6875 3575
+Wire Wire Line
+	6675 3450 6875 3450
+$Comp
+L Device:LED D?
+U 1 1 6206E6E7
+P 6875 3725
+AR Path="/6206E6E7" Ref="D?"  Part="1" 
+AR Path="/62062FBD/6206E6E7" Ref="D2"  Part="1" 
+F 0 "D2" H 6868 3942 50  0000 C CNN
+F 1 "LED" H 6868 3851 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 6875 3725 50  0001 C CNN
+F 3 "~" H 6875 3725 50  0001 C CNN
+	1    6875 3725
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 6206E6ED
+P 6875 3025
+AR Path="/6206E6ED" Ref="D?"  Part="1" 
+AR Path="/62062FBD/6206E6ED" Ref="D1"  Part="1" 
+F 0 "D1" H 6868 3242 50  0000 C CNN
+F 1 "LED" H 6868 3151 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 6875 3025 50  0001 C CNN
+F 3 "~" H 6875 3025 50  0001 C CNN
+	1    6875 3025
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6206E6F3
+P 6525 3450
+AR Path="/6206E6F3" Ref="R?"  Part="1" 
+AR Path="/62062FBD/6206E6F3" Ref="R4"  Part="1" 
+F 0 "R4" V 6318 3450 50  0000 C CNN
+F 1 "330" V 6409 3450 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6455 3450 50  0001 C CNN
+F 3 "~" H 6525 3450 50  0001 C CNN
+	1    6525 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6206E6F9
+P 6525 3350
+AR Path="/6206E6F9" Ref="R?"  Part="1" 
+AR Path="/62062FBD/6206E6F9" Ref="R1"  Part="1" 
+F 0 "R1" V 6318 3350 50  0000 C CNN
+F 1 "330" V 6409 3350 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6455 3350 50  0001 C CNN
+F 3 "~" H 6525 3350 50  0001 C CNN
+	1    6525 3350
+	0    1    1    0   
+$EndComp
+Connection ~ 5275 4125
+Wire Wire Line
+	5375 4125 5275 4125
+Wire Wire Line
+	5275 4125 5175 4125
+Connection ~ 5175 4125
+Wire Wire Line
+	4975 4125 5175 4125
+$Comp
+L power:GND #PWR?
+U 1 1 6206E704
+P 5175 4200
+AR Path="/6206E704" Ref="#PWR?"  Part="1" 
+AR Path="/62062FBD/6206E704" Ref="#PWR0134"  Part="1" 
+F 0 "#PWR0134" H 5175 3950 50  0001 C CNN
+F 1 "GND" H 5180 4027 50  0000 C CNN
+F 2 "" H 5175 4200 50  0001 C CNN
+F 3 "" H 5175 4200 50  0001 C CNN
+	1    5175 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3725 3125 3675 3125
+Wire Wire Line
+	3725 3050 3725 3125
+$Comp
+L power:GND #PWR?
+U 1 1 6206E70C
+P 3675 3125
+AR Path="/6206E70C" Ref="#PWR?"  Part="1" 
+AR Path="/62062FBD/6206E70C" Ref="#PWR0135"  Part="1" 
+F 0 "#PWR0135" H 3675 2875 50  0001 C CNN
+F 1 "GND" H 3680 2952 50  0000 C CNN
+F 2 "" H 3675 3125 50  0001 C CNN
+F 3 "" H 3675 3125 50  0001 C CNN
+	1    3675 3125
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4025 2450
+$Comp
+L Connector:USB_B J?
+U 1 1 6206E713
+P 3725 2650
+AR Path="/6206E713" Ref="J?"  Part="1" 
+AR Path="/62062FBD/6206E713" Ref="J10"  Part="1" 
+F 0 "J10" H 3782 3117 50  0000 C CNN
+F 1 "USB_B" H 3782 3026 50  0000 C CNN
+F 2 "Connector_USB:USB_B_Lumberg_2411_02_Horizontal" H 3875 2600 50  0001 C CNN
+F 3 " ~" H 3875 2600 50  0001 C CNN
+	1    3725 2650
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
