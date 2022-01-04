@@ -278,7 +278,7 @@ U 1 1 6084772A
 P 5850 2750
 F 0 "Q2" H 6054 2796 50  0000 L CNN
 F 1 "IRF540N" H 6054 2705 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 6100 2675 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 6100 2675 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 5850 2750 50  0001 L CNN
 	1    5850 2750
 	1    0    0    -1  
@@ -636,7 +636,7 @@ U 1 1 61DE3834
 P 4925 4225
 F 0 "C6" H 5040 4271 50  0000 L CNN
 F 1 ".1 uF" H 5040 4180 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P2.50mm" H 4963 4075 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 4963 4075 50  0001 C CNN
 F 3 "~" H 4925 4225 50  0001 C CNN
 	1    4925 4225
 	0    1    1    0   
@@ -669,7 +669,7 @@ U 1 1 61DE06D3
 P 5825 3825
 F 0 "C7" V 5573 3825 50  0000 C CNN
 F 1 ".1 uF" V 5664 3825 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P2.50mm" H 5863 3675 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 5863 3675 50  0001 C CNN
 F 3 "~" H 5825 3825 50  0001 C CNN
 	1    5825 3825
 	0    1    1    0   
@@ -730,7 +730,7 @@ U 1 1 61D9018A
 P 4075 5450
 F 0 "C5" V 3875 5450 50  0000 C CNN
 F 1 "22 pf" V 3950 5450 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm" H 4075 5450 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 4075 5450 50  0001 C CNN
 F 3 "~" H 4075 5450 50  0001 C CNN
 	1    4075 5450
 	0    -1   -1   0   
@@ -741,7 +741,7 @@ U 1 1 61D8E602
 P 4075 5150
 F 0 "C4" V 3846 5150 50  0000 C CNN
 F 1 "22 pf" V 3937 5150 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm" H 4075 5150 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 4075 5150 50  0001 C CNN
 F 3 "~" H 4075 5150 50  0001 C CNN
 	1    4075 5150
 	0    1    1    0   

@@ -106,7 +106,7 @@ AR Path="/62086A80" Ref="Q?"  Part="1"
 AR Path="/6207C941/62086A80" Ref="Q3"  Part="1" 
 F 0 "Q3" V 2393 2350 50  0000 C CNN
 F 1 "FQP47P06" V 2484 2350 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 2150 2350 50  0001 L BNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 2150 2350 50  0001 L BNN
 F 3 "FQP47P06" H 2150 2350 50  0001 L BNN
 F 4 "None" H 2150 2350 50  0001 L BNN "Field4"
 F 5 "ON Semiconductor" H 2150 2350 50  0001 L BNN "Field5"
@@ -194,7 +194,7 @@ AR Path="/6208BBD0" Ref="Q?"  Part="1"
 AR Path="/6207C941/6208BBD0" Ref="Q4"  Part="1" 
 F 0 "Q4" H 6375 2790 50  0000 C CNN
 F 1 "TL2575HV-05IKV" H 6375 2699 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-5_P3.4x3.8mm_StaggerEven_Lead7.13mm_TabDown" H 6975 2625 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-5_P3.4x3.7mm_StaggerEven_Lead3.8mm_Vertical" H 6975 2625 50  0001 L CNN
 F 3 "http://www.ti.com/lit/gpn/tl2575hv-05" H 6975 2525 50  0001 L CNN
 F 4 "1-A Simple Step-Down Switching Voltage Regulators" H 6975 2425 50  0001 L CNN "Description"
 F 5 "4.7" H 6975 2325 50  0001 L CNN "Height"

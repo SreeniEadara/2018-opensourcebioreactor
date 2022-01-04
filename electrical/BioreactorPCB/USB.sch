@@ -84,7 +84,7 @@ AR Path="/6206E6C1" Ref="C?"  Part="1"
 AR Path="/62062FBD/6206E6C1" Ref="C3"  Part="1" 
 F 0 "C3" V 5873 2750 50  0000 C CNN
 F 1 ".1 uF" V 5964 2750 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P2.50mm" H 6163 2600 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 6163 2600 50  0001 C CNN
 F 3 "~" H 6125 2750 50  0001 C CNN
 	1    6125 2750
 	0    1    1    0   
