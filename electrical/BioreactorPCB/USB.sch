@@ -112,9 +112,9 @@ Wire Wire Line
 Text GLabel 6275 2750 2    50   Input ~ 0
 RESET
 Text GLabel 5975 2350 2    50   Input ~ 0
-RX
+RX_TX_+
 Text GLabel 5975 2450 2    50   Input ~ 0
-TX
+RX_TX_-
 $Comp
 L power:+5V #PWR?
 U 1 1 6206E6D7
@@ -253,4 +253,8 @@ F 3 " ~" H 3875 2600 50  0001 C CNN
 	1    3725 2650
 	1    0    0    -1  
 $EndComp
+Text GLabel 4225 2650 1    50   Input ~ 0
+D+
+Text GLabel 4225 2750 3    50   Input ~ 0
+D-
 $EndSCHEMATC
