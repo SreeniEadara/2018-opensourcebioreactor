@@ -84,7 +84,7 @@ AR Path="/6206E6C1" Ref="C?"  Part="1"
 AR Path="/62062FBD/6206E6C1" Ref="C3"  Part="1" 
 F 0 "C3" V 5873 2750 50  0000 C CNN
 F 1 ".1 uF" V 5964 2750 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 6163 2600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6163 2600 50  0001 C CNN
 F 3 "~" H 6125 2750 50  0001 C CNN
 	1    6125 2750
 	0    1    1    0   
@@ -183,7 +183,7 @@ AR Path="/6206E6F3" Ref="R?"  Part="1"
 AR Path="/62062FBD/6206E6F3" Ref="R4"  Part="1" 
 F 0 "R4" V 6318 3450 50  0000 C CNN
 F 1 "330" V 6409 3450 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6455 3450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6455 3450 50  0001 C CNN
 F 3 "~" H 6525 3450 50  0001 C CNN
 	1    6525 3450
 	0    -1   -1   0   
@@ -196,7 +196,7 @@ AR Path="/6206E6F9" Ref="R?"  Part="1"
 AR Path="/62062FBD/6206E6F9" Ref="R1"  Part="1" 
 F 0 "R1" V 6318 3350 50  0000 C CNN
 F 1 "330" V 6409 3350 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6455 3350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6455 3350 50  0001 C CNN
 F 3 "~" H 6525 3350 50  0001 C CNN
 	1    6525 3350
 	0    1    1    0   

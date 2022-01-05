@@ -76,7 +76,7 @@ AR Path="/62075D6F" Ref="R?"  Part="1"
 AR Path="/62072BBC/62075D6F" Ref="R8"  Part="1" 
 F 0 "R8" V 7693 2425 50  0000 C CNN
 F 1 "200K" V 7784 2425 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7830 2425 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7830 2425 50  0001 C CNN
 F 3 "~" H 7900 2425 50  0001 C CNN
 	1    7900 2425
 	0    1    1    0   
