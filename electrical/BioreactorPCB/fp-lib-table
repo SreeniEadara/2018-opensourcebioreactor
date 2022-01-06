@@ -6,4 +6,5 @@
   (lib (name TCA39306DCUR)(type KiCad)(uri ${KIPRJMOD}/Components/ul_TCA39306DCUR/KiCAD/2022-01-02_10-46-21/footprints.pretty)(options "")(descr ""))
   (lib (name AL5809-20P1-7)(type Legacy)(uri ${KIPRJMOD}/Components/LIB_AL5809-20P1-7/AL5809-20P1-7/KiCad/AL5809-20P1-7.mod)(options "")(descr ""))
   (lib (name FQP47P06)(type KiCad)(uri ${KIPRJMOD}/Components/FQP47P06)(options "")(descr ""))
+  (lib (name Panelization)(type KiCad)(uri ${KIPRJMOD}/Components/Panelization.pretty)(options "")(descr ""))
 )
