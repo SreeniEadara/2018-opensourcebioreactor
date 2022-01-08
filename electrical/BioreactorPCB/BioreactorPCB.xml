@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/Users/sreenivaseadara/Documents/2018-opensourcebioreactor/electrical/BioreactorPCB/BioreactorPCB.sch</source>
-    <date>Saturday, April 17, 2021 at 10:01:40 PM</date>
-    <tool>Eeschema (5.1.9-0-10_14)</tool>
+    <source>/Users/sreenieadara/Documents/2018-opensourcebioreactor/electrical/BioreactorPCB/BioreactorPCB.sch</source>
+    <date>Friday, January 07, 2022 at 08:35:35 PM</date>
+    <tool>Eeschema (5.1.12-1-10_14)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -17,148 +17,73 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
+    <sheet number="2" name="/MOTORS/" tstamps="/6200BC19/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>MOTORS.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/USB/" tstamps="/62062FBD/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>USB.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/PHOTOMETER/" tstamps="/62072BBC/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>PHOTOMETER.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/POWER/" tstamps="/6207C941/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>POWER.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/BUTTON/" tstamps="/6208DFF2/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>BUTTON.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
   </design>
   <components>
-    <comp ref="U1">
-      <value>OPT101P</value>
-      <footprint>digikey-footprints:DIP-8_W7.62mm</footprint>
-      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fopt101</datasheet>
-      <fields>
-        <field name="Category">Sensors, Transducers</field>
-        <field name="DK_Datasheet_Link">http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fopt101</field>
-        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/OPT101P/296-23090-5-ND/251177</field>
-        <field name="Description">SENSOR OPT 650NM AMBIENT 8DIP</field>
-        <field name="Digi-Key_PN">296-23090-5-ND</field>
-        <field name="Family">Optical Sensors - Ambient Light, IR, UV Sensors</field>
-        <field name="MPN">OPT101P</field>
-        <field name="Manufacturer">Texas Instruments</field>
-        <field name="Status">Active</field>
-      </fields>
-      <libsource lib="dk_Optical-Sensors-Ambient-Light-IR-UV-Sensors" part="OPT101P" description="SENSOR OPT 650NM AMBIENT 8DIP"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60694764</tstamp>
-    </comp>
-    <comp ref="R1">
-      <value>1M</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>606970D3</tstamp>
-    </comp>
-    <comp ref="A2">
-      <value>Arduino_Nano_v3.x</value>
-      <footprint>Module:Arduino_Nano</footprint>
-      <datasheet>http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf</datasheet>
-      <libsource lib="MCU_Module" part="Arduino_Nano_v3.x" description="Arduino Nano v3.x"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6069C1A4</tstamp>
-    </comp>
-    <comp ref="U3">
-      <value>LM329xZ</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/129329fd.pdf</datasheet>
-      <libsource lib="Reference_Voltage" part="LM329xZ" description="6.9V Precision Voltage Reference, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>606A0748</tstamp>
-    </comp>
-    <comp ref="R4">
-      <value>2.2K</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>606A21D0</tstamp>
-    </comp>
-    <comp ref="R5">
-      <value>10K</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>606A2C24</tstamp>
-    </comp>
-    <comp ref="J4">
-      <value>PJ-202A</value>
-      <footprint>digikey-footprints:Barrel_Jack_5.5mmODx2.1mmID_PJ-202A</footprint>
-      <datasheet>https://www.cui.com/product/resource/digikeypdf/pj-202a.pdf</datasheet>
-      <fields>
-        <field name="Category">Connectors, Interconnects</field>
-        <field name="DK_Datasheet_Link">https://www.cui.com/product/resource/digikeypdf/pj-202a.pdf</field>
-        <field name="DK_Detail_Page">/product-detail/en/cui-inc/PJ-202A/CP-202A-ND/252007</field>
-        <field name="Description">CONN PWR JACK 2X5.5MM KINKED PIN</field>
-        <field name="Digi-Key_PN">CP-202A-ND</field>
-        <field name="Family">Barrel - Power Connectors</field>
-        <field name="MPN">PJ-202A</field>
-        <field name="Manufacturer">CUI Inc.</field>
-        <field name="Status">Active</field>
-      </fields>
-      <libsource lib="dk_Barrel-Power-Connectors" part="PJ-202A" description="CONN PWR JACK 2X5.5MM KINKED PIN"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>606A6E67</tstamp>
-    </comp>
-    <comp ref="R6">
-      <value>22K</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>606AD846</tstamp>
-    </comp>
-    <comp ref="A1">
-      <value>Pololu_Breakout_A4988</value>
-      <footprint>Module:Pololu_Breakout-16_15.2x20.3mm</footprint>
-      <datasheet>https://www.pololu.com/product/2980/pictures</datasheet>
-      <libsource lib="Driver_Motor" part="Pololu_Breakout_A4988" description="Pololu Breakout Board, Stepper Driver A4988"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>606AFA45</tstamp>
-    </comp>
-    <comp ref="A3">
-      <value>Pololu_Breakout_A4988</value>
-      <footprint>Module:Pololu_Breakout-16_15.2x20.3mm</footprint>
-      <datasheet>https://www.pololu.com/product/2980/pictures</datasheet>
-      <libsource lib="Driver_Motor" part="Pololu_Breakout_A4988" description="Pololu Breakout Board, Stepper Driver A4988"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>606B1A7D</tstamp>
-    </comp>
-    <comp ref="J7">
-      <value>OSTTC042162</value>
-      <footprint>digikey-footprints:Term_Block_1x4_P5.08mm</footprint>
-      <datasheet>http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf</datasheet>
-      <fields>
-        <field name="Category">Connectors, Interconnects</field>
-        <field name="DK_Datasheet_Link">http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf</field>
-        <field name="DK_Detail_Page">/product-detail/en/on-shore-technology-inc/OSTTC042162/ED2611-ND/614560</field>
-        <field name="Description">TERM BLK 4P SIDE ENT 5.08MM PCB</field>
-        <field name="Digi-Key_PN">ED2611-ND</field>
-        <field name="Family">Terminal Blocks - Wire to Board</field>
-        <field name="MPN">OSTTC042162</field>
-        <field name="Manufacturer">On Shore Technology Inc.</field>
-        <field name="Status">Active</field>
-      </fields>
-      <libsource lib="dk_Terminal-Blocks-Wire-to-Board" part="OSTTC042162" description="TERM BLK 4P SIDE ENT 5.08MM PCB"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>606CDCDF</tstamp>
-    </comp>
-    <comp ref="J9">
-      <value>OSTTC042162</value>
-      <footprint>digikey-footprints:Term_Block_1x4_P5.08mm</footprint>
-      <datasheet>http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf</datasheet>
-      <fields>
-        <field name="Category">Connectors, Interconnects</field>
-        <field name="DK_Datasheet_Link">http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf</field>
-        <field name="DK_Detail_Page">/product-detail/en/on-shore-technology-inc/OSTTC042162/ED2611-ND/614560</field>
-        <field name="Description">TERM BLK 4P SIDE ENT 5.08MM PCB</field>
-        <field name="Digi-Key_PN">ED2611-ND</field>
-        <field name="Family">Terminal Blocks - Wire to Board</field>
-        <field name="MPN">OSTTC042162</field>
-        <field name="Manufacturer">On Shore Technology Inc.</field>
-        <field name="Status">Active</field>
-      </fields>
-      <libsource lib="dk_Terminal-Blocks-Wire-to-Board" part="OSTTC042162" description="TERM BLK 4P SIDE ENT 5.08MM PCB"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>606D0DBC</tstamp>
-    </comp>
     <comp ref="J8">
       <value>OSTTC042162</value>
       <footprint>digikey-footprints:Term_Block_1x4_P5.08mm</footprint>
@@ -195,68 +120,6 @@
       <libsource lib="AL5809-20P1-7" part="AL5809-20P1-7" description="LED Lighting Drivers LED HV Int Switch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>606FC35A</tstamp>
-    </comp>
-    <comp ref="J3">
-      <value>OSTTC022162</value>
-      <footprint>digikey-footprints:Term_Block_1x2_P5.08MM</footprint>
-      <datasheet>http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf</datasheet>
-      <fields>
-        <field name="Category">Connectors, Interconnects</field>
-        <field name="DK_Datasheet_Link">http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf</field>
-        <field name="DK_Detail_Page">/product-detail/en/on-shore-technology-inc/OSTTC022162/ED2609-ND/614558</field>
-        <field name="Description">TERM BLK 2P SIDE ENT 5.08MM PCB</field>
-        <field name="Digi-Key_PN">ED2609-ND</field>
-        <field name="Family">Terminal Blocks - Wire to Board</field>
-        <field name="MPN">OSTTC022162</field>
-        <field name="Manufacturer">On Shore Technology Inc.</field>
-        <field name="Status">Active</field>
-      </fields>
-      <libsource lib="dk_Terminal-Blocks-Wire-to-Board" part="OSTTC022162" description="TERM BLK 2P SIDE ENT 5.08MM PCB"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>607157C9</tstamp>
-    </comp>
-    <comp ref="C2">
-      <value>1 uF</value>
-      <footprint>Capacitor_THT:.1in_pitch</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60735B28</tstamp>
-    </comp>
-    <comp ref="C1">
-      <value>.1 uF</value>
-      <footprint>Capacitor_THT:.1in_pitch</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60732674</tstamp>
-    </comp>
-    <comp ref="U2">
-      <value>L293D</value>
-      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
-      <datasheet>http://www.ti.com/lit/ds/symlink/l293.pdf</datasheet>
-      <libsource lib="Driver_Motor" part="L293D" description="Quadruple Half-H Drivers"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6071B4CF</tstamp>
-    </comp>
-    <comp ref="J5">
-      <value>OSTTC022162</value>
-      <footprint>digikey-footprints:Term_Block_1x2_P5.08MM</footprint>
-      <datasheet>http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf</datasheet>
-      <fields>
-        <field name="Category">Connectors, Interconnects</field>
-        <field name="DK_Datasheet_Link">http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf</field>
-        <field name="DK_Detail_Page">/product-detail/en/on-shore-technology-inc/OSTTC022162/ED2609-ND/614558</field>
-        <field name="Description">TERM BLK 2P SIDE ENT 5.08MM PCB</field>
-        <field name="Digi-Key_PN">ED2609-ND</field>
-        <field name="Family">Terminal Blocks - Wire to Board</field>
-        <field name="MPN">OSTTC022162</field>
-        <field name="Manufacturer">On Shore Technology Inc.</field>
-        <field name="Status">Active</field>
-      </fields>
-      <libsource lib="dk_Terminal-Blocks-Wire-to-Board" part="OSTTC022162" description="TERM BLK 2P SIDE ENT 5.08MM PCB"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6078DF91</tstamp>
     </comp>
     <comp ref="J1">
       <value>61300311121</value>
@@ -306,7 +169,7 @@
     </comp>
     <comp ref="R2">
       <value>1K</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -314,7 +177,7 @@
     </comp>
     <comp ref="R3">
       <value>10K</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -347,9 +210,415 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6084772A</tstamp>
     </comp>
+    <comp ref="J12">
+      <value>Conn_02x03_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61E05229</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F9D7FF</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F9CED0</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F9C7AC</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F9BE7C</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>620E25EE</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>ATMEGA328P-AUR</value>
+      <footprint>digikey-footprints:TQFP-32_7x7mm</footprint>
+      <datasheet>http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326</datasheet>
+      <fields>
+        <field name="Category">Integrated Circuits (ICs)</field>
+        <field name="DK_Datasheet_Link">http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326</field>
+        <field name="DK_Detail_Page">/product-detail/en/microchip-technology/ATMEGA328P-AUR/ATMEGA328P-AURCT-ND/3789455</field>
+        <field name="Description">IC MCU 8BIT 32KB FLASH 32TQFP</field>
+        <field name="Digi-Key_PN">ATMEGA328P-AURCT-ND</field>
+        <field name="Family">Embedded - Microcontrollers</field>
+        <field name="MPN">ATMEGA328P-AUR</field>
+        <field name="Manufacturer">Microchip Technology</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Embedded-Microcontrollers" part="ATMEGA328P-AUR" description="IC MCU 8BIT 32KB FLASH 32TQFP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D4EA00</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>620E0F1A</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>.1 uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61DE3834</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>.1 uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61DE06D3</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61DBD868</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>22 pf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D9018A</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>22 pf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D8E602</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>16 mHz</value>
+      <footprint>Crystal:Crystal_HC49-U_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D3E37A</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x06_Male</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x06_Male" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61DDFE58</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x05_Male</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-05A_1x05_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x05_Male" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FB37FF</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>OSTTC022162</value>
+      <footprint>digikey-footprints:Term_Block_1x2_P5.08MM</footprint>
+      <datasheet>http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/on-shore-technology-inc/OSTTC022162/ED2609-ND/614558</field>
+        <field name="Description">TERM BLK 2P SIDE ENT 5.08MM PCB</field>
+        <field name="Digi-Key_PN">ED2609-ND</field>
+        <field name="Family">Terminal Blocks - Wire to Board</field>
+        <field name="MPN">OSTTC022162</field>
+        <field name="Manufacturer">On Shore Technology Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Terminal-Blocks-Wire-to-Board" part="OSTTC022162" description="TERM BLK 2P SIDE ENT 5.08MM PCB"/>
+      <sheetpath names="/MOTORS/" tstamps="/6200BC19/"/>
+      <tstamp>62048E31</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>L293D</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/l293.pdf</datasheet>
+      <libsource lib="Driver_Motor" part="L293D" description="Quadruple Half-H Drivers"/>
+      <sheetpath names="/MOTORS/" tstamps="/6200BC19/"/>
+      <tstamp>62048E3D</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>.1 uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/MOTORS/" tstamps="/6200BC19/"/>
+      <tstamp>62048E4E</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1 uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/MOTORS/" tstamps="/6200BC19/"/>
+      <tstamp>62048E54</tstamp>
+    </comp>
+    <comp ref="A1">
+      <value>Pololu_Breakout_A4988</value>
+      <footprint>Module:Pololu_Breakout-16_15.2x20.3mm</footprint>
+      <datasheet>https://www.pololu.com/product/2980/pictures</datasheet>
+      <libsource lib="Driver_Motor" part="Pololu_Breakout_A4988" description="Pololu Breakout Board, Stepper Driver A4988"/>
+      <sheetpath names="/MOTORS/" tstamps="/6200BC19/"/>
+      <tstamp>62057055</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>OSTTC042162</value>
+      <footprint>digikey-footprints:Term_Block_1x4_P5.08mm</footprint>
+      <datasheet>http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/on-shore-technology-inc/OSTTC042162/ED2611-ND/614560</field>
+        <field name="Description">TERM BLK 4P SIDE ENT 5.08MM PCB</field>
+        <field name="Digi-Key_PN">ED2611-ND</field>
+        <field name="Family">Terminal Blocks - Wire to Board</field>
+        <field name="MPN">OSTTC042162</field>
+        <field name="Manufacturer">On Shore Technology Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Terminal-Blocks-Wire-to-Board" part="OSTTC042162" description="TERM BLK 4P SIDE ENT 5.08MM PCB"/>
+      <sheetpath names="/MOTORS/" tstamps="/6200BC19/"/>
+      <tstamp>62057070</tstamp>
+    </comp>
+    <comp ref="A2">
+      <value>Pololu_Breakout_A4988</value>
+      <footprint>Module:Pololu_Breakout-16_15.2x20.3mm</footprint>
+      <datasheet>https://www.pololu.com/product/2980/pictures</datasheet>
+      <libsource lib="Driver_Motor" part="Pololu_Breakout_A4988" description="Pololu Breakout Board, Stepper Driver A4988"/>
+      <sheetpath names="/MOTORS/" tstamps="/6200BC19/"/>
+      <tstamp>6205DF74</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>OSTTC042162</value>
+      <footprint>digikey-footprints:Term_Block_1x4_P5.08mm</footprint>
+      <datasheet>http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/on-shore-technology-inc/OSTTC042162/ED2611-ND/614560</field>
+        <field name="Description">TERM BLK 4P SIDE ENT 5.08MM PCB</field>
+        <field name="Digi-Key_PN">ED2611-ND</field>
+        <field name="Family">Terminal Blocks - Wire to Board</field>
+        <field name="MPN">OSTTC042162</field>
+        <field name="Manufacturer">On Shore Technology Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Terminal-Blocks-Wire-to-Board" part="OSTTC042162" description="TERM BLK 4P SIDE ENT 5.08MM PCB"/>
+      <sheetpath names="/MOTORS/" tstamps="/6200BC19/"/>
+      <tstamp>6205DF9F</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100 uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/MOTORS/" tstamps="/6200BC19/"/>
+      <tstamp>61D60F5E</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100 uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/MOTORS/" tstamps="/6200BC19/"/>
+      <tstamp>61D6A259</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>FT232RL</value>
+      <footprint>Package_SO:SSOP-28_5.3x10.2mm_P0.65mm</footprint>
+      <datasheet>https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf</datasheet>
+      <libsource lib="Interface_USB" part="FT232RL" description="USB to Serial Interface, SSOP-28"/>
+      <sheetpath names="/USB/" tstamps="/62062FBD/"/>
+      <tstamp>6206E6AC</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>.1 uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/USB/" tstamps="/62062FBD/"/>
+      <tstamp>6206E6C1</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/USB/" tstamps="/62062FBD/"/>
+      <tstamp>6206E6E7</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/USB/" tstamps="/62062FBD/"/>
+      <tstamp>6206E6ED</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/USB/" tstamps="/62062FBD/"/>
+      <tstamp>6206E6F3</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/USB/" tstamps="/62062FBD/"/>
+      <tstamp>6206E6F9</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>USB_B</value>
+      <footprint>Connector_USB:USB_B_Lumberg_2411_02_Horizontal</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="USB_B" description="USB Type B connector"/>
+      <sheetpath names="/USB/" tstamps="/62062FBD/"/>
+      <tstamp>6206E713</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>VEML7700-TR</value>
+      <footprint>VEML7700-TR:VEML7700</footprint>
+      <datasheet>http://www.vishay.com/docs/84286/veml7700.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">VEML7700-TR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/veml7700-tr/vishay</field>
+        <field name="Description">High Accuracy Ambient Light Sensor with I2C Interface</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">VEML7700-TR</field>
+        <field name="Mouser Part Number">78-VEML7700-TR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VEML7700-TR?qs=BcfjnG7NVaWcZHs8m27pyQ%3D%3D</field>
+      </fields>
+      <libsource lib="VEML7700-TR" part="VEML7700-TR" description="High Accuracy Ambient Light Sensor with I2C Interface"/>
+      <sheetpath names="/PHOTOMETER/" tstamps="/62072BBC/"/>
+      <tstamp>62075D53</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z9.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/PHOTOMETER/" tstamps="/62072BBC/"/>
+      <tstamp>62075D59</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>Conn_01x06_Male</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x06_Male" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/PHOTOMETER/" tstamps="/62072BBC/"/>
+      <tstamp>62075D66</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>200K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/PHOTOMETER/" tstamps="/62072BBC/"/>
+      <tstamp>62075D6F</tstamp>
+    </comp>
+    <comp ref="H5">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/PHOTOMETER/" tstamps="/62072BBC/"/>
+      <tstamp>6207BB37</tstamp>
+    </comp>
+    <comp ref="H8">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/PHOTOMETER/" tstamps="/62072BBC/"/>
+      <tstamp>6207BB43</tstamp>
+    </comp>
+    <comp ref="H7">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/PHOTOMETER/" tstamps="/62072BBC/"/>
+      <tstamp>6207BB49</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>TCA39306DCUR</value>
+      <footprint>TCA39306DCUR:TCA39306DCUR</footprint>
+      <libsource lib="2022-01-02_10-46-29" part="TCA39306DCUR" description=""/>
+      <sheetpath names="/PHOTOMETER/" tstamps="/62072BBC/"/>
+      <tstamp>621082C6</tstamp>
+    </comp>
+    <comp ref="H6">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/PHOTOMETER/" tstamps="/62072BBC/"/>
+      <tstamp>6207BB3D</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>GW12RCH</value>
+      <footprint>GW12RCH:GW12RCH</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/295/GW-1663576.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">GW12RCH</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/gw12rch/nkk-switches</field>
+        <field name="Description">Switch Rocker ON None ON SPDT PC Pins Curved Rocker 0.1A 28VAC 28VDC 0.4VA 50000Cycles</field>
+        <field name="Height">5.4</field>
+        <field name="Manufacturer_Name">NKK Switches</field>
+        <field name="Manufacturer_Part_Number">GW12RCH</field>
+        <field name="Mouser Part Number">633-GW12RCH</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/NKK-Switches/GW12RCH?qs=4EnmSMTL3HMGaO7owX5AXQ%3D%3D</field>
+      </fields>
+      <libsource lib="GW12RCH" part="GW12RCH" description="Switch Rocker ON None ON SPDT PC Pins Curved Rocker 0.1A 28VAC 28VDC 0.4VA 50000Cycles"/>
+      <sheetpath names="/POWER/" tstamps="/6207C941/"/>
+      <tstamp>62086A6A</tstamp>
+    </comp>
     <comp ref="Q3">
       <value>FQP47P06</value>
-      <footprint>FQP47P06:TO254P1067X483X2286-3</footprint>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
       <datasheet>FQP47P06</datasheet>
       <fields>
         <field name="Field4">None</field>
@@ -359,11 +628,189 @@
         <field name="Field8">Unavailable</field>
       </fields>
       <libsource lib="FQP47P06" part="FQP47P06" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>606BD53B</tstamp>
+      <sheetpath names="/POWER/" tstamps="/6207C941/"/>
+      <tstamp>62086A80</tstamp>
+    </comp>
+    <comp ref="J13">
+      <value>PJ-202A</value>
+      <footprint>digikey-footprints:Barrel_Jack_5.5mmODx2.1mmID_PJ-202A</footprint>
+      <datasheet>https://www.cui.com/product/resource/digikeypdf/pj-202a.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">https://www.cui.com/product/resource/digikeypdf/pj-202a.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/cui-inc/PJ-202A/CP-202A-ND/252007</field>
+        <field name="Description">CONN PWR JACK 2X5.5MM KINKED PIN</field>
+        <field name="Digi-Key_PN">CP-202A-ND</field>
+        <field name="Family">Barrel - Power Connectors</field>
+        <field name="MPN">PJ-202A</field>
+        <field name="Manufacturer">CUI Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Barrel-Power-Connectors" part="PJ-202A" description="CONN PWR JACK 2X5.5MM KINKED PIN"/>
+      <sheetpath names="/POWER/" tstamps="/6207C941/"/>
+      <tstamp>62086AB3</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>TL2575HV-05IKV</value>
+      <footprint>Package_TO_SOT_THT:TO-220-5_P3.4x3.7mm_StaggerEven_Lead3.8mm_Vertical</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/tl2575hv-05</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TL2575HV-05IKV</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tl2575hv-05ikv/texas-instruments?region=nac</field>
+        <field name="Description">1-A Simple Step-Down Switching Voltage Regulators</field>
+        <field name="Height">4.7</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TL2575HV-05IKV</field>
+        <field name="Mouser Part Number">595-TL2575HV-05IKV</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=595-TL2575HV-05IKV</field>
+      </fields>
+      <libsource lib="TL2575HV-05IKV" part="TL2575HV-05IKV" description="1-A Simple Step-Down Switching Voltage Regulators"/>
+      <sheetpath names="/POWER/" tstamps="/6207C941/"/>
+      <tstamp>6208BBD0</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>330 uH</value>
+      <footprint>Inductor_THT:L_Radial_D12.0mm_P6.00mm_MuRATA_1900R</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Field4">118-6100-331K-RC-ND</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/POWER/" tstamps="/6207C941/"/>
+      <tstamp>6208BBE8</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N5819</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88525/1n5817.pdf</datasheet>
+      <libsource lib="Diode" part="1N5819" description="40V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <sheetpath names="/POWER/" tstamps="/6207C941/"/>
+      <tstamp>6208BBEE</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100 uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/POWER/" tstamps="/6207C941/"/>
+      <tstamp>6208BC11</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>330 uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/POWER/" tstamps="/6207C941/"/>
+      <tstamp>6208BC17</tstamp>
+    </comp>
+    <comp ref="S2">
+      <value>PEC11R-4215F-S0024</value>
+      <footprint>digikey-footprints:Rotary_Encoder_Switched_PEC11R</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/PEC11R.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">https://www.bourns.com/docs/Product-Datasheets/PEC11R.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/bourns-inc/PEC11R-4215F-S0024/PEC11R-4215F-S0024-ND/4499665</field>
+        <field name="Description">ROTARY ENCODER MECHANICAL 24PPR</field>
+        <field name="Digi-Key_PN">PEC11R-4215F-S0024-ND</field>
+        <field name="Family">Encoders</field>
+        <field name="MPN">PEC11R-4215F-S0024</field>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Encoders" part="PEC11R-4215F-S0024" description="ROTARY ENCODER MECHANICAL 24PPR"/>
+      <sheetpath names="/BUTTON/" tstamps="/6208DFF2/"/>
+      <tstamp>62093D02</tstamp>
+    </comp>
+    <comp ref="J14">
+      <value>Conn_01x05_Male</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-05A_1x05_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x05_Male" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/BUTTON/" tstamps="/6208DFF2/"/>
+      <tstamp>62093D0A</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/BUTTON/" tstamps="/6208DFF2/"/>
+      <tstamp>62093D12</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/BUTTON/" tstamps="/6208DFF2/"/>
+      <tstamp>62093D20</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/BUTTON/" tstamps="/6208DFF2/"/>
+      <tstamp>62093D26</tstamp>
+    </comp>
+    <comp ref="H9">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/BUTTON/" tstamps="/6208DFF2/"/>
+      <tstamp>62093D35</tstamp>
+    </comp>
+    <comp ref="H10">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/BUTTON/" tstamps="/6208DFF2/"/>
+      <tstamp>62093D3B</tstamp>
+    </comp>
+    <comp ref="H12">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/BUTTON/" tstamps="/6208DFF2/"/>
+      <tstamp>62093D41</tstamp>
+    </comp>
+    <comp ref="H11">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/BUTTON/" tstamps="/6208DFF2/"/>
+      <tstamp>62093D47</tstamp>
     </comp>
   </components>
   <libparts>
+    <libpart lib="2022-01-02_10-46-29" part="TCA39306DCUR">
+      <footprints>
+        <fp>DCU0008A-IPC_A</fp>
+        <fp>DCU0008A-IPC_B</fp>
+        <fp>DCU0008A-IPC_C</fp>
+        <fp>DCU0008A-MFG</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TCA39306DCUR</field>
+        <field name="Footprint">DCU0008A-IPC_A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VREF1" type="power_in"/>
+        <pin num="3" name="SCL1" type="BiDi"/>
+        <pin num="4" name="SDA1" type="BiDi"/>
+        <pin num="5" name="SDA2" type="BiDi"/>
+        <pin num="6" name="SCL2" type="BiDi"/>
+        <pin num="7" name="VREF2" type="power_in"/>
+        <pin num="8" name="EN" type="input"/>
+      </pins>
+    </libpart>
     <libpart lib="AL5809-20P1-7" part="AL5809-20P1-7">
       <description>LED Lighting Drivers LED HV Int Switch</description>
       <docs>https://www.diodes.com/assets/Datasheets/AL5809.pdf</docs>
@@ -386,6 +833,80 @@
         <pin num="2" name="OUT" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Connector" part="Conn_01x05_Male">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x06_Male">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B">
+      <description>USB Type B connector</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="BiDi"/>
+        <pin num="3" name="D+" type="BiDi"/>
+        <pin num="4" name="GND" type="power_out"/>
+        <pin num="5" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x03_Odd_Even">
+      <description>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Device" part="C">
       <description>Unpolarized capacitor</description>
       <docs>~</docs>
@@ -401,6 +922,86 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Device" part="R">
       <description>Resistor</description>
       <docs>~</docs>
@@ -414,6 +1015,31 @@
       <pins>
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="SB120">
+      <aliases>
+        <alias>SB130</alias>
+        <alias>SB140</alias>
+        <alias>SB150</alias>
+        <alias>SB160</alias>
+        <alias>1N5817</alias>
+        <alias>1N5818</alias>
+        <alias>1N5819</alias>
+      </aliases>
+      <description>20V 1A Schottky Barrier Rectifier Diode, DO-41</description>
+      <docs>http://www.diodes.com/_files/datasheets/ds23022.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SB120</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Driver_Motor" part="L293">
@@ -497,68 +1123,108 @@
         <pin num="3" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MCU_Module" part="Arduino_Nano_v2.x">
-      <aliases>
-        <alias>Arduino_Nano_v3.x</alias>
-      </aliases>
-      <description>Arduino Nano v2.x</description>
-      <docs>https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf</docs>
-      <footprints>
-        <fp>Arduino*Nano*</fp>
-      </footprints>
+    <libpart lib="GW12RCH" part="GW12RCH">
+      <description>Switch Rocker ON None ON SPDT PC Pins Curved Rocker 0.1A 28VAC 28VDC 0.4VA 50000Cycles</description>
+      <docs>https://www.mouser.com/datasheet/2/295/GW-1663576.pdf</docs>
       <fields>
-        <field name="Reference">A</field>
-        <field name="Value">Arduino_Nano_v2.x</field>
-        <field name="Footprint">Module:Arduino_Nano</field>
+        <field name="Reference">S</field>
+        <field name="Value">GW12RCH</field>
+        <field name="Footprint">GW12RCH</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/295/GW-1663576.pdf</field>
+        <field name="Description">Switch Rocker ON None ON SPDT PC Pins Curved Rocker 0.1A 28VAC 28VDC 0.4VA 50000Cycles</field>
+        <field name="Height">5.4</field>
+        <field name="Manufacturer_Name">NKK Switches</field>
+        <field name="Manufacturer_Part_Number">GW12RCH</field>
+        <field name="Mouser Part Number">633-GW12RCH</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/NKK-Switches/GW12RCH?qs=4EnmSMTL3HMGaO7owX5AXQ%3D%3D</field>
+        <field name="Arrow Part Number">GW12RCH</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/gw12rch/nkk-switches</field>
       </fields>
       <pins>
-        <pin num="1" name="D1/TX" type="BiDi"/>
-        <pin num="2" name="D0/RX" type="BiDi"/>
-        <pin num="3" name="~RESET" type="input"/>
-        <pin num="4" name="GND" type="power_in"/>
-        <pin num="5" name="D2" type="BiDi"/>
-        <pin num="6" name="D3" type="BiDi"/>
-        <pin num="7" name="D4" type="BiDi"/>
-        <pin num="8" name="D5" type="BiDi"/>
-        <pin num="9" name="D6" type="BiDi"/>
-        <pin num="10" name="D7" type="BiDi"/>
-        <pin num="11" name="D8" type="BiDi"/>
-        <pin num="12" name="D9" type="BiDi"/>
-        <pin num="13" name="D10" type="BiDi"/>
-        <pin num="14" name="D11" type="BiDi"/>
-        <pin num="15" name="D12" type="BiDi"/>
-        <pin num="16" name="D13" type="BiDi"/>
-        <pin num="17" name="3V3" type="power_out"/>
-        <pin num="18" name="AREF" type="input"/>
-        <pin num="19" name="A0" type="BiDi"/>
-        <pin num="20" name="A1" type="BiDi"/>
-        <pin num="21" name="A2" type="BiDi"/>
-        <pin num="22" name="A3" type="BiDi"/>
-        <pin num="23" name="A4" type="BiDi"/>
-        <pin num="24" name="A5" type="BiDi"/>
-        <pin num="25" name="A6" type="BiDi"/>
-        <pin num="26" name="A7" type="BiDi"/>
-        <pin num="27" name="+5V" type="power_out"/>
-        <pin num="28" name="~RESET" type="input"/>
-        <pin num="29" name="GND" type="power_in"/>
-        <pin num="30" name="VIN" type="power_in"/>
+        <pin num="4" name="NO" type="passive"/>
+        <pin num="5" name="COM" type="passive"/>
+        <pin num="6" name="NC" type="NotConnected"/>
+        <pin num="MH1" name="MH1" type="passive"/>
+        <pin num="MH2" name="MH2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Reference_Voltage" part="LM329xZ">
-      <description>6.9V Precision Voltage Reference, TO-92</description>
-      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/129329fd.pdf</docs>
+    <libpart lib="Interface_USB" part="FT232RL">
+      <description>USB to Serial Interface, SSOP-28</description>
+      <docs>https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf</docs>
       <footprints>
-        <fp>TO?92*</fp>
+        <fp>SSOP*5.3x10.2mm*P0.65mm*</fp>
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">LM329xZ</field>
-        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Value">FT232RL</field>
+        <field name="Footprint">Package_SO:SSOP-28_5.3x10.2mm_P0.65mm</field>
       </fields>
       <pins>
-        <pin num="1" name="NC" type="NotConnected"/>
-        <pin num="2" name="K" type="passive"/>
-        <pin num="3" name="A" type="passive"/>
+        <pin num="1" name="TXD" type="output"/>
+        <pin num="2" name="DTR" type="output"/>
+        <pin num="3" name="RTS" type="output"/>
+        <pin num="4" name="VCCIO" type="power_in"/>
+        <pin num="5" name="RXD" type="input"/>
+        <pin num="6" name="RI" type="input"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="9" name="DCR" type="input"/>
+        <pin num="10" name="DCD" type="input"/>
+        <pin num="11" name="CTS" type="input"/>
+        <pin num="12" name="CBUS4" type="BiDi"/>
+        <pin num="13" name="CBUS2" type="BiDi"/>
+        <pin num="14" name="CBUS3" type="BiDi"/>
+        <pin num="15" name="USBD+" type="BiDi"/>
+        <pin num="16" name="USBD-" type="BiDi"/>
+        <pin num="17" name="3V3OUT" type="power_out"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="~RESET~" type="input"/>
+        <pin num="20" name="VCC" type="power_in"/>
+        <pin num="21" name="GND" type="power_in"/>
+        <pin num="22" name="CBUS1" type="BiDi"/>
+        <pin num="23" name="CBUS0" type="BiDi"/>
+        <pin num="25" name="AGND" type="power_in"/>
+        <pin num="26" name="TEST" type="input"/>
+        <pin num="27" name="OSCI" type="input"/>
+        <pin num="28" name="OSCO" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="TL2575HV-05IKV" part="TL2575HV-05IKV">
+      <description>1-A Simple Step-Down Switching Voltage Regulators</description>
+      <docs>http://www.ti.com/lit/gpn/tl2575hv-05</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">TL2575HV-05IKV</field>
+        <field name="Footprint">TO170P470X1016X2338-5P</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/tl2575hv-05</field>
+        <field name="Description">1-A Simple Step-Down Switching Voltage Regulators</field>
+        <field name="Height">4.7</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TL2575HV-05IKV</field>
+        <field name="Mouser Part Number">595-TL2575HV-05IKV</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=595-TL2575HV-05IKV</field>
+        <field name="Arrow Part Number">TL2575HV-05IKV</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tl2575hv-05ikv/texas-instruments?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="passive"/>
+        <pin num="2" name="OUTPUT" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="FEEDBACK" type="passive"/>
+        <pin num="5" name="~ON~/OFF" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Transistor_BJT" part="2N3906">
@@ -566,7 +1232,7 @@
         <alias>2N3905</alias>
       </aliases>
       <description>-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92</description>
-      <docs>https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf</docs>
+      <docs>https://www.onsemi.com/pub/Collateral/2N3906-D.PDF</docs>
       <footprints>
         <fp>TO?92*</fp>
       </footprints>
@@ -593,7 +1259,7 @@
         <alias>IPP060N06N</alias>
       </aliases>
       <description>30A Id, 50V Vds, N-Channel Power MOSFET, TO-220</description>
-      <docs>http://www.fairchildsemi.com/ds/BU/BUZ11.pdf</docs>
+      <docs>https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/BUZ11.pdf</docs>
       <footprints>
         <fp>TO?220*</fp>
       </footprints>
@@ -606,6 +1272,29 @@
         <pin num="1" name="G" type="input"/>
         <pin num="2" name="D" type="passive"/>
         <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="VEML7700-TR" part="VEML7700-TR">
+      <description>High Accuracy Ambient Light Sensor with I2C Interface</description>
+      <docs>http://www.vishay.com/docs/84286/veml7700.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">VEML7700-TR</field>
+        <field name="Footprint">VEML7700</field>
+        <field name="Datasheet">http://www.vishay.com/docs/84286/veml7700.pdf</field>
+        <field name="Description">High Accuracy Ambient Light Sensor with I2C Interface</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">VEML7700-TR</field>
+        <field name="Mouser Part Number">78-VEML7700-TR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VEML7700-TR?qs=BcfjnG7NVaWcZHs8m27pyQ%3D%3D</field>
+        <field name="Arrow Part Number">VEML7700-TR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/veml7700-tr/vishay</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCL" type="passive"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="SDA" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="dk_Barrel-Power-Connectors" part="PJ-202A">
@@ -632,33 +1321,84 @@
         <pin num="3" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="dk_Optical-Sensors-Ambient-Light-IR-UV-Sensors" part="OPT101P">
-      <description>SENSOR OPT 650NM AMBIENT 8DIP</description>
-      <docs>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fopt101</docs>
+    <libpart lib="dk_Embedded-Microcontrollers" part="ATMEGA328P-AUR">
+      <description>IC MCU 8BIT 32KB FLASH 32TQFP</description>
+      <docs>http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326</docs>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">OPT101P</field>
-        <field name="Footprint">digikey-footprints:DIP-8_W7.62mm</field>
-        <field name="Datasheet">http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fopt101</field>
-        <field name="Digi-Key_PN">296-23090-5-ND</field>
-        <field name="MPN">OPT101P</field>
-        <field name="Category">Sensors, Transducers</field>
-        <field name="Family">Optical Sensors - Ambient Light, IR, UV Sensors</field>
-        <field name="DK_Datasheet_Link">http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fopt101</field>
-        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/OPT101P/296-23090-5-ND/251177</field>
-        <field name="Description">SENSOR OPT 650NM AMBIENT 8DIP</field>
-        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Value">ATMEGA328P-AUR</field>
+        <field name="Footprint">digikey-footprints:TQFP-32_7x7mm</field>
+        <field name="Datasheet">http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326</field>
+        <field name="Digi-Key_PN">ATMEGA328P-AURCT-ND</field>
+        <field name="MPN">ATMEGA328P-AUR</field>
+        <field name="Category">Integrated Circuits (ICs)</field>
+        <field name="Family">Embedded - Microcontrollers</field>
+        <field name="DK_Datasheet_Link">http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326</field>
+        <field name="DK_Detail_Page">/product-detail/en/microchip-technology/ATMEGA328P-AUR/ATMEGA328P-AURCT-ND/3789455</field>
+        <field name="Description">IC MCU 8BIT 32KB FLASH 32TQFP</field>
+        <field name="Manufacturer">Microchip Technology</field>
         <field name="Status">Active</field>
       </fields>
       <pins>
-        <pin num="1" name="VS" type="power_in"/>
-        <pin num="2" name="-IN" type="input"/>
-        <pin num="3" name="V-" type="power_in"/>
-        <pin num="4" name="FB" type="input"/>
-        <pin num="5" name="OUT" type="output"/>
-        <pin num="6" name="NC" type="NotConnected"/>
-        <pin num="7" name="NC" type="NotConnected"/>
-        <pin num="8" name="COM" type="input"/>
+        <pin num="1" name="PD3" type="BiDi"/>
+        <pin num="2" name="PD4" type="BiDi"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="VCC" type="power_in"/>
+        <pin num="7" name="PB6" type="BiDi"/>
+        <pin num="8" name="PB7" type="BiDi"/>
+        <pin num="9" name="PD5" type="BiDi"/>
+        <pin num="10" name="PD6" type="BiDi"/>
+        <pin num="11" name="PD7" type="BiDi"/>
+        <pin num="12" name="PB0" type="BiDi"/>
+        <pin num="13" name="PB1" type="BiDi"/>
+        <pin num="14" name="PB2" type="BiDi"/>
+        <pin num="15" name="PB3" type="BiDi"/>
+        <pin num="16" name="PB4" type="BiDi"/>
+        <pin num="17" name="PB5" type="BiDi"/>
+        <pin num="18" name="AVCC" type="power_in"/>
+        <pin num="19" name="ADC6" type="input"/>
+        <pin num="20" name="AREF" type="input"/>
+        <pin num="21" name="GND" type="power_in"/>
+        <pin num="22" name="ADC7" type="input"/>
+        <pin num="23" name="PC0" type="BiDi"/>
+        <pin num="24" name="PC1" type="BiDi"/>
+        <pin num="25" name="PC2" type="BiDi"/>
+        <pin num="26" name="PC3" type="BiDi"/>
+        <pin num="27" name="PC4" type="BiDi"/>
+        <pin num="28" name="PC5" type="BiDi"/>
+        <pin num="29" name="PC6" type="BiDi"/>
+        <pin num="30" name="PD0" type="BiDi"/>
+        <pin num="31" name="PD1" type="BiDi"/>
+        <pin num="32" name="PD2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Encoders" part="PEC11R-4215F-S0024">
+      <description>ROTARY ENCODER MECHANICAL 24PPR</description>
+      <docs>https://www.bourns.com/docs/Product-Datasheets/PEC11R.pdf</docs>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">PEC11R-4215F-S0024</field>
+        <field name="Footprint">digikey-footprints:Rotary_Encoder_Switched_PEC11R</field>
+        <field name="Datasheet">https://www.bourns.com/docs/Product-Datasheets/PEC11R.pdf</field>
+        <field name="Digi-Key_PN">PEC11R-4215F-S0024-ND</field>
+        <field name="MPN">PEC11R-4215F-S0024</field>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="Family">Encoders</field>
+        <field name="DK_Datasheet_Link">https://www.bourns.com/docs/Product-Datasheets/PEC11R.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/bourns-inc/PEC11R-4215F-S0024/PEC11R-4215F-S0024-ND/4499665</field>
+        <field name="Description">ROTARY ENCODER MECHANICAL 24PPR</field>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="BiDi"/>
+        <pin num="2" name="~" type="BiDi"/>
+        <pin num="3" name="~" type="unspc"/>
+        <pin num="A" name="CH_A" type="BiDi"/>
+        <pin num="B" name="CH_B" type="BiDi"/>
+        <pin num="C" name="COM" type="input"/>
       </pins>
     </libpart>
     <libpart lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="61300311121">
@@ -735,23 +1475,41 @@
     </libpart>
   </libparts>
   <libraries>
+    <library logical="2022-01-02_10-46-29">
+      <uri>/Users/sreenieadara/Documents/2018-opensourcebioreactor/electrical/BioreactorPCB/Components/ul_TCA39306DCUR/KiCAD/2022-01-02_10-46-21/2022-01-02_10-46-29.lib</uri>
+    </library>
     <library logical="AL5809-20P1-7">
-      <uri>/Users/sreenivaseadara/Documents/2018-opensourcebioreactor/electrical/BioreactorPCB/Components/LIB_AL5809-20P1-7/AL5809-20P1-7/KiCad/AL5809-20P1-7.lib</uri>
+      <uri>/Users/sreenieadara/Documents/2018-opensourcebioreactor/electrical/BioreactorPCB/Components/LIB_AL5809-20P1-7/AL5809-20P1-7/KiCad/AL5809-20P1-7.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/Library/Application Support/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/Library/Application Support/kicad/library/Connector_Generic.lib</uri>
     </library>
     <library logical="Device">
       <uri>/Library/Application Support/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/Library/Application Support/kicad/library/Diode.lib</uri>
     </library>
     <library logical="Driver_Motor">
       <uri>/Library/Application Support/kicad/library/Driver_Motor.lib</uri>
     </library>
     <library logical="FQP47P06">
-      <uri>/Users/sreenivaseadara/Documents/2018-opensourcebioreactor/electrical/BioreactorPCB/Components/FQP47P06/FQP47P06.lib</uri>
+      <uri>/Users/sreenieadara/Documents/2018-opensourcebioreactor/electrical/BioreactorPCB/Components/FQP47P06/FQP47P06.lib</uri>
     </library>
-    <library logical="MCU_Module">
-      <uri>/Library/Application Support/kicad/library/MCU_Module.lib</uri>
+    <library logical="GW12RCH">
+      <uri>/Users/sreenieadara/Documents/2018-opensourcebioreactor/electrical/BioreactorPCB/Components/LIB_GW12RCH/GW12RCH/KiCad/GW12RCH.lib</uri>
     </library>
-    <library logical="Reference_Voltage">
-      <uri>/Library/Application Support/kicad/library/Reference_Voltage.lib</uri>
+    <library logical="Interface_USB">
+      <uri>/Library/Application Support/kicad/library/Interface_USB.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Library/Application Support/kicad/library/Mechanical.lib</uri>
+    </library>
+    <library logical="TL2575HV-05IKV">
+      <uri>/Users/sreenieadara/Documents/2018-opensourcebioreactor/electrical/BioreactorPCB/Components/LIB_TL2575HV-05IKV/TL2575HV-05IKV/KiCad/TL2575HV-05IKV.lib</uri>
     </library>
     <library logical="Transistor_BJT">
       <uri>/Library/Application Support/kicad/library/Transistor_BJT.lib</uri>
@@ -759,302 +1517,494 @@
     <library logical="Transistor_FET">
       <uri>/Library/Application Support/kicad/library/Transistor_FET.lib</uri>
     </library>
-    <library logical="dk_Barrel-Power-Connectors">
-      <uri>/Users/sreenivaseadara/digikey-kicad-library-master/digikey-symbols/dk_Barrel-Power-Connectors.lib</uri>
+    <library logical="VEML7700-TR">
+      <uri>/Users/sreenieadara/Documents/2018-opensourcebioreactor/electrical/BioreactorPCB/Components/LIB_VEML7700-TR/VEML7700-TR/KiCad/VEML7700-TR.lib</uri>
     </library>
-    <library logical="dk_Optical-Sensors-Ambient-Light-IR-UV-Sensors">
-      <uri>/Users/sreenivaseadara/digikey-kicad-library-master/digikey-symbols/dk_Optical-Sensors-Ambient-Light-IR-UV-Sensors.lib</uri>
+    <library logical="dk_Barrel-Power-Connectors">
+      <uri>/Users/sreenieadara/Documents/digikey-kicad-library/digikey-symbols/dk_Barrel-Power-Connectors.lib</uri>
+    </library>
+    <library logical="dk_Embedded-Microcontrollers">
+      <uri>/Users/sreenieadara/Documents/digikey-kicad-library/digikey-symbols/dk_Embedded-Microcontrollers.lib</uri>
+    </library>
+    <library logical="dk_Encoders">
+      <uri>/Users/sreenieadara/Documents/digikey-kicad-library/digikey-symbols/dk_Encoders.lib</uri>
     </library>
     <library logical="dk_Rectangular-Connectors-Headers-Male-Pins">
-      <uri>/Users/sreenivaseadara/digikey-kicad-library-master/digikey-symbols/dk_Rectangular-Connectors-Headers-Male-Pins.lib</uri>
+      <uri>/Users/sreenieadara/Documents/digikey-kicad-library/digikey-symbols/dk_Rectangular-Connectors-Headers-Male-Pins.lib</uri>
     </library>
     <library logical="dk_Terminal-Blocks-Wire-to-Board">
-      <uri>/Users/sreenivaseadara/digikey-kicad-library-master/digikey-symbols/dk_Terminal-Blocks-Wire-to-Board.lib</uri>
+      <uri>/Users/sreenieadara/Documents/digikey-kicad-library/digikey-symbols/dk_Terminal-Blocks-Wire-to-Board.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(U1-Pad4)">
-      <node ref="U1" pin="4"/>
-    </net>
-    <net code="2" name="Net-(U1-Pad6)">
-      <node ref="U1" pin="6"/>
-    </net>
-    <net code="3" name="Net-(U1-Pad7)">
-      <node ref="U1" pin="7"/>
-    </net>
-    <net code="4" name="Net-(U1-Pad8)">
-      <node ref="U1" pin="8"/>
-    </net>
-    <net code="5" name="PHOTO_OUT">
-      <node ref="U1" pin="5"/>
-      <node ref="R1" pin="1"/>
-      <node ref="A2" pin="19"/>
-    </net>
-    <net code="6" name="Net-(R1-Pad2)">
-      <node ref="U1" pin="2"/>
-      <node ref="R1" pin="2"/>
-    </net>
-    <net code="7" name="+5V">
-      <node ref="J2" pin="2"/>
-      <node ref="J1" pin="2"/>
-      <node ref="Q1" pin="1"/>
-      <node ref="U1" pin="1"/>
-      <node ref="C1" pin="1"/>
-      <node ref="A2" pin="27"/>
+    <net code="1" name="+5V">
       <node ref="J8" pin="2"/>
-      <node ref="A3" pin="2"/>
-      <node ref="A1" pin="2"/>
-      <node ref="U2" pin="16"/>
-    </net>
-    <net code="8" name="GND">
-      <node ref="C2" pin="1"/>
-      <node ref="Q2" pin="3"/>
-      <node ref="J4" pin="2"/>
-      <node ref="J4" pin="3"/>
-      <node ref="U2" pin="12"/>
-      <node ref="A2" pin="29"/>
-      <node ref="J8" pin="1"/>
-      <node ref="Q3" pin="1"/>
-      <node ref="U2" pin="13"/>
-      <node ref="A1" pin="1"/>
-      <node ref="J3" pin="1"/>
-      <node ref="C1" pin="2"/>
-      <node ref="U3" pin="3"/>
-      <node ref="U1" pin="3"/>
-      <node ref="A1" pin="7"/>
-      <node ref="A3" pin="1"/>
-      <node ref="J2" pin="3"/>
-      <node ref="J1" pin="3"/>
-      <node ref="A3" pin="7"/>
-      <node ref="A2" pin="4"/>
+      <node ref="C9" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="Q4" pin="4"/>
+      <node ref="D1" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J2" pin="2"/>
       <node ref="U2" pin="4"/>
-      <node ref="U2" pin="5"/>
-      <node ref="U2" pin="7"/>
-    </net>
-    <net code="9" name="Net-(A2-Pad1)">
-      <node ref="A2" pin="1"/>
-    </net>
-    <net code="10" name="Net-(A2-Pad10)">
-      <node ref="A2" pin="10"/>
-      <node ref="U2" pin="1"/>
-    </net>
-    <net code="11" name="Net-(A2-Pad13)">
-      <node ref="A2" pin="13"/>
-    </net>
-    <net code="12" name="Net-(A2-Pad14)">
-      <node ref="A2" pin="14"/>
-    </net>
-    <net code="13" name="Net-(A2-Pad15)">
-      <node ref="A2" pin="15"/>
-    </net>
-    <net code="14" name="Net-(A2-Pad17)">
-      <node ref="A2" pin="17"/>
-    </net>
-    <net code="15" name="Net-(A2-Pad18)">
-      <node ref="R4" pin="2"/>
-      <node ref="A2" pin="18"/>
-    </net>
-    <net code="16" name="Net-(A2-Pad2)">
+      <node ref="U2" pin="20"/>
+      <node ref="Q1" pin="1"/>
       <node ref="A2" pin="2"/>
+      <node ref="A1" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="16"/>
+      <node ref="J3" pin="5"/>
+      <node ref="J4" pin="6"/>
+      <node ref="R7" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="J12" pin="2"/>
+      <node ref="U3" pin="6"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U3" pin="20"/>
+      <node ref="U3" pin="18"/>
     </net>
-    <net code="17" name="Net-(A2-Pad21)">
-      <node ref="A2" pin="21"/>
-    </net>
-    <net code="18" name="Net-(A2-Pad22)">
-      <node ref="A2" pin="22"/>
-    </net>
-    <net code="19" name="Net-(A2-Pad25)">
-      <node ref="A2" pin="25"/>
-    </net>
-    <net code="20" name="Net-(A2-Pad26)">
-      <node ref="A2" pin="26"/>
-    </net>
-    <net code="21" name="Net-(A2-Pad28)">
-      <node ref="A2" pin="28"/>
-    </net>
-    <net code="22" name="Net-(A2-Pad3)">
-      <node ref="A2" pin="3"/>
-    </net>
-    <net code="23" name="Net-(A1-Pad16)">
-      <node ref="A1" pin="16"/>
+    <net code="2" name="GND">
+      <node ref="J8" pin="1"/>
+      <node ref="J10" pin="4"/>
+      <node ref="J10" pin="5"/>
+      <node ref="H4" pin="1"/>
+      <node ref="H3" pin="1"/>
+      <node ref="H2" pin="1"/>
+      <node ref="H1" pin="1"/>
+      <node ref="J12" pin="6"/>
+      <node ref="S1" pin="MH1"/>
+      <node ref="U3" pin="21"/>
+      <node ref="U1" pin="4"/>
+      <node ref="S1" pin="MH2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="7"/>
+      <node ref="J1" pin="3"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U1" pin="13"/>
+      <node ref="J2" pin="3"/>
+      <node ref="U3" pin="5"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="U1" pin="12"/>
+      <node ref="J13" pin="2"/>
+      <node ref="J13" pin="3"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="Q4" pin="5"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U2" pin="25"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U2" pin="21"/>
+      <node ref="C7" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="U2" pin="18"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="J4" pin="4"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="J3" pin="4"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="1"/>
       <node ref="A2" pin="7"/>
+      <node ref="A2" pin="1"/>
+      <node ref="A1" pin="7"/>
+      <node ref="A1" pin="1"/>
     </net>
-    <net code="24" name="Net-(A1-Pad15)">
-      <node ref="A1" pin="15"/>
-      <node ref="A2" pin="8"/>
-    </net>
-    <net code="25" name="Net-(U3-Pad1)">
-      <node ref="U3" pin="1"/>
-    </net>
-    <net code="26" name="Net-(R4-Pad1)">
-      <node ref="R5" pin="2"/>
-      <node ref="R4" pin="1"/>
-    </net>
-    <net code="27" name="Net-(R5-Pad1)">
-      <node ref="R6" pin="2"/>
-      <node ref="R5" pin="1"/>
-      <node ref="U3" pin="2"/>
-    </net>
-    <net code="28" name="Net-(A1-Pad10)">
-      <node ref="A1" pin="10"/>
-    </net>
-    <net code="29" name="Net-(A1-Pad11)">
-      <node ref="A1" pin="11"/>
-    </net>
-    <net code="30" name="Net-(A1-Pad12)">
-      <node ref="A1" pin="12"/>
-    </net>
-    <net code="31" name="Net-(A1-Pad13)">
-      <node ref="A1" pin="13"/>
-    </net>
-    <net code="32" name="Net-(A1-Pad14)">
-      <node ref="A1" pin="14"/>
-    </net>
-    <net code="33" name="Net-(A1-Pad9)">
-      <node ref="A1" pin="9"/>
-    </net>
-    <net code="34" name="Net-(A3-Pad10)">
-      <node ref="A3" pin="10"/>
-    </net>
-    <net code="35" name="Net-(A3-Pad11)">
-      <node ref="A3" pin="11"/>
-    </net>
-    <net code="36" name="Net-(A3-Pad12)">
-      <node ref="A3" pin="12"/>
-    </net>
-    <net code="37" name="Net-(A3-Pad13)">
-      <node ref="A3" pin="13"/>
-    </net>
-    <net code="38" name="Net-(A3-Pad14)">
-      <node ref="A3" pin="14"/>
-    </net>
-    <net code="39" name="Net-(A3-Pad9)">
-      <node ref="A3" pin="9"/>
-    </net>
-    <net code="40" name="Net-(A1-Pad6)">
-      <node ref="A1" pin="6"/>
-      <node ref="J7" pin="1"/>
-    </net>
-    <net code="41" name="Net-(A1-Pad5)">
-      <node ref="J7" pin="2"/>
-      <node ref="A1" pin="5"/>
-    </net>
-    <net code="42" name="Net-(A1-Pad4)">
-      <node ref="A1" pin="4"/>
-      <node ref="J7" pin="3"/>
-    </net>
-    <net code="43" name="Net-(A1-Pad3)">
-      <node ref="A1" pin="3"/>
-      <node ref="J7" pin="4"/>
-    </net>
-    <net code="44" name="Net-(A3-Pad6)">
-      <node ref="J9" pin="1"/>
-      <node ref="A3" pin="6"/>
-    </net>
-    <net code="45" name="Net-(A3-Pad5)">
-      <node ref="J9" pin="2"/>
-      <node ref="A3" pin="5"/>
-    </net>
-    <net code="46" name="Net-(A3-Pad4)">
-      <node ref="J9" pin="3"/>
-      <node ref="A3" pin="4"/>
-    </net>
-    <net code="47" name="Net-(A3-Pad3)">
-      <node ref="J9" pin="4"/>
-      <node ref="A3" pin="3"/>
-    </net>
-    <net code="48" name="Net-(A2-Pad24)">
-      <node ref="A2" pin="24"/>
-      <node ref="J8" pin="3"/>
-    </net>
-    <net code="49" name="Net-(A2-Pad23)">
-      <node ref="J8" pin="4"/>
-      <node ref="A2" pin="23"/>
-    </net>
-    <net code="50" name="Net-(A2-Pad5)">
-      <node ref="A2" pin="5"/>
-      <node ref="A3" pin="16"/>
-    </net>
-    <net code="51" name="Net-(A2-Pad6)">
-      <node ref="A2" pin="6"/>
-      <node ref="A3" pin="15"/>
-    </net>
-    <net code="52" name="Net-(IC1-Pad1)">
+    <net code="3" name="Net-(IC1-Pad1)">
       <node ref="Q1" pin="3"/>
       <node ref="IC1" pin="1"/>
     </net>
-    <net code="53" name="Net-(IC1-Pad2)">
-      <node ref="IC1" pin="2"/>
-      <node ref="J3" pin="2"/>
-    </net>
-    <net code="54" name="Net-(U2-Pad10)">
-      <node ref="U2" pin="10"/>
-    </net>
-    <net code="55" name="Net-(U2-Pad11)">
-      <node ref="U2" pin="11"/>
-    </net>
-    <net code="56" name="Net-(U2-Pad14)">
-      <node ref="U2" pin="14"/>
-    </net>
-    <net code="57" name="Net-(U2-Pad15)">
-      <node ref="U2" pin="15"/>
-    </net>
-    <net code="58" name="Net-(J5-Pad2)">
-      <node ref="U2" pin="3"/>
-      <node ref="J5" pin="2"/>
-    </net>
-    <net code="59" name="Net-(U2-Pad9)">
-      <node ref="U2" pin="9"/>
-    </net>
-    <net code="60" name="Net-(J5-Pad1)">
-      <node ref="J5" pin="1"/>
-      <node ref="U2" pin="6"/>
-    </net>
-    <net code="61" name="TEMP_OUT">
-      <node ref="A2" pin="16"/>
+    <net code="4" name="TEMP_OUT">
+      <node ref="U3" pin="25"/>
       <node ref="J1" pin="1"/>
     </net>
-    <net code="62" name="PH_OUT">
+    <net code="5" name="PH_OUT">
       <node ref="J2" pin="1"/>
-      <node ref="A2" pin="20"/>
+      <node ref="U3" pin="24"/>
     </net>
-    <net code="63" name="Net-(Q1-Pad2)">
+    <net code="6" name="Net-(Q1-Pad2)">
       <node ref="R2" pin="1"/>
       <node ref="Q1" pin="2"/>
     </net>
-    <net code="64" name="Net-(A2-Pad9)">
+    <net code="7" name="D6">
       <node ref="R2" pin="2"/>
-      <node ref="A2" pin="9"/>
+      <node ref="U3" pin="10"/>
     </net>
-    <net code="65" name="Net-(A2-Pad12)">
-      <node ref="A2" pin="12"/>
+    <net code="8" name="D9">
       <node ref="R3" pin="2"/>
+      <node ref="U3" pin="13"/>
     </net>
-    <net code="66" name="Net-(Q2-Pad1)">
+    <net code="9" name="Net-(Q2-Pad1)">
       <node ref="R3" pin="1"/>
       <node ref="Q2" pin="1"/>
     </net>
-    <net code="67" name="Net-(J6-Pad1)">
-      <node ref="J6" pin="1"/>
+    <net code="10" name="Net-(J6-Pad1)">
       <node ref="Q2" pin="2"/>
+      <node ref="J6" pin="1"/>
     </net>
-    <net code="68" name="Net-(A2-Pad11)">
-      <node ref="A2" pin="11"/>
-      <node ref="U2" pin="2"/>
-    </net>
-    <net code="69" name="+12V">
+    <net code="11" name="+12V">
+      <node ref="Q3" pin="3"/>
       <node ref="C2" pin="2"/>
       <node ref="J6" pin="2"/>
-      <node ref="A3" pin="8"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U1" pin="8"/>
       <node ref="A1" pin="8"/>
-      <node ref="R6" pin="1"/>
-      <node ref="U2" pin="8"/>
-      <node ref="A2" pin="30"/>
-      <node ref="Q3" pin="3"/>
+      <node ref="A2" pin="8"/>
     </net>
-    <net code="70" name="Net-(J4-Pad1)">
-      <node ref="Q3" pin="2"/>
+    <net code="12" name="SDA">
+      <node ref="U3" pin="27"/>
+      <node ref="J8" pin="4"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="13" name="SCL">
+      <node ref="U3" pin="28"/>
+      <node ref="J8" pin="3"/>
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="16" name="+3V3">
+      <node ref="U2" pin="17"/>
       <node ref="J4" pin="1"/>
+    </net>
+    <net code="17" name="MISO">
+      <node ref="J12" pin="1"/>
+      <node ref="U3" pin="16"/>
+    </net>
+    <net code="18" name="SCK">
+      <node ref="U3" pin="17"/>
+      <node ref="J12" pin="3"/>
+    </net>
+    <net code="19" name="MOSI">
+      <node ref="J12" pin="4"/>
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="20" name="RESET">
+      <node ref="U3" pin="29"/>
+      <node ref="C3" pin="1"/>
+      <node ref="J12" pin="5"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="21" name="Net-(U3-Pad19)">
+      <node ref="U3" pin="19"/>
+    </net>
+    <net code="22" name="Net-(U3-Pad22)">
+      <node ref="U3" pin="22"/>
+    </net>
+    <net code="23" name="RX_TX_+">
+      <node ref="U2" pin="1"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="24" name="D3">
+      <node ref="A2" pin="15"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="25" name="D7">
+      <node ref="U1" pin="1"/>
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="26" name="D8">
+      <node ref="U1" pin="2"/>
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="27" name="D4">
+      <node ref="U3" pin="2"/>
+      <node ref="A1" pin="16"/>
+    </net>
+    <net code="28" name="D2">
+      <node ref="A2" pin="16"/>
+      <node ref="U3" pin="32"/>
+    </net>
+    <net code="29" name="XTAL-">
+      <node ref="U3" pin="8"/>
+      <node ref="Y1" pin="1"/>
+      <node ref="C5" pin="2"/>
+    </net>
+    <net code="30" name="D5">
+      <node ref="U3" pin="9"/>
+      <node ref="A1" pin="15"/>
+    </net>
+    <net code="31" name="RX_TX_-">
+      <node ref="R6" pin="2"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="32" name="XTAL+">
+      <node ref="Y1" pin="2"/>
+      <node ref="U3" pin="7"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="33" name="Net-(IC1-Pad2)">
+      <node ref="IC1" pin="2"/>
+      <node ref="J4" pin="5"/>
+    </net>
+    <net code="34" name="BUTTON">
+      <node ref="U3" pin="14"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="35" name="ROT_A">
+      <node ref="U3" pin="23"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="36" name="ROT_B">
+      <node ref="U3" pin="26"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="37" name="RX_TX_N">
+      <node ref="U3" pin="31"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="38" name="RX_TX_P">
+      <node ref="U3" pin="30"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="39" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="40" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="41" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="42" name="Net-(U1-Pad15)">
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="43" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="44" name="Net-(J5-Pad2)">
+      <node ref="U1" pin="3"/>
+      <node ref="J5" pin="2"/>
+    </net>
+    <net code="45" name="Net-(J5-Pad1)">
+      <node ref="U1" pin="6"/>
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="46" name="Net-(A1-Pad10)">
+      <node ref="A1" pin="10"/>
+    </net>
+    <net code="47" name="Net-(A1-Pad11)">
+      <node ref="A1" pin="11"/>
+    </net>
+    <net code="48" name="Net-(A1-Pad12)">
+      <node ref="A1" pin="12"/>
+    </net>
+    <net code="49" name="Net-(A1-Pad13)">
+      <node ref="A1" pin="14"/>
+      <node ref="A1" pin="13"/>
+    </net>
+    <net code="50" name="Net-(A1-Pad3)">
+      <node ref="J7" pin="4"/>
+      <node ref="A1" pin="3"/>
+    </net>
+    <net code="51" name="Net-(A1-Pad4)">
+      <node ref="J7" pin="3"/>
+      <node ref="A1" pin="4"/>
+    </net>
+    <net code="52" name="Net-(A1-Pad5)">
+      <node ref="J7" pin="2"/>
+      <node ref="A1" pin="5"/>
+    </net>
+    <net code="53" name="Net-(A1-Pad6)">
+      <node ref="J7" pin="1"/>
+      <node ref="A1" pin="6"/>
+    </net>
+    <net code="54" name="Net-(A1-Pad9)">
+      <node ref="A1" pin="9"/>
+    </net>
+    <net code="55" name="Net-(A2-Pad10)">
+      <node ref="A2" pin="10"/>
+    </net>
+    <net code="56" name="Net-(A2-Pad11)">
+      <node ref="A2" pin="11"/>
+    </net>
+    <net code="57" name="Net-(A2-Pad12)">
+      <node ref="A2" pin="12"/>
+    </net>
+    <net code="58" name="Net-(A2-Pad13)">
+      <node ref="A2" pin="13"/>
+      <node ref="A2" pin="14"/>
+    </net>
+    <net code="59" name="Net-(A2-Pad9)">
+      <node ref="A2" pin="9"/>
+    </net>
+    <net code="60" name="Net-(A2-Pad6)">
+      <node ref="A2" pin="6"/>
+      <node ref="J9" pin="1"/>
+    </net>
+    <net code="61" name="Net-(A2-Pad5)">
+      <node ref="A2" pin="5"/>
+      <node ref="J9" pin="2"/>
+    </net>
+    <net code="62" name="Net-(A2-Pad4)">
+      <node ref="A2" pin="4"/>
+      <node ref="J9" pin="3"/>
+    </net>
+    <net code="63" name="Net-(A2-Pad3)">
+      <node ref="A2" pin="3"/>
+      <node ref="J9" pin="4"/>
+    </net>
+    <net code="64" name="Net-(U2-Pad10)">
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="65" name="Net-(U2-Pad11)">
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="66" name="Net-(U2-Pad12)">
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="67" name="Net-(U2-Pad13)">
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="68" name="Net-(U2-Pad14)">
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="69" name="Net-(U2-Pad19)">
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="70" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="71" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="U2" pin="22"/>
+    </net>
+    <net code="72" name="Net-(R1-Pad2)">
+      <node ref="U2" pin="23"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="73" name="Net-(U2-Pad26)">
+      <node ref="U2" pin="26"/>
+    </net>
+    <net code="74" name="Net-(U2-Pad27)">
+      <node ref="U2" pin="27"/>
+    </net>
+    <net code="75" name="Net-(U2-Pad28)">
+      <node ref="U2" pin="28"/>
+    </net>
+    <net code="76" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="77" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="78" name="Net-(U2-Pad9)">
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="79" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="80" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="81" name="Net-(J10-Pad1)">
+      <node ref="J10" pin="1"/>
+    </net>
+    <net code="82" name="D+">
+      <node ref="U2" pin="15"/>
+      <node ref="J10" pin="3"/>
+    </net>
+    <net code="83" name="D-">
+      <node ref="J10" pin="2"/>
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="84" name="GND2">
+      <node ref="J11" pin="4"/>
+      <node ref="H6" pin="1"/>
+      <node ref="IC2" pin="3"/>
+      <node ref="U4" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="H7" pin="1"/>
+      <node ref="H8" pin="1"/>
+      <node ref="H5" pin="1"/>
+    </net>
+    <net code="85" name="3V3_2">
+      <node ref="IC2" pin="2"/>
+      <node ref="J11" pin="1"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="86" name="SDA2">
+      <node ref="J11" pin="2"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="87" name="SCL2">
+      <node ref="J11" pin="3"/>
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="88" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="J11" pin="5"/>
+    </net>
+    <net code="89" name="5V_3">
+      <node ref="R8" pin="1"/>
+      <node ref="J11" pin="6"/>
+    </net>
+    <net code="90" name="Net-(R8-Pad2)">
+      <node ref="U4" pin="7"/>
+      <node ref="U4" pin="8"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="91" name="SCL1">
+      <node ref="U4" pin="3"/>
+      <node ref="IC2" pin="1"/>
+    </net>
+    <net code="92" name="SDA1">
+      <node ref="IC2" pin="4"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="93" name="Net-(Q3-Pad2)">
+      <node ref="S1" pin="4"/>
+      <node ref="Q3" pin="2"/>
+    </net>
+    <net code="94" name="Net-(S1-Pad6)">
+      <node ref="S1" pin="6"/>
+    </net>
+    <net code="95" name="Net-(J13-Pad1)">
+      <node ref="J13" pin="1"/>
+      <node ref="S1" pin="5"/>
+    </net>
+    <net code="96" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="L1" pin="1"/>
+      <node ref="Q4" pin="2"/>
+    </net>
+    <net code="97" name="GND3">
+      <node ref="S2" pin="1"/>
+      <node ref="S2" pin="3"/>
+      <node ref="S2" pin="C"/>
+      <node ref="J14" pin="4"/>
+      <node ref="H11" pin="1"/>
+      <node ref="H12" pin="1"/>
+      <node ref="H10" pin="1"/>
+      <node ref="H9" pin="1"/>
+    </net>
+    <net code="98" name="Net-(J14-Pad3)">
+      <node ref="S2" pin="B"/>
+      <node ref="J14" pin="3"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="99" name="Net-(J14-Pad2)">
+      <node ref="S2" pin="A"/>
+      <node ref="J14" pin="2"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="100" name="5V_2">
+      <node ref="R10" pin="1"/>
+      <node ref="R9" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="J14" pin="5"/>
+    </net>
+    <net code="101" name="Net-(J14-Pad1)">
+      <node ref="R11" pin="1"/>
+      <node ref="J14" pin="1"/>
+      <node ref="S2" pin="2"/>
     </net>
   </nets>
 </export>

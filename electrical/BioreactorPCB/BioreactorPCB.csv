@@ -1,28 +1,57 @@
-Reference, Value, Footprint, Datasheet, Category, DK_Datasheet_Link, DK_Detail_Page, Description, Digi-Key_PN, Family, MPN, Manufacturer, Status, Arrow Part Number, Arrow Price/Stock, Height, Manufacturer_Name, Manufacturer_Part_Number, Mouser Part Number, Mouser Price/Stock, Field4, Field5, Field6, Field7, Field8
-"U1","OPT101P","digikey-footprints:DIP-8_W7.62mm","http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fopt101","Sensors, Transducers","http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fopt101","/product-detail/en/texas-instruments/OPT101P/296-23090-5-ND/251177","SENSOR OPT 650NM AMBIENT 8DIP","296-23090-5-ND","Optical Sensors - Ambient Light, IR, UV Sensors","OPT101P","Texas Instruments","Active","","","","","","","","","","","",""
-"R1","1M","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal","~"
-"A2","Arduino_Nano_v3.x","Module:Arduino_Nano","http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf"
-"U3","LM329xZ","Package_TO_SOT_THT:TO-92_Inline","https://www.analog.com/media/en/technical-documentation/data-sheets/129329fd.pdf"
-"R4","2.2K","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal","~"
-"R5","10K","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal","~"
-"J4","PJ-202A","digikey-footprints:Barrel_Jack_5.5mmODx2.1mmID_PJ-202A","https://www.cui.com/product/resource/digikeypdf/pj-202a.pdf","Connectors, Interconnects","https://www.cui.com/product/resource/digikeypdf/pj-202a.pdf","/product-detail/en/cui-inc/PJ-202A/CP-202A-ND/252007","CONN PWR JACK 2X5.5MM KINKED PIN","CP-202A-ND","Barrel - Power Connectors","PJ-202A","CUI Inc.","Active","","","","","","","","","","","",""
-"R6","22K","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal","~"
-"A1","Pololu_Breakout_A4988","Module:Pololu_Breakout-16_15.2x20.3mm","https://www.pololu.com/product/2980/pictures"
-"A3","Pololu_Breakout_A4988","Module:Pololu_Breakout-16_15.2x20.3mm","https://www.pololu.com/product/2980/pictures"
-"J7","OSTTC042162","digikey-footprints:Term_Block_1x4_P5.08mm","http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf","Connectors, Interconnects","http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf","/product-detail/en/on-shore-technology-inc/OSTTC042162/ED2611-ND/614560","TERM BLK 4P SIDE ENT 5.08MM PCB","ED2611-ND","Terminal Blocks - Wire to Board","OSTTC042162","On Shore Technology Inc.","Active","","","","","","","","","","","",""
-"J9","OSTTC042162","digikey-footprints:Term_Block_1x4_P5.08mm","http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf","Connectors, Interconnects","http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf","/product-detail/en/on-shore-technology-inc/OSTTC042162/ED2611-ND/614560","TERM BLK 4P SIDE ENT 5.08MM PCB","ED2611-ND","Terminal Blocks - Wire to Board","OSTTC042162","On Shore Technology Inc.","Active","","","","","","","","","","","",""
-"J8","OSTTC042162","digikey-footprints:Term_Block_1x4_P5.08mm","http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf","Connectors, Interconnects","http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf","/product-detail/en/on-shore-technology-inc/OSTTC042162/ED2611-ND/614560","TERM BLK 4P SIDE ENT 5.08MM PCB","ED2611-ND","Terminal Blocks - Wire to Board","OSTTC042162","On Shore Technology Inc.","Active","","","","","","","","","","","",""
-"IC1","AL5809-20P1-7","AL5809-20P1-7:AL580920QP17","https://www.diodes.com/assets/Datasheets/AL5809.pdf","","","","LED Lighting Drivers LED HV Int Switch","","","","","","AL5809-20P1-7","https://www.arrow.com/en/products/al5809-20p1-7/diodes-incorporated","1","Diodes Inc.","AL5809-20P1-7","621-AL5809-20P1-7","https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AL5809-20P1-7?qs=9BjnSzo86S%252BJEo7jKmhSEQ%3D%3D","","","","",""
-"J3","OSTTC022162","digikey-footprints:Term_Block_1x2_P5.08MM","http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf","Connectors, Interconnects","http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf","/product-detail/en/on-shore-technology-inc/OSTTC022162/ED2609-ND/614558","TERM BLK 2P SIDE ENT 5.08MM PCB","ED2609-ND","Terminal Blocks - Wire to Board","OSTTC022162","On Shore Technology Inc.","Active","","","","","","","","","","","",""
-"C2","1 uF","Capacitor_THT:.1in_pitch","~"
-"C1",".1 uF","Capacitor_THT:.1in_pitch","~"
-"U2","L293D","Package_DIP:DIP-16_W7.62mm","http://www.ti.com/lit/ds/symlink/l293.pdf"
-"J5","OSTTC022162","digikey-footprints:Term_Block_1x2_P5.08MM","http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf","Connectors, Interconnects","http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf","/product-detail/en/on-shore-technology-inc/OSTTC022162/ED2609-ND/614558","TERM BLK 2P SIDE ENT 5.08MM PCB","ED2609-ND","Terminal Blocks - Wire to Board","OSTTC022162","On Shore Technology Inc.","Active","","","","","","","","","","","",""
-"J1","61300311121","digikey-footprints:PinHeader_1x3_P2.54_Drill1.1mm","https://katalog.we-online.de/em/datasheet/6130xx11121.pdf","Connectors, Interconnects","https://katalog.we-online.de/em/datasheet/6130xx11121.pdf","/product-detail/en/wurth-electronics-inc/61300311121/732-5316-ND/4846825","CONN HEADER VERT 3POS 2.54MM","732-5316-ND","Rectangular Connectors - Headers, Male Pins","61300311121","Wurth Electronics Inc.","Active","","","","","","","","","","","",""
-"J2","61300311121","digikey-footprints:PinHeader_1x3_P2.54_Drill1.1mm","https://katalog.we-online.de/em/datasheet/6130xx11121.pdf","Connectors, Interconnects","https://katalog.we-online.de/em/datasheet/6130xx11121.pdf","/product-detail/en/wurth-electronics-inc/61300311121/732-5316-ND/4846825","CONN HEADER VERT 3POS 2.54MM","732-5316-ND","Rectangular Connectors - Headers, Male Pins","61300311121","Wurth Electronics Inc.","Active","","","","","","","","","","","",""
-"Q1","2N3905","Package_TO_SOT_THT:TO-92_Inline","https://www.fairchildsemi.com/datasheets/2N/2N3905.pdf"
-"R2","1K","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal","~"
-"R3","10K","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal","~"
-"J6","OSTTC022162","digikey-footprints:Term_Block_1x2_P5.08MM","http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf","Connectors, Interconnects","http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf","/product-detail/en/on-shore-technology-inc/OSTTC022162/ED2609-ND/614558","TERM BLK 2P SIDE ENT 5.08MM PCB","ED2609-ND","Terminal Blocks - Wire to Board","OSTTC022162","On Shore Technology Inc.","Active","","","","","","","","","","","",""
-"Q2","IRF540N","Package_TO_SOT_THT:TO-220-3_Vertical","http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
-"Q3","FQP47P06","FQP47P06:TO254P1067X483X2286-3","FQP47P06","","","","","","","","","","","","","","","","","None","ON Semiconductor","TO-220 ON Semiconductor","P-Channel 60V 47A _Tc_ 160W _Tc_ Through Hole TO-220-3","Unavailable"
+Reference, Value, Footprint, Digi-Key_PN
+A1,Pololu_Breakout_A4988,Module:Pololu_Breakout-16_15.2x20.3mm,2183-2128-ND
+A2,Pololu_Breakout_A4988,Module:Pololu_Breakout-16_15.2x20.3mm,2183-2128-ND
+C1,.1 uF,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,1276-1099-2-ND
+C10,100 uF,Capacitor_THT:CP_Radial_D5.0mm_P2.50mm,1189-1300-ND
+C11,100 uF,Capacitor_THT:CP_Radial_D5.0mm_P2.50mm,1189-1300-ND
+C2,1 uF,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,1276-1066-2-ND
+C3,.1 uF,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,1276-1099-2-ND
+C4,22 pf,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,1276-1047-2-ND
+C5,22 pf,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,1276-1047-2-ND
+C6,.1 uF,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,1276-1099-2-ND
+C7,.1 uF,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,1276-1099-2-ND
+C8,100 uF,Capacitor_THT:CP_Radial_D5.0mm_P2.50mm,1189-1300-ND
+C9,330 uF,Capacitor_THT:CP_Radial_D5.0mm_P2.50mm,1189-3752-1-ND
+D1,LED,LED_THT:LED_D5.0mm,1516-1354-ND
+D2,LED,LED_THT:LED_D5.0mm,1516-1354-ND
+D3,LED,LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z9.0mm,1516-1354-ND
+D4,1N5819,Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal,1N5819-TPCT-ND
+IC1,AL5809-20P1-7,AL5809-20P1-7:AL580920QP17,AL5809-20S1-7DITR-ND
+IC2,VEML7700-TR,VEML7700-TR:VEML7700,VEML7700TR-ND
+J1,61300311121,digikey-footprints:PinHeader_1x3_P2.54_Drill1.1mm,732-5316-ND
+J10,USB_B,Connector_USB:USB_B_Lumberg_2411_02_Horizontal,ED2983-ND
+J11,Conn_01x06_Male,Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical,WM4204-ND
+J12,Conn_02x03_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical,1849-PR20203VBDN-ND
+J13,PJ-202A,digikey-footprints:Barrel_Jack_5.5mmODx2.1mmID_PJ-202A,CP-202A-ND
+J14,Conn_01x05_Male,Connector_Molex:Molex_KK-254_AE-6410-05A_1x05_P2.54mm_Vertical,WM19457-ND
+J2,61300311121,digikey-footprints:PinHeader_1x3_P2.54_Drill1.1mm,732-5316-ND
+J3,Conn_01x05_Male,Connector_Molex:Molex_KK-254_AE-6410-05A_1x05_P2.54mm_Vertical,WM19457-ND
+J4,Conn_01x06_Male,Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical,WM4204-ND
+J5,OSTTC022162,digikey-footprints:Term_Block_1x2_P5.08MM,ED2609-ND
+J6,OSTTC022162,digikey-footprints:Term_Block_1x2_P5.08MM,ED2609-ND
+J7,OSTTC042162,digikey-footprints:Term_Block_1x4_P5.08mm,ED2611-ND
+J8,OSTTC042162,digikey-footprints:Term_Block_1x4_P5.08mm,ED2611-ND
+J9,OSTTC042162,digikey-footprints:Term_Block_1x4_P5.08mm,ED2611-ND
+L1,330 uH,Inductor_THT:L_Radial_D12.0mm_P6.00mm_MuRATA_1900R,118-6100-331K-RC-ND
+Q1,2N3905,Package_TO_SOT_THT:TO-92_Inline,1514-2N3905PBFREE-ND
+Q2,IRF540N,Package_TO_SOT_THT:TO-220-3_Vertical,IRF540NPBF-ND
+Q3,FQP47P06,Package_TO_SOT_THT:TO-220-3_Vertical,FQPF47P06FS-ND
+Q4,TL2575HV-05IKV,Package_TO_SOT_THT:TO-220-5_P3.4x3.7mm_StaggerEven_Lead3.8mm_Vertical,296-21834-5-ND
+R1,330,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,A106061TR-ND
+R10,10K,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,RNCP0805FTD10K0TR-ND
+R11,10K,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,RNCP0805FTD10K0TR-ND
+R2,1K,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,RNCP0805FTD1K00TR-ND
+R3,10K,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,RNCP0805FTD10K0TR-ND
+R4,330,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,A106061TR-ND
+R5,1K,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,RNCP0805FTD1K00TR-ND
+R6,1K,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,RNCP0805FTD1K00TR-ND
+R7,10K,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,RNCP0805FTD10K0TR-ND
+R8,200K,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,RMCF0805JT200KTR-ND
+R9,10K,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,RNCP0805FTD10K0TR-ND
+S1,GW12RCH,GW12RCH:GW12RCH,360-2801-ND
+S2,PEC11R-4215F-S0024,digikey-footprints:Rotary_Encoder_Switched_PEC11R,PEC11R-4215F-S0024-ND
+U1,L293D,Package_DIP:DIP-16_W7.62mm,
+U2,FT232RL,Package_SO:SSOP-28_5.3x10.2mm_P0.65mm,768-1306-ND
+U3,ATMEGA328P-AUR,digikey-footprints:TQFP-32_7x7mm,ATMEGA328P-AURCT-ND
+U4,TCA39306DCUR,TCA39306DCUR:TCA39306DCUR,296-TCA39306DCURTR-ND
+Y1,16 mHz,Crystal:Crystal_HC49-U_Vertical,2151-AS-16.000-20-EXT-ND

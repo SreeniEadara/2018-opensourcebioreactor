@@ -37,34 +37,34 @@ $EndComp
 $Comp
 L Device:LED D?
 U 1 1 62075D59
-P 5600 4125
+P 4875 5150
 AR Path="/62075D59" Ref="D?"  Part="1" 
 AR Path="/62072BBC/62075D59" Ref="D3"  Part="1" 
-F 0 "D3" H 5593 3870 50  0000 C CNN
-F 1 "LED" H 5593 3961 50  0000 C CNN
-F 2 "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z9.0mm" H 5600 4125 50  0001 C CNN
-F 3 "~" H 5600 4125 50  0001 C CNN
-	1    5600 4125
+F 0 "D3" H 4868 4895 50  0000 C CNN
+F 1 "LED" H 4868 4986 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 4875 5150 50  0001 C CNN
+F 3 "~" H 4875 5150 50  0001 C CNN
+	1    4875 5150
 	-1   0    0    1   
 $EndComp
-Text GLabel 5750 4125 2    50   Input ~ 0
-GND2
+Text GLabel 5025 5150 2    50   Input ~ 0
+GND4
 $Comp
 L Connector:Conn_01x06_Male J?
 U 1 1 62075D66
-P 5000 3925
+P 5000 3650
 AR Path="/62075D66" Ref="J?"  Part="1" 
 AR Path="/62072BBC/62075D66" Ref="J11"  Part="1" 
-F 0 "J11" H 5108 4306 50  0000 C CNN
-F 1 "Conn_01x06_Male" H 5108 4215 50  0000 C CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical" H 5000 3925 50  0001 C CNN
-F 3 "~" H 5000 3925 50  0001 C CNN
-	1    5000 3925
+F 0 "J11" H 5108 4031 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 5108 3940 50  0000 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical" H 5000 3650 50  0001 C CNN
+F 3 "~" H 5000 3650 50  0001 C CNN
+	1    5000 3650
 	1    0    0    -1  
 $EndComp
 Text GLabel 7675 3125 2    50   Input ~ 0
 GND2
-Text GLabel 5200 4225 2    50   Input ~ 0
+Text GLabel 5200 3950 2    50   Input ~ 0
 5V_3
 Text GLabel 8050 2425 2    50   Input ~ 0
 5V_3
@@ -81,7 +81,7 @@ F 3 "~" H 7900 2425 50  0001 C CNN
 	1    7900 2425
 	0    1    1    0   
 $EndComp
-Text GLabel 5200 3725 2    50   Input ~ 0
+Text GLabel 5200 3450 2    50   Input ~ 0
 3V3_2
 Text GLabel 6275 2425 0    50   Input ~ 0
 3V3_2
@@ -104,13 +104,11 @@ Text GLabel 5700 2950 2    50   Input ~ 0
 3V3_2
 Text GLabel 5700 2850 2    50   Input ~ 0
 GND2
-Text GLabel 5200 3925 2    50   Input ~ 0
+Text GLabel 5200 3650 2    50   Input ~ 0
 SCL2
-Text GLabel 5200 4025 2    50   Input ~ 0
+Text GLabel 5200 3750 2    50   Input ~ 0
 GND2
-Wire Wire Line
-	5200 4125 5450 4125
-Text GLabel 5200 3825 2    50   Input ~ 0
+Text GLabel 5200 3550 2    50   Input ~ 0
 SDA2
 Text GLabel 7675 2825 2    50   Input ~ 0
 SCL2
@@ -119,47 +117,47 @@ SDA2
 $Comp
 L Mechanical:MountingHole_Pad H?
 U 1 1 6207BB37
-P 6900 3775
+P 6900 3500
 AR Path="/6207BB37" Ref="H?"  Part="1" 
 AR Path="/62072BBC/6207BB37" Ref="H5"  Part="1" 
-F 0 "H5" H 7000 3824 50  0000 L CNN
-F 1 "MountingHole_Pad" H 7000 3733 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 6900 3775 50  0001 C CNN
-F 3 "~" H 6900 3775 50  0001 C CNN
-	1    6900 3775
+F 0 "H5" H 7000 3549 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7000 3458 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 6900 3500 50  0001 C CNN
+F 3 "~" H 6900 3500 50  0001 C CNN
+	1    6900 3500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H?
 U 1 1 6207BB43
-P 7875 4300
+P 7875 4025
 AR Path="/6207BB43" Ref="H?"  Part="1" 
 AR Path="/62072BBC/6207BB43" Ref="H8"  Part="1" 
-F 0 "H8" H 7975 4349 50  0000 L CNN
-F 1 "MountingHole_Pad" H 7975 4258 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 7875 4300 50  0001 C CNN
-F 3 "~" H 7875 4300 50  0001 C CNN
-	1    7875 4300
+F 0 "H8" H 7975 4074 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7975 3983 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 7875 4025 50  0001 C CNN
+F 3 "~" H 7875 4025 50  0001 C CNN
+	1    7875 4025
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H?
 U 1 1 6207BB49
-P 7875 3775
+P 7875 3500
 AR Path="/6207BB49" Ref="H?"  Part="1" 
 AR Path="/62072BBC/6207BB49" Ref="H7"  Part="1" 
-F 0 "H7" H 7975 3824 50  0000 L CNN
-F 1 "MountingHole_Pad" H 7975 3733 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 7875 3775 50  0001 C CNN
-F 3 "~" H 7875 3775 50  0001 C CNN
-	1    7875 3775
+F 0 "H7" H 7975 3549 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7975 3458 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 7875 3500 50  0001 C CNN
+F 3 "~" H 7875 3500 50  0001 C CNN
+	1    7875 3500
 	1    0    0    -1  
 $EndComp
-Text GLabel 6900 4400 3    50   Input ~ 0
+Text GLabel 6900 4125 3    50   Input ~ 0
 GND2
-Text GLabel 7875 3875 3    50   Input ~ 0
+Text GLabel 7875 3600 3    50   Input ~ 0
 GND2
-Text GLabel 7875 4400 3    50   Input ~ 0
+Text GLabel 7875 4125 3    50   Input ~ 0
 GND2
 $Comp
 L 2022-01-02_10-46-29:TCA39306DCUR U4
@@ -175,16 +173,124 @@ $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H?
 U 1 1 6207BB3D
-P 6900 4300
+P 6900 4025
 AR Path="/6207BB3D" Ref="H?"  Part="1" 
 AR Path="/62072BBC/6207BB3D" Ref="H6"  Part="1" 
-F 0 "H6" H 7000 4349 50  0000 L CNN
-F 1 "MountingHole_Pad" H 7000 4258 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 6900 4300 50  0001 C CNN
-F 3 "~" H 6900 4300 50  0001 C CNN
-	1    6900 4300
+F 0 "H6" H 7000 4074 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7000 3983 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 6900 4025 50  0001 C CNN
+F 3 "~" H 6900 4025 50  0001 C CNN
+	1    6900 4025
 	1    0    0    -1  
 $EndComp
-Text GLabel 6900 3875 3    50   Input ~ 0
+Text GLabel 6900 3600 3    50   Input ~ 0
 GND2
+$Comp
+L Connector:Conn_01x06_Male J?
+U 1 1 61D951CB
+P 4225 4950
+AR Path="/61D951CB" Ref="J?"  Part="1" 
+AR Path="/62072BBC/61D951CB" Ref="J16"  Part="1" 
+F 0 "J16" H 4333 5331 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 4333 5240 50  0000 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical" H 4225 4950 50  0001 C CNN
+F 3 "~" H 4225 4950 50  0001 C CNN
+	1    4225 4950
+	1    0    0    -1  
+$EndComp
+Text GLabel 4425 5050 2    50   Input ~ 0
+GND4
+$Comp
+L Connector:Conn_01x06_Male J?
+U 1 1 61D98646
+P 4225 3650
+AR Path="/61D98646" Ref="J?"  Part="1" 
+AR Path="/62072BBC/61D98646" Ref="J15"  Part="1" 
+F 0 "J15" H 4333 4031 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 4333 3940 50  0000 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical" H 4225 3650 50  0001 C CNN
+F 3 "~" H 4225 3650 50  0001 C CNN
+	1    4225 3650
+	1    0    0    -1  
+$EndComp
+Text GLabel 4425 3950 2    50   Input ~ 0
+5V_3
+Text GLabel 4425 3450 2    50   Input ~ 0
+3V3_2
+Text GLabel 4425 3650 2    50   Input ~ 0
+SCL2
+Text GLabel 4425 3750 2    50   Input ~ 0
+GND2
+Text GLabel 4425 3550 2    50   Input ~ 0
+SDA2
+Wire Wire Line
+	4425 5150 4725 5150
+NoConn ~ 4425 4750
+NoConn ~ 4425 4850
+NoConn ~ 4425 4950
+NoConn ~ 4425 5250
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 61DB2012
+P 6900 4900
+AR Path="/61DB2012" Ref="H?"  Part="1" 
+AR Path="/62072BBC/61DB2012" Ref="H13"  Part="1" 
+F 0 "H13" H 7000 4949 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7000 4858 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 6900 4900 50  0001 C CNN
+F 3 "~" H 6900 4900 50  0001 C CNN
+	1    6900 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 61DB2018
+P 7875 5425
+AR Path="/61DB2018" Ref="H?"  Part="1" 
+AR Path="/62072BBC/61DB2018" Ref="H16"  Part="1" 
+F 0 "H16" H 7975 5474 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7975 5383 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 7875 5425 50  0001 C CNN
+F 3 "~" H 7875 5425 50  0001 C CNN
+	1    7875 5425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 61DB201E
+P 7875 4900
+AR Path="/61DB201E" Ref="H?"  Part="1" 
+AR Path="/62072BBC/61DB201E" Ref="H15"  Part="1" 
+F 0 "H15" H 7975 4949 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7975 4858 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 7875 4900 50  0001 C CNN
+F 3 "~" H 7875 4900 50  0001 C CNN
+	1    7875 4900
+	1    0    0    -1  
+$EndComp
+Text GLabel 6900 5525 3    50   Input ~ 0
+GND4
+Text GLabel 7875 5000 3    50   Input ~ 0
+GND4
+Text GLabel 7875 5525 3    50   Input ~ 0
+GND4
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 61DB2027
+P 6900 5425
+AR Path="/61DB2027" Ref="H?"  Part="1" 
+AR Path="/62072BBC/61DB2027" Ref="H14"  Part="1" 
+F 0 "H14" H 7000 5474 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7000 5383 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 6900 5425 50  0001 C CNN
+F 3 "~" H 6900 5425 50  0001 C CNN
+	1    6900 5425
+	1    0    0    -1  
+$EndComp
+Text GLabel 6900 5000 3    50   Input ~ 0
+GND4
+Text GLabel 5200 3850 2    50   Input ~ 0
+PHOTO_LED
+Text GLabel 4425 3850 2    50   Input ~ 0
+PHOTO_LED
 $EndSCHEMATC
