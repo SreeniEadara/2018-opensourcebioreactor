@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 581002B02500G
+#/303097/255746/2.49/2/4/Hardware
+DEF 581002B02500G H 0 30 Y Y 1 F N
+F0 "H" 650 300 50 H V L CNN
+F1 "581002B02500G" 650 200 50 H V L CNN
+F2 "581002B02500G" 650 100 50 H I L CNN
+F3 "https://www.boydcorp.com/aavid-datasheets/Board-Level-Cooling-Extruded-5810.pdf" 650 0 50 H I L CNN
+F4 "Heatsink, 17.4C/W, 16.26 x 16.26 x 25.4mm, TO-220, Through Hole" 650 -100 50 H I L CNN "Description"
+F5 "25.4" 650 -200 50 H I L CNN "Height"
+F6 "Aavid Thermalloy" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "581002B02500G" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "532-581002B02500G" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Aavid/581002B02500G?qs=i82%252BPC3tdLOGMQaV7dyniA%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "581002B02500G" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/581002b02500g/aavid-thermalloy" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

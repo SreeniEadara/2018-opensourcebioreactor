@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 581002B02500G
+D Heatsink, 17.4C/W, 16.26 x 16.26 x 25.4mm, TO-220, Through Hole
+K
+F https://www.boydcorp.com/aavid-datasheets/Board-Level-Cooling-Extruded-5810.pdf
+$ENDCMP
+#
+#End Doc Library
